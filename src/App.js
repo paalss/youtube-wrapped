@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
-import data from './youtube-data/watch-history.json';
+import "./App.css";
+import data from "./youtube-data/watch-history.json";
+
+/*
+
+[{
+  "header": "YouTube",
+  "title": "Watched Basically Another Tom Scott Video",
+  "titleUrl": "https://www.youtube.com/watch?v\u003d2uXS20iWve4",
+  "subtitles": [{
+    "name": "MattColbo",
+    "url": "https://www.youtube.com/channel/UCDyqjn-9rKdcAe0gTMAkqyg"
+  }],
+  "time": "2021-12-03T15:02:58.289Z",
+  "products": ["YouTube"],
+  "activityControls": ["YouTube watch history"]
+}
+
+
+*/
 
 function App() {
-  console.log(data[0]);
+  const firstData = data.slice(0, 20);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ul>
+        {firstData.map((e) => (
+          <li key={e.time}>{e.title}</li>
+        ))}
+      </ul>
     </div>
   );
 }
