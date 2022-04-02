@@ -22,14 +22,12 @@ import placeholderImg from "./yt-placeholder-img.png";
 */
 
 function App() {
-  const firstData = data
-    .slice(0, 20)
-    .map((e) => {
-      return {
-        ...e,
-        title: e.title.substring(8) // fjern "watched" fra title
-      }
-    })
+  const firstData = data.slice(0, 20).map((e) => {
+    return {
+      ...e,
+      title: e.title.substring(8), // fjern "watched" fra title
+    };
+  });
   return (
     <div className="App">
       <h1>Yt-wrapped</h1>
@@ -40,7 +38,16 @@ function App() {
             <div className="frame">
               <img src={placeholderImg} alt="video" />
             </div>
-            <h3>{e.title}</h3>
+            <div className="text">
+              <h3>
+                <a href={e.titleUrl}>{e.title}</a>
+              </h3>
+              {e.subtitles.map((s) => (
+                <p>
+                  <a href={s.url}>{s.name}</a>
+                </p>
+              ))}
+            </div>
           </li>
         ))}
       </ol>

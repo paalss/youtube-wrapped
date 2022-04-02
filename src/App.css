@@ -18,7 +18,7 @@ li {
   display: flex;
   margin: 2rem 0;
   background-color: #fff;
-  /* background-color: rgb(66, 60, 60); */
+  /* background-color: rgb(90, 85, 73); */
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
@@ -33,7 +33,7 @@ li .frame img {
   width: 100%;
 }
 
-li h3 {
+li .text {
   flex-basis: 85%;
   padding: 0 1rem;
 }
