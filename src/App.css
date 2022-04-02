@@ -1,4 +1,39 @@
+html {
+  font-size: 100%; /* 16px; */
+}
+
 body {
-  background-color: #282c34;
-  color: #fff;
+  background-color: #d5d8df;
+  /* background-color: #282c34; */
+  padding: 5%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  /* line-height: 2rem; */
+}
+
+li {
+  display: flex;
+  margin: 2rem 0;
+  background-color: #fff;
+  /* background-color: rgb(66, 60, 60); */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+li .frame {
+  width: 100px;
+  overflow: hidden;
+}
+
+li .frame img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+li h3 {
+  flex-basis: 85%;
+  padding: 0 1rem;
 }

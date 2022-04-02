@@ -1,6 +1,8 @@
 import "./App.css";
 import data from "./youtube-data/watch-history.json";
 
+import placeholderImg from "./yt-placeholder-img.png";
+
 /*
 
 [{
@@ -20,14 +22,28 @@ import data from "./youtube-data/watch-history.json";
 */
 
 function App() {
-  const firstData = data.slice(0, 20);
+  const firstData = data
+    .slice(0, 20)
+    .map((e) => {
+      return {
+        ...e,
+        title: e.title.substring(8) // fjern "watched" fra title
+      }
+    })
   return (
     <div className="App">
-      <ul>
+      <h1>Yt-wrapped</h1>
+      <h2>Vanlig liste</h2>
+      <ol>
         {firstData.map((e) => (
-          <li key={e.time}>{e.title}</li>
+          <li key={e.time}>
+            <div className="frame">
+              <img src={placeholderImg} alt="video" />
+            </div>
+            <h3>{e.title}</h3>
+          </li>
         ))}
-      </ul>
+      </ol>
     </div>
   );
 }
