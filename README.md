@@ -1,7 +1,15 @@
+https://developers.google.com/youtube/v3/docs/thumbnails
+https://developers.google.com/youtube/v3/quickstart/js
+
 ```
 npm i
 npm start
 ```
+
+TODO
+Gå gjennom alle entries
+lag en liste for siste år
+gå gjennom siste år, og finn videoen som er mest sett
 
 ---------------
 

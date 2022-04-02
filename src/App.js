@@ -1,6 +1,8 @@
 import "./App.css";
 import data from "./youtube-data/watch-history.json";
 
+import { useState } from "react";
+
 import placeholderImg from "./yt-placeholder-img.png";
 
 /*
@@ -22,28 +24,32 @@ import placeholderImg from "./yt-placeholder-img.png";
 */
 
 function App() {
-  const firstData = data.slice(0, 20).map((e) => {
+  const firstData = (allData, amount) => allData.slice(0, amount).map((e) => {
     return {
       ...e,
       title: e.title.substring(8), // fjern "watched" fra title
     };
   });
+  const [loadedData, setLoadedData] = useState(firstData(data, 5));
+  const loadMoreHandler = () => {
+    setLoadedData(firstData(data, 10))
+  };
   return (
     <div className="App">
       <h1>Yt-wrapped</h1>
       <h2>Vanlig liste</h2>
       <ol>
-        {firstData.map((e) => (
+        {loadedData.map((e) => (
           <li key={e.time}>
             <div className="frame">
-              <img src={placeholderImg} alt="video" />
+              <img src={placeholderImg} alt="video" loading="lazy" />
             </div>
             <div className="text">
               <h3>
                 <a href={e.titleUrl}>{e.title}</a>
               </h3>
               {e.subtitles.map((s) => (
-                <p>
+                <p key={s.url}>
                   <a href={s.url}>{s.name}</a>
                 </p>
               ))}
@@ -51,6 +57,7 @@ function App() {
           </li>
         ))}
       </ol>
+      <button onClick={loadMoreHandler}>Last flere</button>
     </div>
   );
 }
