@@ -22,21 +22,25 @@ import placeholderImg from "./yt-placeholder-img.png";
 
 
 */
+const filterByYear = (data, year) => data.filter((e) => e.time.includes(year));
+
+const getFirstEntries = (allData, amount) =>
+  allData.slice(0, amount).map((e) => ({
+    ...e,
+    title: e.title.substring(8), // fjern "watched" fra title
+  }));
 
 function App() {
-  const firstData = (allData, amount) =>
-    allData.slice(0, amount).map((e) => ({
-      ...e,
-      title: e.title.substring(8), // fjern "watched" fra title
-    }));
-  const [loadedData, setLoadedData] = useState(firstData(data, 5));
+  const year = "2016";
+  const thisYearData = filterByYear(data, year);
+  const [loadedData, setLoadedData] = useState(getFirstEntries(thisYearData, 5));
   const loadMoreHandler = () => {
-    setLoadedData(firstData(data, 10));
+    setLoadedData(getFirstEntries(thisYearData, 10));
   };
   return (
     <div className="App">
       <h1>Yt-wrapped</h1>
-      <h2>Vanlig liste</h2>
+      <h2>År: {year}</h2>
       <ol>
         {loadedData.map((e) => (
           <li key={e.time}>
@@ -47,7 +51,7 @@ function App() {
               <h3>
                 <a href={e.titleUrl}>{e.title}</a>
               </h3>
-              {e.subtitles.map((s) => (
+              {e.subtitles?.map((s) => (
                 <p key={s.url}>
                   <a href={s.url}>{s.name}</a>
                 </p>

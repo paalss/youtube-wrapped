@@ -4,21 +4,20 @@ html {
 
 body {
   background-color: #d5d8df;
-  background-color: #282c34;
+  /* background-color: #282c34; */
   padding: 5%;
 }
 
 ul {
   list-style-type: none;
   padding: 0;
-  /* line-height: 2rem; */
 }
 
 li {
   display: flex;
   margin: 2rem 0;
   background-color: #fff;
-  background-color: rgb(90, 85, 73);
+  /* background-color: rgb(90, 85, 73); */
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
