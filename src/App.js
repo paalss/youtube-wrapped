@@ -24,15 +24,14 @@ import placeholderImg from "./yt-placeholder-img.png";
 */
 
 function App() {
-  const firstData = (allData, amount) => allData.slice(0, amount).map((e) => {
-    return {
+  const firstData = (allData, amount) =>
+    allData.slice(0, amount).map((e) => ({
       ...e,
       title: e.title.substring(8), // fjern "watched" fra title
-    };
-  });
+    }));
   const [loadedData, setLoadedData] = useState(firstData(data, 5));
   const loadMoreHandler = () => {
-    setLoadedData(firstData(data, 10))
+    setLoadedData(firstData(data, 10));
   };
   return (
     <div className="App">
