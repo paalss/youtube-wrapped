@@ -22,10 +22,15 @@ import placeholderImg from "./yt-placeholder-img.png";
 
 
 */
-const filterByYear = (data, year) => data.filter((e) => e.time.includes(year));
 
-const getFirstEntries = (allData, amount) =>
-  allData.slice(0, amount).map((e) => ({
+const filterByYear = (allData, year) => allData.filter((e) => e.time.includes(year));
+
+const countOccurences = (yearData) => yearData.reduce(function (acc, curr) {
+  return acc[curr.titleUrl] ? ++acc[curr.titleUrl] : acc[curr.titleUrl] = 1, acc
+}, {})
+
+const getFirstEntries = (yearData, amount) =>
+  yearData.slice(0, amount).map((e) => ({
     ...e,
     title: e.title.substring(8), // fjern "watched" fra title
   }));
@@ -33,6 +38,8 @@ const getFirstEntries = (allData, amount) =>
 function App() {
   const year = "2016";
   const thisYearData = filterByYear(data, year);
+  const occurences = countOccurences(thisYearData)
+  console.log(occurences);
   const [loadedData, setLoadedData] = useState(getFirstEntries(thisYearData, 5));
   const loadMoreHandler = () => {
     setLoadedData(getFirstEntries(thisYearData, 10));
