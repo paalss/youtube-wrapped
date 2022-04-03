@@ -25,36 +25,37 @@ import placeholderImg from "./yt-placeholder-img.png";
 
 const testData = [
   {
-    "title": "Watched Basically Another Tom Scott Video",
-    "titleUrl": "https://www.youtube.com/watch?v\u003d2uXS20iWve4",
-    "time": "2021-12-03T15:02:58.289Z"
+    title: "Watched Basically Another Tom Scott Video",
+    titleUrl: "https://www.youtube.com/watch?v\u003d2uXS20iWve4",
+    time: "2021-12-03T15:02:58.289Z",
   },
   {
-    "title": "Watched Basically Another Tom Scott Video",
-    "titleUrl": "https://www.youtube.com/watch?v\u003d2uXS20iWve4",
-    "time": "2021-06-07T15:56:52.805Z"
+    title: "Watched Basically Another Tom Scott Video",
+    titleUrl: "https://www.youtube.com/watch?v\u003d2uXS20iWve4",
+    time: "2021-06-07T15:56:52.805Z",
   },
   {
-    "title": "Watched This was funny in my head for about 2 seconds and now it’s just not but I made it anyway",
-    "titleUrl": "https://www.youtube.com/watch?v\u003d2uXS20iWve4",
-    "time": "2021-12-03T15:0"
+    title:
+      "Watched This was funny in my head for about 2 seconds and now it’s just not but I made it anyway",
+    titleUrl: "https://www.youtube.com/watch?v\u003d2uXS20iWve4",
+    time: "2021-12-03T15:0",
   },
   {
-    "title": "Watched The Hornet Special (Hollow Knight Comic Dubs)",
-    "titleUrl": "https://www.youtube.com/watch?v\u003d2uXS20iWve4",
-    "time": "2021-12-03T15"
+    title: "Watched The Hornet Special (Hollow Knight Comic Dubs)",
+    titleUrl: "https://www.youtube.com/watch?v\u003d2uXS20iWve4",
+    time: "2021-12-03T15",
   },
   {
-    "title": "Watched The Hornet Special (Hollow Knight Comic Dubs)",
-    "titleUrl": "https://www.youtube.com/watch?v\u003d2uXS20iWve4",
-    "time": "2021-06-07T15:56:49.204Z"
+    title: "Watched The Hornet Special (Hollow Knight Comic Dubs)",
+    titleUrl: "https://www.youtube.com/watch?v\u003d2uXS20iWve4",
+    time: "2021-06-07T15:56:49.204Z",
   },
   {
-    "title": "Watched Basically Another Tom Scott Video",
-    "titleUrl": "https://www.youtube.com/watch?v\u003d2uXS20iWve4",
-    "time": "2021-12-03T15:02:11.522Z"
+    title: "Watched Basically Another Tom Scott Video",
+    titleUrl: "https://www.youtube.com/watch?v\u003d2uXS20iWve4",
+    time: "2021-12-03T15:02:11.522Z",
   },
-]
+];
 
 // sortByFrequency(testArray) =>
 /**
@@ -69,35 +70,39 @@ const testData = [
 const filterByYear = (allData, year) =>
   allData.filter((e) => e.time.includes(year));
 
+// lager redusert array over url-er med frekvens
+const countOccurences = (yearData) =>
+  yearData.reduce(function (acc, curr) {
+    return (
+      acc[curr.titleUrl] ? ++acc[curr.titleUrl] : (acc[curr.titleUrl] = 1), acc
+    );
+  }, {});
+
+// lager ny array med titler, sorterer og grupperer etter frekvens
 function sortByFrequency(array) {
   var frequency = {};
   var sortAble = [];
   var newArr = [];
 
-  array.forEach(function(obj) { 
-      if ( obj.title in frequency )
-          frequency[obj.title] = frequency[obj.title] + 1;
-      else
-          frequency[obj.title] = 1;
+  array.forEach(function (obj) {
+    if (obj.title in frequency) frequency[obj.title] = frequency[obj.title] + 1;
+    else frequency[obj.title] = 1;
   });
-  
 
-  for(var key in frequency){
-      sortAble.push([key, frequency[key]])
+  for (var key in frequency) {
+    sortAble.push([key, frequency[key]]);
   }
 
-  sortAble.sort(function(a, b){
-      return b[1] - a[1]
-  })
+  sortAble.sort(function (a, b) {
+    return b[1] - a[1];
+  });
 
-  
-  sortAble.forEach(function(obj){
-      for(var i=0; i < obj[1]; i++){
-          newArr.push(obj[0]);
-      }
-  })
+  sortAble.forEach(function (obj) {
+    for (var i = 0; i < obj[1]; i++) {
+      newArr.push(obj[0]);
+    }
+  });
   return newArr;
-  
 }
 
 const getFirstEntries = (yearData, amount) =>
