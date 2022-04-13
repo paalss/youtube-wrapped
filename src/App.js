@@ -1,5 +1,6 @@
 import "./App.css";
 // import data from "./youtube-data/watch-history.json";
+import testdata from "./youtube-data/testdata.json";
 
 import { useState } from "react";
 
@@ -23,50 +24,6 @@ import placeholderImg from "./yt-placeholder-img.png";
 
 */
 
-const testData = [
-  {
-    title: "Watched Basically Another Tom Scott Video",
-    titleUrl: "https://www.youtube.com/watch?v\u003d2uXS20iWve4",
-    time: "2021-12-03T15:02:58.289Z",
-  },
-  {
-    title: "Watched Basically Another Tom Scott Video",
-    titleUrl: "https://www.youtube.com/watch?v\u003d2uXS20iWve4",
-    time: "2021-06-07T15:56:52.805Z",
-  },
-  {
-    title:
-      "Watched This was funny in my head for about 2 seconds and now it’s just not but I made it anyway",
-    titleUrl: "https://www.youtube.com/watch?v\u003d2uXS20iWve4",
-    time: "2021-12-03T15:0",
-  },
-  {
-    title: "Watched The Hornet Special (Hollow Knight Comic Dubs)",
-    titleUrl: "https://www.youtube.com/watch?v\u003d2uXS20iWve4",
-    time: "2021-12-03T15",
-  },
-  {
-    title: "Watched The Hornet Special (Hollow Knight Comic Dubs)",
-    titleUrl: "https://www.youtube.com/watch?v\u003d2uXS20iWve4",
-    time: "2021-06-07T15:56:49.204Z",
-  },
-  {
-    title: "Watched Basically Another Tom Scott Video",
-    titleUrl: "https://www.youtube.com/watch?v\u003d2uXS20iWve4",
-    time: "2021-12-03T15:02:11.522Z",
-  },
-];
-
-// sortByFrequency(testArray) =>
-/**
- * 0: "Watched Basically Another Tom Scott Video"
- * 1: "Watched Basically Another Tom Scott Video"
- * 2: "Watched Basically Another Tom Scott Video"
- * 3: "The Hornet Special (Hollow Knight Comic Dubs)"
- * 4: "The Hornet Special (Hollow Knight Comic Dubs)"
- * 5: "Watched This was funny in my head for about 2 seconds and now it’s just not but I made it anyway"
- */
-
 const filterByYear = (allData, year) =>
   allData.filter((e) => e.time.includes(year));
 
@@ -78,7 +35,7 @@ const getFirstEntries = (yearData, amount) =>
 
 function App() {
   const year = "2021";
-  const thisYearData = filterByYear(testData, year);
+  const thisYearData = filterByYear(testdata, year);
 
   const [loadedData, setLoadedData] = useState(
     getFirstEntries(thisYearData, 5)
@@ -87,6 +44,7 @@ function App() {
   const loadMoreHandler = () => {
     setLoadedData(getFirstEntries(thisYearData, 10));
   };
+
   return (
     <div className="App">
       <h1>Yt-wrapped</h1>
