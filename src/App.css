@@ -3,12 +3,12 @@ html {
 }
 
 body {
-  background-color: #d5d8df;
-  /* background-color: #282c34; */
+  /* background-color: #d5d8df; */
+  background-color: #282c34;
   padding: 5%;
 }
 
-ul {
+ol {
   list-style-type: none;
   padding: 0;
 }
