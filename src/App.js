@@ -76,8 +76,10 @@ function App() {
 
   return (
     <div className="App">
-      <h1 className="text-3xl font-bold underline">Youtube wrapped</h1>
-      <h2>Your most watched year {year}</h2>
+      <header>
+        <h1>Your most watched videos</h1>
+        <h2>Year {year}</h2>
+      </header>
       <ol>
         {loadedData.map((e) => (
           <li key={e.time}>

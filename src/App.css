@@ -7,11 +7,18 @@ html {
 }
 
 body {
-  /* background-color: #f0f0f0; */
-  /* background: url("./mo2-large.jpg");
+  background-color: #d6d6d6;
+  /* background: url("./mo2-large.jpg"); */
   background-position-x: -60px;
-  background-size: 1634px; */
-  padding: 0 5%;
+  background-size: 1634px;
+  margin: 0;
+}
+
+header {
+  padding: 100px;
+  background-color: #fff;
+  padding: 42px 5% 80px 5%;
+  box-shadow: rgba(0, 0, 0, 0.281) 0px 1px 4px;
 }
 
 h1,
@@ -29,13 +36,17 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 p {
   margin: 15px 0;
 }
 
 button {
   padding: 15px 25px;
-  background-color: rgb(76, 0, 255);
+  background-color: rgb(224, 28, 28);
   border-radius: 10px;
   border: none;
   color: #fff;
@@ -45,7 +56,6 @@ button {
 
 button:hover {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-
 }
 
 .loadmore {
@@ -60,6 +70,8 @@ ol {
   background-color: #fff;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   overflow: hidden;
+  /* margin: 0 5%; */
+  margin: -46px 5% 30px 5%; /*TODO fjern?*/
 }
 
 li {
@@ -71,7 +83,7 @@ li:not(:last-of-type) {
 }
 
 li .frame {
-  width: 100px;
+  width: 115px;
   overflow: hidden;
 }
 
@@ -83,5 +95,5 @@ li .frame img {
 
 li .text {
   flex-basis: 85%;
-  padding: 0 1rem;
+  padding: 0.8rem 1.5rem;
 }
