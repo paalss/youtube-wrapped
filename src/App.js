@@ -1,6 +1,6 @@
 import "./App.css";
 // import data from "./youtube-data/watch-history.json";
-import testdata from "./youtube-data/testdata.json";
+import data from "./youtube-data/testdata.json";
 
 import { useState } from "react";
 
@@ -40,7 +40,7 @@ const calculatePopularity = (data) => {
     if (isAlreadyHere) {
       const updatedVideo = {
         ...isAlreadyHere,
-        watchAmount: isAlreadyHere.watchAmount + 1, 
+        watchAmount: isAlreadyHere.watchAmount + 1,
       };
 
       // find & replace array element
@@ -54,16 +54,16 @@ const calculatePopularity = (data) => {
     }
   });
   // sorter med mest sett video øverst
-  newArray.sort((a, b) => a.watchAmount > b.watchAmount ? -1 : 1);
-  return newArray
+  newArray.sort((a, b) => (a.watchAmount > b.watchAmount ? -1 : 1));
+  return newArray;
 };
 
 function App() {
   const year = "2021";
-  const thisYearData = filterByYear(testdata, year);
+  const thisYearData = filterByYear(data, year);
 
   const thisYearDataWatchTimes = calculatePopularity(thisYearData);
-
+  
   const [loadedData, setLoadedData] = useState(
     getFirstEntries(thisYearDataWatchTimes, 5)
   );
@@ -91,6 +91,9 @@ function App() {
                   <a href={s.url}>{s.name}</a>
                 </p>
               ))}
+              <p>
+                Sett {e.watchAmount} {e.watchAmount === 1 ? "gang" : "ganger"}
+              </p>
             </div>
           </li>
         ))}
