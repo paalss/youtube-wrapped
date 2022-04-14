@@ -14,8 +14,10 @@ npm start
 ```
 
 ## TODO
-lag en versjon med mest sette youtubere, stille inn årsvelger
-sett inn bilde
+- Legge inn årsvelger
+- Ordne Filopplasting
+- fjern 'a video that has been removed'
+evt. lag en versjon med mest sette youtubere
 
 * * * * * * * *
 ---------------
