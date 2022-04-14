@@ -63,13 +63,13 @@ function App() {
   const thisYearData = filterByYear(data, year);
 
   const thisYearDataWatchTimes = calculatePopularity(thisYearData);
-  
+
   const [loadedData, setLoadedData] = useState(
     getFirstEntries(thisYearDataWatchTimes, 5)
   );
 
   const loadMoreHandler = () => {
-    setLoadedData(getFirstEntries(thisYearDataWatchTimes, 10));
+    setLoadedData(getFirstEntries(thisYearDataWatchTimes, loadedData.length + 5));
   };
 
   return (
