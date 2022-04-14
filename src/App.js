@@ -27,8 +27,8 @@ import placeholderImg from "./yt-placeholder-img.png";
 const filterByYear = (allData, year) =>
   allData.filter((e) => e.time.includes(year));
 
-const getFirstEntries = (yearData, amount) =>
-  yearData.slice(0, amount).map((e) => ({
+const getFirstEntries = (data, amount) =>
+  data.slice(0, amount).map((e) => ({
     ...e,
     title: e.title.substring(8), // fjerner "watched" fra title
   }));
@@ -53,17 +53,19 @@ const calculatePopularity = (data) => {
       newArray.push(newVideo);
     }
   });
-  console.log(newArray);
+  // sorter med mest sett video øverst
+  newArray.sort((a, b) => a.watchAmount > b.watchAmount ? -1 : 1);
+  return newArray
 };
 
 function App() {
   const year = "2021";
   const thisYearData = filterByYear(testdata, year);
 
-  calculatePopularity(thisYearData);
+  const thisYearDataWatchTimes = calculatePopularity(thisYearData);
 
   const [loadedData, setLoadedData] = useState(
-    getFirstEntries(thisYearData, 5)
+    getFirstEntries(thisYearDataWatchTimes, 5)
   );
 
   const loadMoreHandler = () => {
