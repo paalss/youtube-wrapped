@@ -4,7 +4,7 @@ import data from "./youtube-data/watch-history.json";
 
 import { useState } from "react";
 
-import placeholderImg from "./yt-placeholder-img.png";
+// import placeholderImg from "./yt-placeholder-img.png";
 
 /*
 
@@ -58,6 +58,11 @@ const calculateWatchAmount = (data) => {
   return newArray;
 };
 
+const getThumbnailUrl = (url) => {
+  const videoId = url && url.substring(url.indexOf("\u003d") + 1);
+  return `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`
+};
+
 function App() {
   const year = "2019";
   const thisYearData = filterByYear(data, year);
@@ -81,26 +86,34 @@ function App() {
         <h2>Year {year}</h2>
       </header>
       <ol>
-        {loadedData.map((e) => (
-          <li key={e.time}>
-            <div className="frame">
-              <img src={placeholderImg} alt="video" loading="lazy" />
-            </div>
-            <div className="text">
-              <h3>
-                {e.titleUrl ? <a href={e.titleUrl}>{e.title}</a> : e.title}
-              </h3>
-              {e.subtitles?.map((s) => (
-                <p key={s.url}>
-                  <a href={s.url}>{s.name}</a>
+        {loadedData.map((e) => {
+          const thubnailUrl = getThumbnailUrl(e.titleUrl);
+          return (
+            <li key={e.time}>
+              <div className="frame">
+                <img
+                  src={thubnailUrl}
+                  alt="video"
+                  loading="lazy"
+                />
+              </div>
+              <div className="text">
+                <h3>
+                  {e.titleUrl ? <a href={e.titleUrl}>{e.title}</a> : e.title}
+                </h3>
+                {e.subtitles?.map((s) => (
+                  <p key={s.url}>
+                    <a href={s.url}>{s.name}</a>
+                  </p>
+                ))}
+                <p>
+                  Watched {e.watchAmount}{" "}
+                  {e.watchAmount === 1 ? "time" : "times"}
                 </p>
-              ))}
-              <p>
-                Watched {e.watchAmount} {e.watchAmount === 1 ? "time" : "times"}
-              </p>
-            </div>
-          </li>
-        ))}
+              </div>
+            </li>
+          );
+        })}
       </ol>
       <div className="loadmore">
         <button onClick={loadMoreHandler}>Load more</button>

@@ -1,5 +1,12 @@
+# work in progress!
+
+1. [takeout.google.com](https://takeout.google.com/) download your Youtube history data as JSON.
+<!-- 2. Visit paalss.github.io/youtube-wrapped, upload JSON -->
+
+
+
 * https://developers.google.com/youtube/v3/docs/thumbnails
-* https://developers.google.com/youtube/v3/quickstart/js
+* https://developers.google.com/youtube/v3/quickstart/nodejs
 
 ```
 npm i
@@ -18,7 +25,7 @@ sett inn bilde
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
-
+download your youtube history data as JSON from [takeout.google.com](takeout.google.com)
 In the project directory, you can run:
 
 ### `npm start`
