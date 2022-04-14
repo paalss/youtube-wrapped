@@ -88,7 +88,7 @@ function App() {
             </div>
             <div className="text">
               <h3>
-                <a href={e.titleUrl}>{e.title}</a>
+                {e.titleUrl ? <a href={e.titleUrl}>{e.title}</a> : e.title}
               </h3>
               {e.subtitles?.map((s) => (
                 <p key={s.url}>
