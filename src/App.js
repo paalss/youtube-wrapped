@@ -1,6 +1,6 @@
 import "./App.css";
-// import data from "./youtube-data/watch-history.json";
-import data from "./youtube-data/testdata.json";
+import data from "./youtube-data/watch-history.json";
+// import data from "./youtube-data/testdata.json";
 
 import { useState } from "react";
 
@@ -59,7 +59,7 @@ const calculatePopularity = (data) => {
 };
 
 function App() {
-  const year = "2021";
+  const year = "2019";
   const thisYearData = filterByYear(data, year);
 
   const thisYearDataWatchTimes = calculatePopularity(thisYearData);
