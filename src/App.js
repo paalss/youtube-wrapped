@@ -30,73 +30,27 @@ const filterByYear = (allData, year) =>
 const getFirstEntries = (yearData, amount) =>
   yearData.slice(0, amount).map((e) => ({
     ...e,
-    title: e.title.substring(8), // fjern "watched" fra title
+    title: e.title.substring(8), // fjerner "watched" fra title
   }));
 
 const calculatePopularity = (data) => {
   let newArray = [];
   data.forEach((element) => {
-    // console.log(element.title);
-    // console.log(newArray);
-
-    //  tom scott: 3
-    //  hornet: 2
-    //  iron-ajax: 10
-
     let isAlreadyHere = newArray.find((e) => e.titleUrl === element.titleUrl);
     if (isAlreadyHere) {
-      console.group("isAlreadyHere");
-      console.log(
-        "fant data element i newArray:",
-        isAlreadyHere.title,
-        isAlreadyHere.watchAmount
-      );
-
-      const increasedWatchAmount = isAlreadyHere.watchAmount + 1 
-
       const updatedVideo = {
         ...isAlreadyHere,
-        watchAmount: increasedWatchAmount, 
+        watchAmount: isAlreadyHere.watchAmount + 1, 
       };
-
-      console.log(
-        "dette nydefinerte elementet: ",
-        updatedVideo.title,
-        updatedVideo.watchAmount
-      );
-      console.log("...skal ha én mer i watchAmount");
-      console.groupEnd();
 
       // find & replace array element
       newArray = newArray.map((e) =>
         e.titleUrl === updatedVideo.titleUrl ? updatedVideo : e
       );
-
-      // console.group("updatedvideo (fra data)");
-      // console.log(
-      //   "eksisterende video i newArray som skal oppdateres:___",
-      //   updatedVideo.title,
-      //   updatedVideo.watchAmount
-      // );
-      // console.log("skal være oppdatert med riktig watchAmount:___", newArray);
-      // console.groupEnd();
-
-      // // const watchAmount = isAlreadyHere.watchAmount ? isAlreadyHere.watchAmount++ : 2;
-      // // console.log(isAlreadyHere.title, watchAmount);
-      // // isAlreadyHere = { ...isAlreadyHere, watchAmount };
-      // // newArray = newArray.map((e) => e.titleUrl !== isAlreadyHere.titleUrl);
     } else {
       // isAlreadyHere === undefined
       const newVideo = { ...element, watchAmount: 1 };
       newArray.push(newVideo);
-
-      // console.group("newVideo (fra data)");
-      // console.log("ny video som settes inn i newArray:___", newVideo.title);
-      // console.log(
-      //   "den skal ligge her:___",
-      //   newArray.map((e) => e.title)
-      // );
-      // console.groupEnd();
     }
   });
   console.log(newArray);
