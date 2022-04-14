@@ -33,7 +33,7 @@ const getFirstEntries = (data, amount) =>
     title: e.title.substring(8), // fjerner "watched" fra title
   }));
 
-const calculatePopularity = (data) => {
+const calculateWatchAmount = (data) => {
   let newArray = [];
   data.forEach((element) => {
     let isAlreadyHere = newArray.find((e) => e.titleUrl === element.titleUrl);
@@ -62,20 +62,22 @@ function App() {
   const year = "2019";
   const thisYearData = filterByYear(data, year);
 
-  const thisYearDataWatchTimes = calculatePopularity(thisYearData);
+  const thisYearDataWatchTimes = calculateWatchAmount(thisYearData);
 
   const [loadedData, setLoadedData] = useState(
     getFirstEntries(thisYearDataWatchTimes, 5)
   );
 
   const loadMoreHandler = () => {
-    setLoadedData(getFirstEntries(thisYearDataWatchTimes, loadedData.length + 5));
+    setLoadedData(
+      getFirstEntries(thisYearDataWatchTimes, loadedData.length + 5)
+    );
   };
 
   return (
     <div className="App">
-      <h1>Yt-wrapped</h1>
-      <h2>År: {year}</h2>
+      <h1 className="text-3xl font-bold underline">Youtube wrapped</h1>
+      <h2>Your most watched year {year}</h2>
       <ol>
         {loadedData.map((e) => (
           <li key={e.time}>
@@ -92,13 +94,15 @@ function App() {
                 </p>
               ))}
               <p>
-                Sett {e.watchAmount} {e.watchAmount === 1 ? "gang" : "ganger"}
+                Watched {e.watchAmount} {e.watchAmount === 1 ? "time" : "times"}
               </p>
             </div>
           </li>
         ))}
       </ol>
-      <button onClick={loadMoreHandler}>Last flere</button>
+      <div className="loadmore">
+        <button onClick={loadMoreHandler}>Load more</button>
+      </div>
     </div>
   );
 }
