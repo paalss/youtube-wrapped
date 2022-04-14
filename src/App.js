@@ -69,7 +69,7 @@ function App() {
   );
 
   const loadMoreHandler = () => {
-    setLoadedData(getFirstEntries(thisYearData, 10));
+    setLoadedData(getFirstEntries(thisYearDataWatchTimes, 10));
   };
 
   return (
