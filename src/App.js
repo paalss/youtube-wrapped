@@ -58,6 +58,10 @@ const calculateWatchAmount = (data) => {
   return newArray;
 };
 
+const removeLostVideos=(data)=>{
+  return data.filter(e=> !e.title.includes('a video that has been removed'))
+}
+
 const getThumbnailUrl = (url) => {
   const videoId = url && url.substring(url.indexOf("\u003d") + 1);
   return `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`
@@ -65,17 +69,16 @@ const getThumbnailUrl = (url) => {
 
 function App() {
   const year = "2019";
-  const thisYearData = filterByYear(data, year);
-
-  const thisYearDataWatchTimes = calculateWatchAmount(thisYearData);
-
+  let thisYearData = filterByYear(data, year);
+  thisYearData = calculateWatchAmount(thisYearData);
+  thisYearData = removeLostVideos(thisYearData)
   const [loadedData, setLoadedData] = useState(
-    getFirstEntries(thisYearDataWatchTimes, 5)
+    getFirstEntries(thisYearData, 5)
   );
 
   const loadMoreHandler = () => {
     setLoadedData(
-      getFirstEntries(thisYearDataWatchTimes, loadedData.length + 10)
+      getFirstEntries(thisYearData, loadedData.length + 10)
     );
   };
 
