@@ -1,8 +1,8 @@
 import "./App.css";
-import data from "./youtube-data/watch-history.json";
-// import data from "./youtube-data/testdata.json";
+// import data from "./youtube-data/watch-history.json";
+import data from "./youtube-data/testdata.json";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 // import placeholderImg from "./yt-placeholder-img.png";
 
@@ -58,28 +58,50 @@ const calculateWatchAmount = (data) => {
   return newArray;
 };
 
-const removeLostVideos=(data)=>{
-  return data.filter(e=> !e.title.includes('a video that has been removed'))
-}
+const removeLostVideos = (data) => {
+  return data.filter((e) => !e.title.includes("a video that has been removed"));
+};
+
+const findAllYears = (data) => {
+  let years = [];
+  data.forEach((element) => {
+    const year = element.time.substring(0, 4); // hent årstallet
+    if (!years.includes(year)) {
+      years.push(year);
+    }
+  });
+  return years;
+};
 
 const getThumbnailUrl = (url) => {
   const videoId = url && url.substring(url.indexOf("\u003d") + 1);
-  return `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`
+  return `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`;
 };
 
 function App() {
-  const year = "2019";
-  let thisYearData = filterByYear(data, year);
-  thisYearData = calculateWatchAmount(thisYearData);
-  thisYearData = removeLostVideos(thisYearData)
+  const years = findAllYears(data);
+  const [year, setYear] = useState(2018);
+
+  const thisYearData = filterByYear(data, year);
+  const watchAmountData = calculateWatchAmount(thisYearData);
+  const finishedData = removeLostVideos(watchAmountData);
+
   const [loadedData, setLoadedData] = useState(
-    getFirstEntries(thisYearData, 5)
+    getFirstEntries(finishedData, 5)
   );
 
+  useEffect(() => {
+    setLoadedData(getFirstEntries(finishedData, 5));
+  }, [finishedData]);
+
   const loadMoreHandler = () => {
-    setLoadedData(
-      getFirstEntries(thisYearData, loadedData.length + 10)
-    );
+    setLoadedData(getFirstEntries(finishedData, loadedData.length + 10));
+  };
+
+  const setYearHandler = () => {
+    const selected = document.getElementById("yearSelect");
+    const value = selected.options[selected.selectedIndex].value;
+    setYear(value);
   };
 
   return (
@@ -87,6 +109,13 @@ function App() {
       <header>
         <h1>Your most watched videos</h1>
         <h2>Year {year}</h2>
+        <select name="year" id="yearSelect" onChange={setYearHandler}>
+          {years.map((y) => (
+            <option value={y} key={y}>
+              {y}
+            </option>
+          ))}
+        </select>
       </header>
       <ol>
         {loadedData.map((e) => {
@@ -94,11 +123,7 @@ function App() {
           return (
             <li key={e.time}>
               <div className="frame">
-                <img
-                  src={thubnailUrl}
-                  alt="video"
-                  loading="lazy"
-                />
+                <img src={thubnailUrl} alt="video" loading="lazy" />
               </div>
               <div className="text">
                 <h3>
