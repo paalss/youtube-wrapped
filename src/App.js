@@ -169,7 +169,21 @@ function App() {
           <h1>Find out what videos you watched the most</h1>
         </header>
         <div className="overlay">
-          <h2>1. Get your youtube history as JSON</h2>
+          <h2>This app needs you to</h2>
+          <ol>
+            <li>Request your watch-history.json from Google Takeout</li>
+            <li>Download them, and</li>
+            <li>Upload them to this site:</li>
+          </ol>
+          <div className="buttons">
+            <form action="">
+              <label htmlFor="file-upload">Upload watch-history.json</label>
+              <input id="file-upload" type="file" hidden />
+            </form>
+          </div>
+
+          <h2>In deph guide</h2>
+          <h3>1. Request your watch-history.json from Google Takeout</h3>
           <p>
             Go to <a href="https://takeout.google.com/">takeout.google.com</a>
           </p>
@@ -184,17 +198,30 @@ function App() {
             Click <b>Next step</b>
           </p>
           <p>
-            You might have to wait some days until you get this mail from Google
-          </p>
-          <img src={mailImg} alt="mail from google" />
-          <p>Download your files</p>
-          <p>
-            This will take yout to a new page and start downloading a zip file
+            In a few days Google Takeout will send you a mail where you can
+            download your files
           </p>
 
+          <img src={mailImg} alt="mail from google" />
+          <h3>2. Download files</h3>
+
+          <p>
+            Once you've got the mail from <b>Google Takeout</b>, you can click{" "}
+            <b>Download your files</b>
+          </p>
+          <p>
+            This will take you to a new page and start downloading a compressed
+            file
+          </p>
+          <h3>3. Upload file to this site</h3>
+          <p>
+            Extract/unzip the compressed file, find the{" "}
+            <b>watch-history.json</b> file
+          </p>
+          <p>And then:</p>
           <div className="buttons">
             <form action="">
-              <label htmlFor="file-upload">Upload files</label>
+              <label htmlFor="file-upload">Upload watch-history.json</label>
               <input id="file-upload" type="file" hidden />
             </form>
           </div>

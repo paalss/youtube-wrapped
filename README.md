@@ -11,6 +11,7 @@ npm start
 
 ## TODO
 - Ordne Filopplasting
+- expand minify images guide
 - evt. lag en versjon med mest sette youtubere
 - evt. DEMO / playground som viser hvordan appen funker?
 
