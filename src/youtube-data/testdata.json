@@ -393,5 +393,156 @@
     "time": "2017-06-03T22:05:59.328Z",
     "products": ["YouTube"],
     "activityControls": ["YouTube watch history"]
+  },
+  {
+    "header": "YouTube",
+    "title": "Watched Poker Face (metal cover by Leo Moracchioli)",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dwCVukDiRsNs",
+    "subtitles": [{
+      "name": "Frog Leap Studios",
+      "url": "https://www.youtube.com/channel/UC98tcedR6gULv8_b70WJKyw"
+    }],
+    "time": "2017-12-31T16:34:57.636Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Waka Waka (metal cover by Leo Moracchioli)",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dH9HofYb_-kY",
+    "subtitles": [{
+      "name": "Frog Leap Studios",
+      "url": "https://www.youtube.com/channel/UC98tcedR6gULv8_b70WJKyw"
+    }],
+    "time": "2017-12-31T16:33:03.992Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Adele - Hello (metal cover by Leo Moracchioli)",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dLtQUJMBH8uE",
+    "subtitles": [{
+      "name": "Frog Leap Studios",
+      "url": "https://www.youtube.com/channel/UC98tcedR6gULv8_b70WJKyw"
+    }],
+    "time": "2017-12-31T16:31:33.376Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Don´t Speak (metal cover by Leo Moracchioli)",
+    "titleUrl": "https://www.youtube.com/watch?v\u003d3kSLyiARrRc",
+    "subtitles": [{
+      "name": "Frog Leap Studios",
+      "url": "https://www.youtube.com/channel/UC98tcedR6gULv8_b70WJKyw"
+    }],
+    "time": "2017-12-31T16:24:10.046Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },
+  {
+    "header": "YouTube",
+    "title": "Watched I\u0027m Back!!",
+    "titleUrl": "https://www.youtube.com/watch?v\u003df5AsZPd_tGU",
+    "subtitles": [{
+      "name": "jacksepticeye",
+      "url": "https://www.youtube.com/channel/UCYzPXprvl5Y-Sf0g4vX-m6g"
+    }],
+    "time": "2017-10-22T12:17:18.401Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched The Rumjacks - A Fistful O\u0027 Roses (Official Music Video)",
+    "titleUrl": "https://www.youtube.com/watch?v\u003d4ZlLk-PxAbI",
+    "subtitles": [{
+      "name": "The Rumjacks",
+      "url": "https://www.youtube.com/channel/UCSqSV3RRN0EFWM7Lxcjs6mA"
+    }],
+    "time": "2017-10-18T18:42:22.750Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched The Rumjacks - Recording the album Sleepin\u0027 Rough - Part 2 - Patron Saint O\u0027 Thieves",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dlhgdPgAJRO8",
+    "subtitles": [{
+      "name": "The Rumjacks",
+      "url": "https://www.youtube.com/channel/UCSqSV3RRN0EFWM7Lxcjs6mA"
+    }],
+    "time": "2017-10-18T18:42:03.172Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched a video that has been removed",
+    "time": "2017-10-18T18:29:08.792Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched VAN CANTO - Badaboom (Official) | Napalm Records",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dAeaz4s7q0Ag",
+    "subtitles": [{
+      "name": "Napalm Records",
+      "url": "https://www.youtube.com/channel/UCG7AaCh_CiG6pq_rRDNw72A"
+    }],
+    "time": "2017-10-18T18:22:44.776Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched VAN CANTO - Fear Of The Dark (Live at Wacken Open Air 2014) | Napalm Records",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dUrxfZv6KEL0",
+    "subtitles": [{
+      "name": "Napalm Records",
+      "url": "https://www.youtube.com/channel/UCG7AaCh_CiG6pq_rRDNw72A"
+    }],
+    "time": "2017-10-18T18:14:03.080Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Van Canto - Last Night of the Kings (Official)",
+    "titleUrl": "https://www.youtube.com/watch?v\u003drt4CQc1MSso",
+    "subtitles": [{
+      "name": "vancanto",
+      "url": "https://www.youtube.com/channel/UC7U9RmPJJzArC2Yeksp44FQ"
+    }],
+    "time": "2017-10-18T18:08:25.942Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Van Canto - Rebellion Cover (Official)",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dUPUNdwRhuMA",
+    "subtitles": [{
+      "name": "vancanto",
+      "url": "https://www.youtube.com/channel/UC7U9RmPJJzArC2Yeksp44FQ"
+    }],
+    "time": "2017-10-18T18:04:02.681Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Van Canto - Rebellion Cover (Official)",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dUPUNdwRhuMA",
+    "subtitles": [{
+      "name": "vancanto",
+      "url": "https://www.youtube.com/channel/UC7U9RmPJJzArC2Yeksp44FQ"
+    }],
+    "time": "2017-10-18T18:04:02.681Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Van Canto - Wishmaster (Official)",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dXCGQiGEYl4Y",
+    "subtitles": [{
+      "name": "vancanto",
+      "url": "https://www.youtube.com/channel/UC7U9RmPJJzArC2Yeksp44FQ"
+    }],
+    "time": "2017-10-18T17:59:34.020Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
   }
 ]

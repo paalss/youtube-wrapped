@@ -11,8 +11,8 @@ npm start
 
 ## TODO
 - Ordne Filopplasting
-evt. lag en versjon med mest sette youtubere
-- DEMO / playground som viser hvordan appen funker?
+- evt. lag en versjon med mest sette youtubere
+- evt. DEMO / playground som viser hvordan appen funker?
 
 * * * * * * * *
 ---------------

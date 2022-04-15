@@ -21,6 +21,10 @@ header {
   box-shadow: rgba(0, 0, 0, 0.281) 0px 1px 4px;
 }
 
+.center {
+  text-align: center;
+}
+
 h1,
 h2,
 h3 {
@@ -31,12 +35,12 @@ h3 {
   margin-bottom: 0;
 }
 
-a {
+a.videolink {
   color: #000;
   text-decoration: none;
 }
 
-a:hover {
+a.videolink:hover {
   text-decoration: underline;
 }
 
@@ -44,8 +48,9 @@ p {
   margin: 15px 0;
 }
 
-button {
-  margin: 5px 0 30px 0;
+button,
+label {
+  margin: 35px 0 30px 0;
   padding: 15px 25px;
   background-color: rgb(224, 28, 28);
   border-radius: 10px;
@@ -55,11 +60,16 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+label {
+  display: block;
+}
+
+button:hover,
+label:hover {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.loadmore {
+.buttons {
   display: flex;
   justify-content: center;
 }
@@ -70,42 +80,45 @@ select {
   border-radius: 15px;
 }
 
-ol {
+ol.overlay {
   list-style-type: none;
   padding: 0;
+}
+
+.overlay {
   border-radius: 20px;
   background-color: #fff;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   overflow: hidden;
-  margin: -46px 0 30px 0;
+  margin: -46px 0 0 0;
 }
 
-li {
+li.videoitem {
   display: flex;
 }
 
-li:not(:last-of-type) {
+li.videoitem:not(:last-of-type) {
   box-shadow: rgba(0, 0, 0, 0.281) 0px 1px 4px;
 }
 
-li .frame {
+li.videoitem .frame {
   width: 210px;
   overflow: hidden;
 }
 
-li .frame img {
+li.videoitem .frame img {
   height: 100%;
   object-fit: cover;
   width: 100%;
 }
 
-li .text {
+li.videoitem .text {
   flex-basis: 85%;
   padding: 0.8rem 1.5rem;
 }
 
 @media screen and (min-width: 800px) {
-  ol {
+  .overlay {
     margin: -46px 5% 30px 5%;
   }
 }

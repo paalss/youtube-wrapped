@@ -2,6 +2,9 @@ import "./App.css";
 // import data from "./youtube-data/watch-history.json";
 import data from "./youtube-data/testdata.json";
 
+import takeoutImg from "./img/guide/takeout.png";
+import mailImg from "./img/guide/mail.png";
+
 import { useState } from "react";
 
 // import placeholderImg from "./yt-placeholder-img.png";
@@ -23,6 +26,17 @@ import { useState } from "react";
 
 
 */
+
+const findAllYears = (data) => {
+  let years = [];
+  data.forEach((element) => {
+    const year = element.time.substring(0, 4); // hent årstallet
+    if (!years.includes(year)) {
+      years.push(year);
+    }
+  });
+  return years;
+};
 
 const filterByYear = (data, year) => data.filter((e) => e.time.includes(year));
 
@@ -63,94 +77,131 @@ const removeUnvantedInfo = (data) => {
   );
 };
 
-const findAllYears = (data) => {
-  let years = [];
-  data.forEach((element) => {
-    const year = element.time.substring(0, 4); // hent årstallet
-    if (!years.includes(year)) {
-      years.push(year);
-    }
-  });
-  return years;
-};
-
 const getThumbnailUrl = (url) => {
   const videoId = url && url.substring(url.indexOf("\u003d") + 1);
   return `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`;
 };
 
 function App() {
-  const [chosenYear, setChosenYear] = useState(2018)
-  const [loadAmount, setLoadAmount] = useState(5)
-  
-  const years = findAllYears(data);
-  const thisYearData = filterByYear(data, chosenYear)
-  const watchAmountData = calculateWatchAmount(thisYearData);
-  const finishedData = removeUnvantedInfo(watchAmountData);
+  const [isJsonUploaded, setItJsonUploaded] = useState(null);
+  const [chosenYear, setChosenYear] = useState(2017);
+  const [loadAmount, setLoadAmount] = useState(5);
+  if (isJsonUploaded) {
+    const years = findAllYears(data);
+    const thisYearData = filterByYear(data, chosenYear);
+    const watchAmountData = calculateWatchAmount(thisYearData);
+    const finishedData = removeUnvantedInfo(watchAmountData);
 
-  const loadedData = getFirstEntries(finishedData, loadAmount)
+    const loadedData = getFirstEntries(finishedData, loadAmount);
 
-  const loadMoreHandler = () => {
-    setLoadAmount(loadedData.length + 10);
-  };
+    const loadMoreHandler = () => {
+      setLoadAmount(loadedData.length + 10);
+    };
 
-  const setYearHandler = () => {
-    const selected = document.getElementById("yearSelect");
-    const value = selected.options[selected.selectedIndex].value;
-    setChosenYear(value)
-  };
+    const setYearHandler = () => {
+      const selected = document.getElementById("yearSelect");
+      const value = selected.options[selected.selectedIndex].value;
+      setChosenYear(value);
+    };
 
-  return (
-    <div className="App">
-      <header>
-        <h1>Your most watched videos</h1>
-        <h2>
-          Year{" "}
-          <select
-            name="year"
-            id="yearSelect"
-            onChange={setYearHandler}
-            value={chosenYear}
-          >
-            {years.map((y) => (
-              <option value={y} key={y}>
-                {y}
-              </option>
-            ))}
-          </select>
-        </h2>
-      </header>
-      <ol>
-        {loadedData.map((e) => {
-          const thubnailUrl = getThumbnailUrl(e.titleUrl);
-          return (
-            <li key={e.time}>
-              <div className="frame">
-                <img src={thubnailUrl} alt="video" loading="lazy" />
-              </div>
-              <div className="text">
-                <h3>
-                  {e.titleUrl ? <a href={e.titleUrl}>{e.title}</a> : e.title}
-                </h3>
-                {e.subtitles?.map((s) => (
-                  <p key={s.url}>
-                    <a href={s.url}>{s.name}</a>
+    return (
+      <div className="App">
+        <header>
+          <h1>Your most watched videos</h1>
+          <h2>
+            Year{" "}
+            <select
+              name="year"
+              id="yearSelect"
+              onChange={setYearHandler}
+              value={chosenYear}
+            >
+              {years.map((y) => (
+                <option value={y} key={y}>
+                  {y}
+                </option>
+              ))}
+            </select>
+          </h2>
+        </header>
+
+        <ol className="overlay">
+          {loadedData.map((e) => {
+            const thubnailUrl = getThumbnailUrl(e.titleUrl);
+            return (
+              <li key={e.time} className="videoitem">
+                <div className="frame">
+                  <img src={thubnailUrl} alt="video" loading="lazy" />
+                </div>
+                <div className="text">
+                  <h3>
+                    {e.titleUrl ? (
+                      <a href={e.titleUrl} className="videolink">
+                        {e.title}
+                      </a>
+                    ) : (
+                      e.title
+                    )}
+                  </h3>
+                  {e.subtitles?.map((s) => (
+                    <p key={s.url}>
+                      <a href={s.url}>{s.name}</a>
+                    </p>
+                  ))}
+                  <p>
+                    Watched {e.watchAmount}{" "}
+                    {e.watchAmount === 1 ? "time" : "times"}
                   </p>
-                ))}
-                <p>
-                  Watched {e.watchAmount}{" "}
-                  {e.watchAmount === 1 ? "time" : "times"}
-                </p>
-              </div>
-            </li>
-          );
-        })}
-      </ol>
-      <div className="loadmore">
-        <button onClick={loadMoreHandler}>Load more</button>
+                </div>
+              </li>
+            );
+          })}
+        </ol>
+        <div className="buttons">
+          <button onClick={loadMoreHandler}>Load more</button>
+        </div>
       </div>
-    </div>
-  );
+    );
+  } else {
+    return (
+      <div className="App center">
+        <header>
+          <h1>Find out what videos you watched the most</h1>
+        </header>
+        <div className="overlay">
+          <h2>1. Get your youtube history as JSON</h2>
+          <p>
+            Go to <a href="https://takeout.google.com/">takeout.google.com</a>
+          </p>
+          <p>
+            Under <b>create a new export</b>,
+          </p>
+          <p>
+            select only <b>YouTube and YouTube Music</b>
+          </p>
+          <img src={takeoutImg} alt="takeout" />
+          <p>
+            Click <b>Next step</b>
+          </p>
+          <p>
+            You might have to wait some days until you get this mail from Google
+          </p>
+          <img src={mailImg} alt="mail from google" />
+          <p>Download your files</p>
+          <p>
+            This will take yout to a new page and start downloading a zip file
+          </p>
+
+          <div className="buttons">
+            <form action="">
+              <label htmlFor="file-upload">Upload files</label>
+              <input id="file-upload" type="file" hidden />
+            </form>
+          </div>
+        </div>
+      </div>
+    );
+  }
 }
 
 export default App;
