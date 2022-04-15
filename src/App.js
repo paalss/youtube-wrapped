@@ -2,7 +2,7 @@ import "./App.css";
 // import data from "./youtube-data/watch-history.json";
 import data from "./youtube-data/testdata.json";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 // import placeholderImg from "./yt-placeholder-img.png";
 
@@ -24,14 +24,9 @@ import { useEffect, useState } from "react";
 
 */
 
-const filterByYear = (allData, year) =>
-  allData.filter((e) => e.time.includes(year));
+const filterByYear = (data, year) => data.filter((e) => e.time.includes(year));
 
-const getFirstEntries = (data, amount) =>
-  data.slice(0, amount).map((e) => ({
-    ...e,
-    title: e.title.substring(8), // fjerner "watched" fra title
-  }));
+const getFirstEntries = (data, amount) => data.slice(0, amount);
 
 const calculateWatchAmount = (data) => {
   let newArray = [];
@@ -58,8 +53,14 @@ const calculateWatchAmount = (data) => {
   return newArray;
 };
 
-const removeLostVideos = (data) => {
-  return data.filter((e) => !e.title.includes("a video that has been removed"));
+const removeUnvantedInfo = (data) => {
+  const dataWithCleanTitle = data.map((e) => ({
+    ...e,
+    title: e.title.substring(8), // fjerner "watched" fra title
+  }));
+  return dataWithCleanTitle.filter(
+    (e) => !e.title.includes("a video that has been removed")
+  );
 };
 
 const findAllYears = (data) => {
@@ -79,29 +80,24 @@ const getThumbnailUrl = (url) => {
 };
 
 function App() {
+  const [chosenYear, setChosenYear] = useState(2018)
+  const [loadAmount, setLoadAmount] = useState(5)
+  
   const years = findAllYears(data);
-  const [year, setYear] = useState(2018);
-
-  const thisYearData = filterByYear(data, year);
+  const thisYearData = filterByYear(data, chosenYear)
   const watchAmountData = calculateWatchAmount(thisYearData);
-  const finishedData = removeLostVideos(watchAmountData);
+  const finishedData = removeUnvantedInfo(watchAmountData);
 
-  const [loadedData, setLoadedData] = useState(
-    getFirstEntries(finishedData, 5)
-  );
-
-  useEffect(() => {
-    setLoadedData(getFirstEntries(finishedData, 5));
-  }, [finishedData]);
+  const loadedData = getFirstEntries(finishedData, loadAmount)
 
   const loadMoreHandler = () => {
-    setLoadedData(getFirstEntries(finishedData, loadedData.length + 10));
+    setLoadAmount(loadedData.length + 10);
   };
 
   const setYearHandler = () => {
     const selected = document.getElementById("yearSelect");
     const value = selected.options[selected.selectedIndex].value;
-    setYear(value);
+    setChosenYear(value)
   };
 
   return (
@@ -114,7 +110,7 @@ function App() {
             name="year"
             id="yearSelect"
             onChange={setYearHandler}
-            value={year}
+            value={chosenYear}
           >
             {years.map((y) => (
               <option value={y} key={y}>
