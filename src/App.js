@@ -108,14 +108,21 @@ function App() {
     <div className="App">
       <header>
         <h1>Your most watched videos</h1>
-        <h2>Year {year}</h2>
-        <select name="year" id="yearSelect" onChange={setYearHandler}>
-          {years.map((y) => (
-            <option value={y} key={y}>
-              {y}
-            </option>
-          ))}
-        </select>
+        <h2>
+          Year{" "}
+          <select
+            name="year"
+            id="yearSelect"
+            onChange={setYearHandler}
+            value={year}
+          >
+            {years.map((y) => (
+              <option value={y} key={y}>
+                {y}
+              </option>
+            ))}
+          </select>
+        </h2>
       </header>
       <ol>
         {loadedData.map((e) => {

@@ -10,9 +10,9 @@ npm start
 ```
 
 ## TODO
-- Legge inn årsvelger
 - Ordne Filopplasting
 evt. lag en versjon med mest sette youtubere
+- DEMO / playground som viser hvordan appen funker?
 
 * * * * * * * *
 ---------------

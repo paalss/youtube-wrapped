@@ -64,6 +64,12 @@ button:hover {
   justify-content: center;
 }
 
+select {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 15px;
+}
+
 ol {
   list-style-type: none;
   padding: 0;
