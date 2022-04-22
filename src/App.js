@@ -4,6 +4,10 @@ import data from "./youtube-data/testdata.json";
 
 import takeoutImg from "./img/guide/takeout.png";
 import mailImg from "./img/guide/mail.png";
+import fileformatDefaultImg from "./img/guide/fileformat-default2.png";
+import contentImg from "./img/guide/content.png";
+
+import GuideFolderStructure from "./components/common/guideFolderStructure";
 
 import { useState } from "react";
 
@@ -83,10 +87,10 @@ const getThumbnailUrl = (url) => {
 };
 
 function App() {
-  const [isJsonUploaded, setItJsonUploaded] = useState(null);
   const [chosenYear, setChosenYear] = useState(2017);
   const [loadAmount, setLoadAmount] = useState(5);
-  if (isJsonUploaded) {
+  const [selectedFile, setSelectedFile] = useState(false);
+  if (selectedFile) {
     const years = findAllYears(data);
     const thisYearData = filterByYear(data, chosenYear);
     const watchAmountData = calculateWatchAmount(thisYearData);
@@ -163,47 +167,66 @@ function App() {
       </div>
     );
   } else {
+    const fileUploadHandler = (event) => {
+      console.log(event);
+      // setSelectedFile(event.target.files[0]);
+      console.log(event.target.files[0]);
+    };
     return (
       <div className="App center">
         <header>
           <h1>Find out what videos you watched the most</h1>
+          [image]
+          <p>
+            This site will render a ranked view of what videos you watched the
+            most, based off a <code>watch-history.json</code>-file that you can
+            upload to this site.
+          </p>
+
+          <p>
+            The <code>watch-history.json</code> is a file that contains a list
+            of all watched youtube-videos by a logged in youtube-user. Here's
+            how you get it.
+          </p>
         </header>
         <div className="overlay">
-          <h2>This app needs you to</h2>
-          <ol>
-            <li>Request your watch-history.json from Google Takeout</li>
-            <li>Download them, and</li>
-            <li>Upload them to this site:</li>
-          </ol>
-          <div className="buttons">
-            <form action="">
-              <label htmlFor="file-upload">Upload watch-history.json</label>
-              <input id="file-upload" type="file" hidden />
-            </form>
-          </div>
-
-          <h2>In deph guide</h2>
-          <h3>1. Request your watch-history.json from Google Takeout</h3>
+          <h2>1. Request it from Google Takeout</h2>
           <p>
             Go to <a href="https://takeout.google.com/">takeout.google.com</a>
           </p>
           <p>
-            Under <b>create a new export</b>,
-          </p>
-          <p>
-            select only <b>YouTube and YouTube Music</b>
+            Under <b>create a new export</b>, select only{" "}
+            <b>YouTube and YouTube Music</b>
           </p>
           <img src={takeoutImg} alt="takeout" />
           <p>
-            Click <b>Next step</b>
+            Click the <b>multiple formats</b> button.
           </p>
           <p>
-            In a few days Google Takeout will send you a mail where you can
-            download your files
+            In the pop up, look for the select/dropdown menu with the
+            pre-selected value "HTML".
+            <br />
+            Switch this value to <b>JSON</b> and click <b>OK</b>.
+          </p>
+          <img src={fileformatDefaultImg} alt="file format settings" />
+          <p>
+            Since your history is the only thing we need, you also click{" "}
+            <b>All YouTube data included</b> button filter and out the other options.
+          </p>
+          <img
+            src={contentImg}
+            alt="menu with options for getting different content"
+          />
+          <p>
+            Click <b>Next step</b>.
+          </p>
+          <p>
+            In a few hours or days Google Takeout will send you a mail where you
+            can download your files
           </p>
 
           <img src={mailImg} alt="mail from google" />
-          <h3>2. Download files</h3>
+          <h2>2. Download files</h2>
 
           <p>
             Once you've got the mail from <b>Google Takeout</b>, you can click{" "}
@@ -211,19 +234,24 @@ function App() {
           </p>
           <p>
             This will take you to a new page and start downloading a compressed
-            file
+            folder.
           </p>
-          <h3>3. Upload file to this site</h3>
+          <h2>3. Upload file to this site</h2>
           <p>
-            Extract/unzip the compressed file, find the{" "}
+            <b>Extract/unzip</b> the compressed file, find the{" "}
             <b>watch-history.json</b> file
           </p>
+          <GuideFolderStructure />
           <p>And then:</p>
           <div className="buttons">
-            <form action="">
-              <label htmlFor="file-upload">Upload watch-history.json</label>
-              <input id="file-upload" type="file" hidden />
-            </form>
+            <label htmlFor="file-upload">Upload watch-history.json</label>
+            <input
+              id="file-upload"
+              type="file"
+              name="file-upload"
+              onChange={fileUploadHandler}
+              hidden
+            />
           </div>
         </div>
       </div>
