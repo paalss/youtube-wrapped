@@ -170,9 +170,14 @@ function App() {
     );
   } else {
     const fileUploadHandler = (event) => {
-      console.log(event);
+      const file = event.target.files[0];
+      console.log(file);
+      // if (file) {
+      //   let data = new FormData();
+      //   data.append("file", file);
+      //   console.log(data);
+      // }
       // setSelectedFile(event.target.files[0]);
-      console.log(event.target.files[0]);
     };
     return (
       <div className="App center">
@@ -184,7 +189,6 @@ function App() {
             most, based off a <code>watch-history.json</code>-file that you can
             upload to this site.
           </p>
-
           <p>
             The <code>watch-history.json</code> is a file that contains a list
             of all watched youtube-videos by a logged in youtube-user. Here's
@@ -213,7 +217,8 @@ function App() {
           <img src={fileformatDefaultImg} alt="file format settings" />
           <p>
             Since your history is the only thing we need, you also click{" "}
-            <b>All YouTube data included</b> button filter and out the other options.
+            <b>All YouTube data included</b> button and filter and out the other
+            options.
           </p>
           <img
             src={contentImg}
@@ -229,7 +234,6 @@ function App() {
 
           <img src={mailImg} alt="mail from google" />
           <h2>2. Download files</h2>
-
           <p>
             Once you've got the mail from <b>Google Takeout</b>, you can click{" "}
             <b>Download your files</b>
@@ -238,12 +242,12 @@ function App() {
             This will take you to a new page and start downloading a compressed
             folder.
           </p>
-          <h2>3. Upload file to this site</h2>
           <p>
-            <b>Extract/unzip</b> the compressed folder.
+            <b>Extract/unzip</b> the compressed folder, which should reveal the
+            following files &amp; folders:
           </p>
           <GuideFolderStructure />
-          <p>And then:</p>
+          <h2>3. Upload file to this site</h2>
           <div className="buttons">
             <label htmlFor="file-upload">Upload watch-history.json</label>
             <input
