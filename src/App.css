@@ -90,25 +90,7 @@ ol.overlay {
   padding: 0;
 }
 
-.overlay {
-  border-radius: 20px;
-  background-color: #fff;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  overflow: hidden;
-  /* margin: -46px 0 0 0; */
-  max-width: 1000px;
-  margin: -46px auto 30px auto;
-}
 
-.overlay img {
-  max-width: 100%;
-}
-
-.overlay p {
-  --spacing: 40px;
-  margin-left: var(--spacing);
-  margin-right: var(--spacing);
-}
 
 li.videoitem {
   display: flex;

@@ -2,6 +2,8 @@ import "./App.css";
 // import data from "./youtube-data/watch-history.json";
 import data from "./youtube-data/testdata.json";
 
+import { useState } from "react";
+
 import takeoutImg from "./img/guide/takeout.png";
 import mailImg from "./img/guide/mail.png";
 import fileformatDefaultImg from "./img/guide/fileformat-default2.png";
@@ -9,7 +11,7 @@ import contentImg from "./img/guide/content.png";
 
 import GuideFolderStructure from "./components/common/guideFolderStructure";
 
-import { useState } from "react";
+import Overlay from "./components/layout/overlay";
 
 // import placeholderImg from "./yt-placeholder-img.png";
 
@@ -189,7 +191,7 @@ function App() {
             how you get it.
           </p>
         </header>
-        <div className="overlay">
+        <Overlay>
           <h2>1. Request it from Google Takeout</h2>
           <p>
             Go to <a href="https://takeout.google.com/">takeout.google.com</a>
@@ -252,7 +254,7 @@ function App() {
               hidden
             />
           </div>
-        </div>
+        </Overlay>
       </div>
     );
   }
