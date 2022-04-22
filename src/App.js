@@ -238,8 +238,7 @@ function App() {
           </p>
           <h2>3. Upload file to this site</h2>
           <p>
-            <b>Extract/unzip</b> the compressed file, find the{" "}
-            <b>watch-history.json</b> file
+            <b>Extract/unzip</b> the compressed folder.
           </p>
           <GuideFolderStructure />
           <p>And then:</p>
