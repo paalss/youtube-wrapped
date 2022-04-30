@@ -9,16 +9,29 @@ import GuideFolderStructure from "../guideFolderStructure";
 
 import Overlay from "../../layout/overlay";
 
-const Guide = () => {
-  const fileUploadHandler = (event) => {
+const UploadPage = ({ onUpload }) => {
+  const uploadFileHandler = async (event) => {
+    const formData = new FormData()
     const file = event.target.files[0];
+    const fileName = event.target.files[0].name
+
+    formData.append("file", file)
+    formData.append("fileName", fileName)
+
+    try {
+      const res = await fetch("http://localhost:3000/youtube-data", formData)
+      console.log(res);
+    } catch (ex) {
+      console.error(ex)
+    }
     console.log(file);
+
     // if (file) {
     //   let data = new FormData();
     //   data.append("file", file);
     //   console.log(data);
     // }
-    // setSelectedFile(event.target.files[0]);
+    onUpload(event.target.files[0]);
   };
   return (
     <div className="App center">
@@ -95,7 +108,7 @@ const Guide = () => {
             id="file-upload"
             type="file"
             name="file-upload"
-            onChange={fileUploadHandler}
+            onChange={uploadFileHandler}
             hidden
           />
         </div>
@@ -104,4 +117,4 @@ const Guide = () => {
   );
 };
 
-export default Guide;
+export default UploadPage;

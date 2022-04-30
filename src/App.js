@@ -3,7 +3,7 @@ import "./App.css";
 import { useState } from "react";
 
 import List from "./components/common/list/list";
-import Guide from "./components/common/guide/guide";
+import UploadPage from "./components/common/uploadPage/uploadPage";
 
 // import placeholderImg from "./yt-placeholder-img.png";
 
@@ -26,10 +26,15 @@ import Guide from "./components/common/guide/guide";
 
 function App() {
   const [selectedFile, setSelectedFile] = useState(false);
+
+  const uploadHandler = (file) => {
+    setSelectedFile(file);
+  };
+  
   if (selectedFile) {
     return <List />;
   } else {
-    return <Guide />;
+    return <UploadPage onUpload={uploadHandler} />;
   }
 }
 
