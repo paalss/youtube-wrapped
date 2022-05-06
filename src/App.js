@@ -4,6 +4,7 @@ import { useState } from "react";
 
 import List from "./components/common/list/list";
 import UploadPage from "./components/common/uploadPage/uploadPage";
+import TestPage from "./components/common/testPage/testPage";
 
 // import placeholderImg from "./yt-placeholder-img.png";
 
@@ -26,11 +27,15 @@ import UploadPage from "./components/common/uploadPage/uploadPage";
 
 function App() {
   const [selectedFile, setSelectedFile] = useState(false);
+  const isTesting = true
 
   const uploadHandler = (file) => {
     setSelectedFile(file);
   };
   
+  if (isTesting) return <TestPage onUpload={uploadHandler} />;
+
+
   if (selectedFile) {
     return <List />;
   } else {
