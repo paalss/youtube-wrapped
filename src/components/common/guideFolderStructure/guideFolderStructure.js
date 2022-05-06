@@ -1,17 +1,40 @@
-import classes from "./guideFolderStructure.module.css"
+import classes from "./guideFolderStructure.module.css";
+import folderIcon from "../../../img/guide/folder.svg";
+import fileIcon from "../../../img/guide/file.svg";
 
 const GuideFolderStructure = () => {
   return (
-    <code className={classes.root}>
-        <pre>
-            Takeout <br />
-            ├── YouTube and YouTube Music <br />
-            │   └── history <br />
-            │       ├── search-history.json <br />
-            │       └── <b>watch-history.json</b> <br />
-            └── archive_browser.html <br />
-        </pre>
-    </code>
+    <div className={classes.root}>
+      <pre>
+        <code>
+          <ul>
+            <li>
+              <img src={folderIcon} alt="" /> Takeout
+            </li>
+            <li className={classes.between}>│</li>
+            <li>
+              ├── <img src={folderIcon} alt="" /> YouTube and YouTube Music
+            </li>
+            <li className={classes.between}>│   │</li>
+            <li>
+              │   └── <img src={folderIcon} alt="" /> history
+            </li>
+            <li className={classes.between}>│       │</li>
+            <li>
+              │       ├── <img src={fileIcon} alt="" /> search-history.json
+            </li>
+            <li className={classes.between}>│       │</li>
+            <li>
+              │       └── <img src={fileIcon} alt="" /> watch-history.json
+            </li>
+            <li className={classes.between}>│</li>
+            <li>
+              └── <img src={fileIcon} alt="" /> archive_browser.html
+            </li>
+          </ul>
+        </code>
+      </pre>
+    </div>
   );
 };
 
