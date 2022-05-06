@@ -4,25 +4,12 @@ import Overlay from "../../layout/overlay";
 
 const TestPage = ({ onUpload }) => {
   const uploadFileHandler = async (event) => {
-    const formData = new FormData();
-    const file = event.target.files[0];
-    const fileName = event.target.files[0].name;
-
-    formData.append("file", file);
-    formData.append("fileName", fileName);
-
-    fetch("../../../php/upload.php")
+    // fetch("../../../php/upload.php", {
+    fetch("http://yt-wrapped/src/php/upload.php")
       .then((res) => res.json())
-      .then((res) => {
-        console.log("halla");
-      });
+      .then((res) => console.log(res));
 
-    // if (file) {
-    //   let data = new FormData();
-    //   data.append("file", file);
-    //   console.log(data);
-    // }
-    onUpload(event.target.files[0]);
+    // onUpload(event.target.files[0]);
   };
   return (
     <div className="App center">
@@ -31,7 +18,7 @@ const TestPage = ({ onUpload }) => {
       </header>
       <Overlay>
         <div className="buttons">
-          <label htmlFor="file-upload">Upload watch-history.json</label>
+          <label htmlFor="file-upload">Upload file</label>
           <input
             id="file-upload"
             type="file"

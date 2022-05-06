@@ -1,11 +1,24 @@
 # work in progress!
 
 
+## open site locally
 
-```
+### Start frontend
+In repo root folder:
+```bash
 npm i
 npm start
 ```
+
+### Start backend
+Run apache with port number `80`
+
+using MAMP pro:
+1. Add new virtual host
+2. Set host name to "yt-wrapped"
+3. Set document root to repo root directory, click "next"
+4. Start Apache server
+
 
 ## TODO
 - Ordne Filopplasting
