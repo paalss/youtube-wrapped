@@ -50,7 +50,7 @@ const UploadPage = ({ onUpload }) => {
         </p>
       </header>
       <Overlay>
-        <h2>1. Request it from Google Takeout</h2>
+        <h2>1. Request watch history</h2>
         <p>
           Go to <a href="https://takeout.google.com/">takeout.google.com</a>
         </p>
@@ -97,7 +97,7 @@ const UploadPage = ({ onUpload }) => {
           folder.
         </p>
         <p>
-          <b>Extract/unzip</b> the compressed folder, which should reveal the
+          <b>Extract/unzip</b> the compressed folder. It should reveal the
           following files &amp; folders:
         </p>
         <GuideFolderStructure />
