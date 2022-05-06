@@ -14,14 +14,7 @@
       const upload = () => {
         console.log("upload!!");
         // fetch("./src/php/upload.php")
-        fetch("http://yt-wrapped/src/php/upload.php", {
-          // headers: "Access-Control-Allow-Origin",
-          // mode: 'no-cors', // no-cors, *cors, same-origin
-          // credentials: 'same-origin'
-          // headers: {
-          //   'Content-Type': 'text/plain'
-          // }
-        })
+        fetch("http://yt-wrapped/src/php/upload.php")
           .then((res) => res.json())
           .then((res) => console.log(res));
       };

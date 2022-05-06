@@ -11,13 +11,13 @@ npm start
 ```
 
 ### Start backend
-Run apache with port number `80`
 
-using MAMP pro:
-1. Add new virtual host
-2. Set host name to "yt-wrapped"
-3. Set document root to repo root directory, click "next"
-4. Start Apache server
+Using MAMP pro
+1. Add new virtual host, set a name
+2. Set document root to repo root directory, click "next"
+3. Right-click and select open host in browser. When browser window opens, copy the current URL to your clipboard 
+4. Edit `src/components/common/uploadPage/uploadPage.js` so that fetch URL is set to the URL you copied
+5. Start Apache server
 
 
 ## TODO
