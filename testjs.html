@@ -14,7 +14,8 @@
       const upload = () => {
         console.log("upload!!");
         // fetch("./src/php/upload.php")
-        fetch("http://yt-wrapped/src/php/upload.php")
+        // fetch("http://yt-wrapped/src/php/upload.php") // MAMP url
+        fetch("http://localhost/sider/annet/youtube-wrapped/src/php/upload.php") // XAMPP url
           .then((res) => res.json())
           .then((res) => console.log(res));
       };

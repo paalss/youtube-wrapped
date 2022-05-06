@@ -12,13 +12,17 @@ npm start
 
 ### Start backend
 
-Using MAMP pro
+Using MAMP
 1. Add new virtual host, set a name
 2. Set document root to repo root directory, click "next"
-3. Right-click and select open host in browser. When browser window opens, copy the current URL to your clipboard 
-4. Edit `src/components/common/uploadPage/uploadPage.js` so that fetch URL is set to the URL you copied
-5. Start Apache server
+3. Start Apache server
+4. Right-click and select open host in browser. When browser window opens with directories, navigate to `src/php/upload.php` , copy the current URL to your clipboard 
+5. In `src/components/common/uploadPage/uploadPage.js` there's a `fetch`-function. Paste your URL as its first parameter. Like so: `fetch("your-url")` 
 
+Using XAMPP
+1. Start Apache server
+2. Open browser and navigate to `src/php/upload.php`. Copy the URL
+3. In `src/components/common/uploadPage/uploadPage.js` there's a `fetch`-function. Paste your URL as its first parameter. Like so: `fetch("your-url")` 
 
 ## TODO
 - Ordne Filopplasting
