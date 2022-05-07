@@ -4,13 +4,27 @@ import Overlay from "../../layout/overlay";
 
 const TestPage = ({ onUpload }) => {
   const uploadFileHandler = async (event) => {
-    // fetch("../../../php/upload.php", {
-    fetch("http://yt-wrapped/src/php/upload.php")
-      .then((res) => res.json())
-      .then((res) => console.log(res));
+    const formData = new FormData();
+    const file = event.target.files[0];
+    const fileName = event.target.files[0].name;
+
+    formData.append("file", file);
+    formData.append("fileName", fileName);
+
+    // fetch("http://yt-wrapped/src/php/upload.php")
+    fetch(
+      "http://localhost/sider/annet/youtube-wrapped/src/php/upload.php",
+      {
+        method: "POST",
+        body: formData,
+      }
+        .then((res) => res.json())
+        .then((res) => console.log(res))
+    );
 
     // onUpload(event.target.files[0]);
   };
+
   return (
     <div className="App center">
       <header>
