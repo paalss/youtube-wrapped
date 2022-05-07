@@ -16,6 +16,7 @@ header("Access-Control-Allow-Origin: $http_origin");
 $data = $_POST['fileName']; // testdata.json
 // $data = $_POST['lastModified']; // 1650031382950
 // $data = $_POST['file']; // undefined index
+// $data = $_POST['val']; // undefined index
 // $data = [{filename: $_POST['fileName'] ee: $_POST['ee']}];
 
 

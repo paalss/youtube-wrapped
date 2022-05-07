@@ -8,10 +8,7 @@
     <title>Document</title>
   </head>
   <body>
-    <form
-      method="post"
-      enctype="multipart/form-data"
-    >
+    <form method="post" enctype="multipart/form-data">
       <!-- <label for="title">Title</label>
       <input type="text" id="title" /> -->
       <label for="ee">EE</label>
@@ -22,25 +19,29 @@
       const upload = () => {
         const formData = new FormData();
 
-        formData.append("file", event.target.files[0]);
+        formData.append("val", document.getElementById("ee").files[0]); // undefined index
+        formData.append("file", event.target.files[0]); // undefined index
         formData.append("fileName", event.target.files[0].name); // kan sendes til PHP
-        formData.append("lastModified", event.target.files[0].lastModified) // kan sendes til PHP
+        formData.append("lastModified", event.target.files[0].lastModified); // kan sendes til PHP
 
-        const xamppUrl = "http://localhost/sider/annet/youtube-wrapped/src/php/upload.php"
-        const mampUrl = "http://yt-wrapped/src/php/upload.php"
+        const xamppUrl =
+          "http://localhost/sider/annet/youtube-wrapped/src/php/upload.php";
+        const mampUrl = "http://yt-wrapped/src/php/upload.php";
 
         // console.log("upload!!");
         // console.log(formData);
         // fetch("./src/php/upload.php")
-        fetch(
-          xamppUrl,
-          {
+
+        try {
+          fetch(xamppUrl, {
             method: "POST",
             body: formData,
-          }
-        ) // XAMPP url
-          .then((res) => res.json())
-          .then((res) => console.log(res));
+          })
+            .then((res) => res.json())
+            .then((res) => console.log(res));
+        } catch (error) {
+          console.error(error);
+        }
       };
     </script>
   </body>
