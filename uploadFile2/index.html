@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>uploadfile2</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="shortcut icon" href="#" />
+    <style>
+      span {
+        margin-left: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Custom Upload button JS+CSS+HTML and FILE Upload in PHP</h1>
+      <button id="virtual-file">Choose File</button
+      ><span id="file-text">No File chosen</span><br /><br />
+      <form class="my-form" id="my-form">
+        <input type="file" id="uFile" />
+        <button type="submit" id="upload">Upload Files</button>
+      </form>
+    </main>
+
+    <script type="text/javascript">
+      const myForm = document.getElementById("my-form");
+      const realFile = document.getElementById("uFile");
+      const virtualFile = document.getElementById("virtual-file");
+      const spanText = document.getElementById("file-text");
+
+      virtualFile.addEventListener("click", function () {
+        realFile.click();
+        realFile.addEventListener("change", function () {
+          if (realFile.value) {
+            spanText.innerHTML = realFile.value;
+          } else {
+            spanText.innerHTML = "No file chosen yet.";
+          }
+        });
+      });
+      myForm.addEventListener("submit", (e) => {
+        e.preventDefault();
+        const endpoint =
+          "http://localhost/sider/annet/youtube-wrapped/uploadFile2/uploadTest.php";
+        const formData = new FormData();
+        formData.append("uFile", uFile.files[0]);
+        fetch(endpoint, {
+          method: "post",
+          body: formData,
+        })
+          .catch(console.error)
+          .then((res) => console.log(res));
+      });
+    </script>
+  </body>
+</html>
