@@ -23,22 +23,23 @@
         formData.append("fileName", event.target.files[0].name); // kan sendes til PHP
         formData.append("lastModified", event.target.files[0].lastModified); // kan sendes til PHP
 
-        const xamppUrl =
+        const url =
           "http://localhost/sider/annet/youtube-wrapped/src/php/upload.php";
-        const mampUrl = "http://yt-wrapped/src/php/upload.php";
+        // const url = "http://yt-wrapped/src/php/upload.php";
 
         console.log("upload!!");
         // console.log(formData);
 
         try {
-          fetch(xamppUrl, {
+          fetch(url, {
             method: "POST",
             body: formData,
           })
             .then((res) => res.json())
-            .then((res) => console.log(res));
+            .then((res) => console.log(res))
+            .catch((err) => console.error("err:", err));
         } catch (error) {
-          console.error(error);
+          console.error("error:", error);
         }
       };
     </script>
