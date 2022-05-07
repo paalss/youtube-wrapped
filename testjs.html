@@ -1,4 +1,3 @@
-<!-- run file in a server -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -9,8 +8,8 @@
   </head>
   <body>
     <form method="post" enctype="multipart/form-data">
-      <!-- <label for="title">Title</label>
-      <input type="text" id="title" /> -->
+      <label for="title">Title</label>
+      <input type="text" id="title" name="title" />
       <label for="ee">EE</label>
       <input type="file" name="ee" id="ee" onchange="upload()" />
       <!-- <input type="submit" value="submit"> -->
@@ -28,9 +27,8 @@
           "http://localhost/sider/annet/youtube-wrapped/src/php/upload.php";
         const mampUrl = "http://yt-wrapped/src/php/upload.php";
 
-        // console.log("upload!!");
+        console.log("upload!!");
         // console.log(formData);
-        // fetch("./src/php/upload.php")
 
         try {
           fetch(xamppUrl, {
