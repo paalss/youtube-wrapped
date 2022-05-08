@@ -41,6 +41,12 @@ ES7+ React snippets addon
 
 https://github.com/dsznajder/vscode-react-javascript-snippets/blob/HEAD/docs/Snippets.md
 
+
+JS PHP kommunikasjon kilder:
+- uploadFile: https://time2hack.com/upload-files-to-php-backend-using-fetch-formdata/ 
+- uploadFile2: https://www.sitepoint.com/community/t/file-uploading-with-fetch-and-php/357513
+- uploadFile3: https://gist.github.com/jesperorb/a6c12f7d4418a167ea4b3454d4f8fb61#submitting-a-form-with-javascript
+
 ### `rafcp`
 ```js
 import React from 'react'
