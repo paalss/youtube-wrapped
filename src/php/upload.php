@@ -32,11 +32,13 @@ try {
     throw new RuntimeException('Exceeded filesize limit.');
   }
 
+  $tmpName = $_FILES['uploadFile']['tmp_name'];
+
   // DO NOT TRUST $_FILES['uploadFile']['mime'] VALUE !!
   // Check MIME Type by yourself.
   $finfo = new finfo(FILEINFO_MIME_TYPE);
   if (false === $ext = array_search(
-    $finfo->file($_FILES['uploadFile']['tmp_name']),
+    $finfo->file($tmpName),
     array(
       'json' => 'application/json',
       // 'jpg' => 'image/jpeg',
@@ -51,22 +53,35 @@ try {
   // You should name it uniquely.
   // DO NOT USE $_FILES['uploadFile']['name'] WITHOUT ANY VALIDATION !!
   // On this example, obtain safe unique name from its binary data.
+
+  $shaName = sha1_file($tmpName); // c3474d052c5a43b095f836a60ff90df992344f18
+
+  $filename = basename($tmpName); // php1F27.tmp
+
   if (!move_uploaded_file(
-    $_FILES['uploadFile']['tmp_name'],
-    sprintf('../youtube-data/%s.%s',
-      sha1_file($_FILES['uploadFile']['tmp_name']),
+    $tmpName,
+    sprintf(
+      '../youtube-data/%s.%s',
+      "watch-history",
       $ext
     )
+    // sprintf(
+    //   '../youtube-data/%s.%s',
+    //   $filename,
+    //   $ext
+    // )
   )) {
     throw new RuntimeException('Failed to move uploaded file.');
   }
+
   $response = array(
     "status" => "success",
+    // "fileContent" => $fileContentJson,
+    "fileName" => $shaName,
     "error" => false,
     "message" => "File uploaded successfully"
   );
   echo json_encode($response);
-
 } catch (RuntimeException $e) {
   $response = array(
     "status" => "error",

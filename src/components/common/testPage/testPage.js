@@ -12,18 +12,17 @@ const TestPage = ({ onUpload }) => {
     // const url = "http://yt-wrapped/src/php/upload.php";
 
     try {
-      const response = await fetch(url, {
+      let response = await fetch(url, {
         method: "POST",
         body: formData,
       });
 
-      const feedback = await response.json();
-      console.log(feedback);
+      response = await response.json();
+      console.log(response.status);
+      onUpload(true)
     } catch (error) {
       console.error(error);
     }
-
-    // onUpload()
   };
 
   return (

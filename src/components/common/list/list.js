@@ -1,7 +1,6 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
 // import data from "./youtube-data/watch-history.json";
-import data from "../../../youtube-data/testdata.json";
-
+import data from "../../../youtube-data/watch-history.json";
 
 const findAllYears = (data) => {
   let years = [];
@@ -59,9 +58,10 @@ const getThumbnailUrl = (url) => {
 };
 
 const List = () => {
-  const [chosenYear, setChosenYear] = useState(2017);
+  // const data = lazy(() => import('../../../youtube-data/testdata.json'));
+  const [chosenYear, setChosenYear] = useState(2021);
   const [loadAmount, setLoadAmount] = useState(5);
-  
+
   const years = findAllYears(data);
   const thisYearData = filterByYear(data, chosenYear);
   const watchAmountData = calculateWatchAmount(thisYearData);
@@ -81,62 +81,62 @@ const List = () => {
 
   return (
     <div className="App">
-        <header>
-          <h1>Your most watched videos</h1>
-          <h2>
-            Year{" "}
-            <select
-              name="year"
-              id="yearSelect"
-              onChange={setYearHandler}
-              value={chosenYear}
-            >
-              {years.map((y) => (
-                <option value={y} key={y}>
-                  {y}
-                </option>
-              ))}
-            </select>
-          </h2>
-        </header>
+      <header>
+        <h1>Your most watched videos</h1>
+        <h2>
+          Year{" "}
+          <select
+            name="year"
+            id="yearSelect"
+            onChange={setYearHandler}
+            value={chosenYear}
+          >
+            {years.map((y) => (
+              <option value={y} key={y}>
+                {y}
+              </option>
+            ))}
+          </select>
+        </h2>
+      </header>
 
-        <ol className="overlay">
-          {loadedData.map((e) => {
-            const thubnailUrl = getThumbnailUrl(e.titleUrl);
-            return (
-              <li key={e.time} className="videoitem">
-                <div className="frame">
-                  <img src={thubnailUrl} alt="video" loading="lazy" />
-                </div>
-                <div className="text">
-                  <h3>
-                    {e.titleUrl ? (
-                      <a href={e.titleUrl} className="videolink">
-                        {e.title}
-                      </a>
-                    ) : (
-                      e.title
-                    )}
-                  </h3>
-                  {e.subtitles?.map((s) => (
-                    <p key={s.url}>
-                      <a href={s.url}>{s.name}</a>
-                    </p>
-                  ))}
-                  <p>
-                    Watched {e.watchAmount}{" "}
-                    {e.watchAmount === 1 ? "time" : "times"}
+      <ol className="overlay">
+        {loadedData.map((e) => {
+          const thubnailUrl = getThumbnailUrl(e.titleUrl);
+          return (
+            <li key={e.time} className="videoitem">
+              <div className="frame">
+                <img src={thubnailUrl} alt="video" loading="lazy" />
+              </div>
+              <div className="text">
+                <h3>
+                  {e.titleUrl ? (
+                    <a href={e.titleUrl} className="videolink">
+                      {e.title}
+                    </a>
+                  ) : (
+                    e.title
+                  )}
+                </h3>
+                {e.subtitles?.map((s) => (
+                  <p key={s.url}>
+                    <a href={s.url}>{s.name}</a>
                   </p>
-                </div>
-              </li>
-            );
-          })}
-        </ol>
-        <div className="buttons">
-          <button onClick={loadMoreHandler}>Load more</button>
-        </div>
+                ))}
+                <p>
+                  Watched {e.watchAmount}{" "}
+                  {e.watchAmount === 1 ? "time" : "times"}
+                </p>
+              </div>
+            </li>
+          );
+        })}
+      </ol>
+      <div className="buttons">
+        <button onClick={loadMoreHandler}>Load more</button>
       </div>
-  )
-}
+    </div>
+  );
+};
 
-export default List
+export default List;

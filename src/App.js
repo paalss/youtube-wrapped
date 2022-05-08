@@ -3,7 +3,7 @@ import "./App.css";
 import { useState } from "react";
 
 import List from "./components/common/list/list";
-import UploadPage from "./components/common/uploadPage/uploadPage";
+// import UploadPage from "./components/common/uploadPage/uploadPage";
 import TestPage from "./components/common/testPage/testPage";
 
 // import placeholderImg from "./yt-placeholder-img.png";
@@ -26,20 +26,19 @@ import TestPage from "./components/common/testPage/testPage";
 */
 
 function App() {
-  const [selectedFile, setSelectedFile] = useState(false);
-  const isTesting = true
+  const [isFileUploaded, setIsFileUploaded] = useState(false);
+  // const isTesting = true;
 
-  const uploadHandler = (file) => {
-    setSelectedFile(file);
+  const uploadHandler = (bool) => {
+    setIsFileUploaded(bool);
   };
-  
-  if (isTesting) return <TestPage onUpload={uploadHandler} />;
 
+  // if (isTesting) return <TestPage onUpload={uploadHandler} />;
 
-  if (selectedFile) {
+  if (isFileUploaded) {
     return <List />;
   } else {
-    return <UploadPage onUpload={uploadHandler} />;
+    return <TestPage onUpload={uploadHandler} />;
   }
 }
 

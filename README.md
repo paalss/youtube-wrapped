@@ -31,6 +31,7 @@ Using XAMPP
 - evt. lag en versjon med mest sette youtubere
 - evt. DEMO / playground som viser hvordan appen funker?
 - prøv vscode debugging
+- sjekk om det er best å lagre med tmp_name eller bare name
 
 * * * * * * * *
 ---------------
