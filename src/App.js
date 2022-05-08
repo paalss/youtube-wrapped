@@ -3,8 +3,8 @@ import "./App.css";
 import { useState } from "react";
 
 import List from "./components/common/list/list";
-// import UploadPage from "./components/common/uploadPage/uploadPage";
-import TestPage from "./components/common/testPage/testPage";
+import UploadPage from "./components/common/uploadPage/uploadPage";
+// import UploadPage from "./components/common/testPage/testPage";
 
 // import placeholderImg from "./yt-placeholder-img.png";
 
@@ -27,18 +27,15 @@ import TestPage from "./components/common/testPage/testPage";
 
 function App() {
   const [isFileUploaded, setIsFileUploaded] = useState(false);
-  // const isTesting = true;
 
   const uploadHandler = (bool) => {
     setIsFileUploaded(bool);
   };
 
-  // if (isTesting) return <TestPage onUpload={uploadHandler} />;
-
   if (isFileUploaded) {
     return <List />;
   } else {
-    return <TestPage onUpload={uploadHandler} />;
+    return <UploadPage onUpload={uploadHandler} />;
   }
 }
 

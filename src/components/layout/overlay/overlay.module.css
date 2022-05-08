@@ -12,7 +12,7 @@
   max-width: 100%;
 }
 
-.root p {
+.root>p {
   --spacing: 40px;
   margin-left: var(--spacing);
   margin-right: var(--spacing);

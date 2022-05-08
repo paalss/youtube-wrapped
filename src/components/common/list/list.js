@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 // import data from "./youtube-data/watch-history.json";
 import data from "../../../youtube-data/watch-history.json";
+import Overlay from "../../layout/overlay";
 
 const findAllYears = (data) => {
   let years = [];
@@ -100,38 +101,40 @@ const List = () => {
         </h2>
       </header>
 
-      <ol className="overlay">
-        {loadedData.map((e) => {
-          const thubnailUrl = getThumbnailUrl(e.titleUrl);
-          return (
-            <li key={e.time} className="videoitem">
-              <div className="frame">
-                <img src={thubnailUrl} alt="video" loading="lazy" />
-              </div>
-              <div className="text">
-                <h3>
-                  {e.titleUrl ? (
-                    <a href={e.titleUrl} className="videolink">
-                      {e.title}
-                    </a>
-                  ) : (
-                    e.title
-                  )}
-                </h3>
-                {e.subtitles?.map((s) => (
-                  <p key={s.url}>
-                    <a href={s.url}>{s.name}</a>
+      <Overlay>
+        <ol>
+          {loadedData.map((e) => {
+            const thubnailUrl = getThumbnailUrl(e.titleUrl);
+            return (
+              <li key={e.time} className="videoitem">
+                <div className="frame">
+                  <img src={thubnailUrl} alt="video" loading="lazy" />
+                </div>
+                <div className="text">
+                  <h3>
+                    {e.titleUrl ? (
+                      <a href={e.titleUrl} className="videolink">
+                        {e.title}
+                      </a>
+                    ) : (
+                      e.title
+                    )}
+                  </h3>
+                  {e.subtitles?.map((s) => (
+                    <p key={s.url}>
+                      <a href={s.url}>{s.name}</a>
+                    </p>
+                  ))}
+                  <p>
+                    Watched {e.watchAmount}{" "}
+                    {e.watchAmount === 1 ? "time" : "times"}
                   </p>
-                ))}
-                <p>
-                  Watched {e.watchAmount}{" "}
-                  {e.watchAmount === 1 ? "time" : "times"}
-                </p>
-              </div>
-            </li>
-          );
-        })}
-      </ol>
+                </div>
+              </li>
+            );
+          })}
+        </ol>
+      </Overlay>
       <div className="buttons">
         <button onClick={loadMoreHandler}>Load more</button>
       </div>
