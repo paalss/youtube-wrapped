@@ -8,15 +8,13 @@
   </head>
   <body>
     <form id="form-upload-new">
-      <label for="title">Title</label>
-      <input type="text" id="title" name="title" />
       <label for="uploadedFile">File</label>
-      <input type="file" name="uploadedFile" id="uploadedFile" />
-      <input type="submit" value="submit" />
+      <input type="file" name="uploadedFile" id="uploadedFile" hidden />
     </form>
     <script>
       const form = document.getElementById("form-upload-new");
-      form.addEventListener("submit", async (event) => {
+      const uploadBtn = document.getElementById("uploadedFile");
+      uploadBtn.addEventListener("change", async (event) => {
         event.preventDefault();
         const formData = new FormData(form);
 
