@@ -3,26 +3,27 @@ import React from "react";
 import Overlay from "../../layout/overlay";
 
 const TestPage = ({ onUpload }) => {
-  const uploadFileHandler = async (event) => {
-    const formData = new FormData();
-    const file = event.target.files[0];
-    const fileName = event.target.files[0].name;
+  const uploadFileHandler = async () => {
+    const form = document.getElementById("form-upload-new");
+    const formData = new FormData(form);
 
-    formData.append("file", file);
-    formData.append("fileName", fileName);
+    const url =
+      "http://localhost/sider/annet/youtube-wrapped/src/php/upload.php";
+    // const url = "http://yt-wrapped/src/php/upload.php";
 
-    // fetch("http://yt-wrapped/src/php/upload.php")
-    fetch(
-      "http://localhost/sider/annet/youtube-wrapped/src/php/upload.php",
-      {
+    try {
+      const response = await fetch(url, {
         method: "POST",
         body: formData,
-      }
-        .then((res) => res.json())
-        .then((res) => console.log(res))
-    );
+      });
 
-    // onUpload(event.target.files[0]);
+      const feedback = await response.json();
+      console.log(feedback);
+    } catch (error) {
+      console.error(error);
+    }
+
+    // onUpload()
   };
 
   return (
@@ -31,16 +32,18 @@ const TestPage = ({ onUpload }) => {
         <h1>TestPage</h1>
       </header>
       <Overlay>
-        <div className="buttons">
-          <label htmlFor="file-upload">Upload file</label>
-          <input
-            id="file-upload"
-            type="file"
-            name="file-upload"
-            onChange={uploadFileHandler}
-            hidden
-          />
-        </div>
+        <form id="form-upload-new">
+          <div className="buttons">
+            <label htmlFor="uploadFile">Upload file</label>
+            <input
+              id="uploadFile"
+              type="file"
+              name="uploadFile"
+              onChange={uploadFileHandler}
+              hidden
+            />
+          </div>
+        </form>
       </Overlay>
     </div>
   );

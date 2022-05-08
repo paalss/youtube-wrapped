@@ -8,15 +8,16 @@
   </head>
   <body>
     <form id="form-upload-new">
-      <label for="uploadedFile">File</label>
-      <input type="file" name="uploadedFile" id="uploadedFile" hidden />
+      <label for="uploadFile">File</label>
+      <input type="file" name="uploadFile" id="uploadFile" hidden />
     </form>
     <script>
       const form = document.getElementById("form-upload-new");
-      const uploadBtn = document.getElementById("uploadedFile");
+      const uploadBtn = document.getElementById("uploadFile");
       uploadBtn.addEventListener("change", async (event) => {
         event.preventDefault();
         const formData = new FormData(form);
+        console.log(formData);
 
         const url =
           "http://localhost/sider/annet/youtube-wrapped/src/php/upload.php";

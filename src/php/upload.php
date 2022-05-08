@@ -8,14 +8,14 @@ try {
   // Undefined | Multiple Files | $_FILES Corruption Attack
   // If this request falls under any of them, treat it invalid.
   if (
-    !isset($_FILES['uploadedFile']['error']) ||
-    is_array($_FILES['uploadedFile']['error'])
+    !isset($_FILES['uploadFile']['error']) ||
+    is_array($_FILES['uploadFile']['error'])
   ) {
-    throw new RuntimeException('Invalid parameters.');
+    throw new RuntimeException(json_encode($_FILES['uploadFile']['error']));
   }
 
-  // Check $_FILES['uploadedFile']['error'] value.
-  switch ($_FILES['uploadedFile']['error']) {
+  // Check $_FILES['uploadFile']['error'] value.
+  switch ($_FILES['uploadFile']['error']) {
     case UPLOAD_ERR_OK:
       break;
     case UPLOAD_ERR_NO_FILE:
@@ -28,15 +28,15 @@ try {
   }
 
   // You should also check filesize here. 
-  if ($_FILES['uploadedFile']['size'] > 1000000) {
+  if ($_FILES['uploadFile']['size'] > 1000000) {
     throw new RuntimeException('Exceeded filesize limit.');
   }
 
-  // DO NOT TRUST $_FILES['uploadedFile']['mime'] VALUE !!
+  // DO NOT TRUST $_FILES['uploadFile']['mime'] VALUE !!
   // Check MIME Type by yourself.
   $finfo = new finfo(FILEINFO_MIME_TYPE);
   if (false === $ext = array_search(
-    $finfo->file($_FILES['uploadedFile']['tmp_name']),
+    $finfo->file($_FILES['uploadFile']['tmp_name']),
     array(
       'json' => 'application/json',
       // 'jpg' => 'image/jpeg',
@@ -49,12 +49,12 @@ try {
   }
 
   // You should name it uniquely.
-  // DO NOT USE $_FILES['uploadedFile']['name'] WITHOUT ANY VALIDATION !!
+  // DO NOT USE $_FILES['uploadFile']['name'] WITHOUT ANY VALIDATION !!
   // On this example, obtain safe unique name from its binary data.
   if (!move_uploaded_file(
-    $_FILES['uploadedFile']['tmp_name'],
+    $_FILES['uploadFile']['tmp_name'],
     sprintf('../youtube-data/%s.%s',
-      sha1_file($_FILES['uploadedFile']['tmp_name']),
+      sha1_file($_FILES['uploadFile']['tmp_name']),
       $ext
     )
   )) {
