@@ -7,41 +7,35 @@
     <title>Document</title>
   </head>
   <body>
-    <form method="post" enctype="multipart/form-data">
+    <form id="form-upload-new">
       <label for="title">Title</label>
       <input type="text" id="title" name="title" />
-      <label for="ee">EE</label>
-      <input type="file" name="ee" id="ee" onchange="upload()" />
-      <!-- <input type="submit" value="submit"> -->
+      <label for="uploadedFile">File</label>
+      <input type="file" name="uploadedFile" id="uploadedFile" />
+      <input type="submit" value="submit" />
     </form>
     <script>
-      const upload = () => {
-        const formData = new FormData();
-
-        formData.append("val", document.getElementById("ee").files[0]); // undefined index
-        formData.append("file", event.target.files[0]); // undefined index
-        formData.append("fileName", event.target.files[0].name); // kan sendes til PHP
-        formData.append("lastModified", event.target.files[0].lastModified); // kan sendes til PHP
+      const form = document.getElementById("form-upload-new");
+      form.addEventListener("submit", async (event) => {
+        event.preventDefault();
+        const formData = new FormData(form);
 
         const url =
           "http://localhost/sider/annet/youtube-wrapped/src/php/upload.php";
         // const url = "http://yt-wrapped/src/php/upload.php";
 
-        console.log("upload!!");
-        // console.log(formData);
-
         try {
-          fetch(url, {
+          const response = await fetch(url, {
             method: "POST",
             body: formData,
-          })
-            .then((res) => res.json())
-            .then((res) => console.log(res))
-            .catch((err) => console.error("err:", err));
+          });
+
+          const feedback = await response.text();
+          console.log(feedback);
         } catch (error) {
-          console.error("error:", error);
+          console.error(error);
         }
-      };
+      });
     </script>
   </body>
 </html>
