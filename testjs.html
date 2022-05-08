@@ -30,7 +30,7 @@
             body: formData,
           });
 
-          const feedback = await response.text();
+          const feedback = await response.json();
           console.log(feedback);
         } catch (error) {
           console.error(error);
