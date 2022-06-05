@@ -30,7 +30,7 @@ function App() {
   };
 
   if (uploadedJson) {
-    return <List items={uploadedJson} />;
+    return <List data={uploadedJson} />;
   } else {
     return <UploadPage onUpload={uploadHandler} />;
   }

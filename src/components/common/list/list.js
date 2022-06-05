@@ -58,7 +58,7 @@ const getThumbnailUrl = (url) => {
   return `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`;
 };
 
-const List = ({items: data}) => {
+const List = ({ data }) => {
   const [chosenYear, setChosenYear] = useState(2021);
   const [loadAmount, setLoadAmount] = useState(5);
 
@@ -82,22 +82,24 @@ const List = ({items: data}) => {
   return (
     <div className="App">
       <header>
-        <h1>Your most watched videos</h1>
-        <h2>
-          Year{" "}
-          <select
-            name="year"
-            id="yearSelect"
-            onChange={setYearHandler}
-            value={chosenYear}
-          >
-            {years.map((y) => (
-              <option value={y} key={y}>
-                {y}
-              </option>
-            ))}
-          </select>
-        </h2>
+        <div className="overlaySpacing">
+          <h1>Your most watched videos</h1>
+          <h2>
+            Year{" "}
+            <select
+              name="year"
+              id="yearSelect"
+              onChange={setYearHandler}
+              value={chosenYear}
+            >
+              {years.map((y) => (
+                <option value={y} key={y}>
+                  {y}
+                </option>
+              ))}
+            </select>
+          </h2>
+        </div>
       </header>
 
       <Overlay>

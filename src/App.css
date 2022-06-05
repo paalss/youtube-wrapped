@@ -17,8 +17,12 @@ body {
 header {
   padding: 100px;
   background-color: #fff;
-  padding: 42px 5% 80px 5%;
   box-shadow: rgba(0, 0, 0, 0.281) 0px 1px 4px;
+}
+
+header .overlaySpacing {
+  max-width: 1000px;
+  margin: -46px auto 30px auto;
 }
 
 .center {
@@ -89,8 +93,6 @@ ol.overlay {
   list-style-type: none;
   padding: 0;
 }
-
-
 
 li.videoitem {
   display: flex;
