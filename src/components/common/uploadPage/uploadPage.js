@@ -1,11 +1,12 @@
 import Overlay from "../../layout/overlay";
 
-const UploadPage = () => {
+const UploadPage = ({onUpload}) => {
   const showFile = (e) => {
     const reader = new FileReader();
     reader.onload = async (e) => {
       const text = e.target.result;
-      alert(text);
+      const json = JSON.parse(text)
+      onUpload(json)
     };
     reader.readAsText(e.target.files[0]);
   };

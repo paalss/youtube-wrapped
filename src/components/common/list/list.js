@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 // import data from "./youtube-data/watch-history.json";
-import data from "../../../youtube-data/watch-history.json";
+// import data from "../../../youtube-data/watch-history.json";
 import Overlay from "../../layout/overlay";
 
 const findAllYears = (data) => {
@@ -58,8 +58,7 @@ const getThumbnailUrl = (url) => {
   return `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`;
 };
 
-const List = () => {
-  // const data = lazy(() => import('../../../youtube-data/testdata.json'));
+const List = ({items: data}) => {
   const [chosenYear, setChosenYear] = useState(2021);
   const [loadAmount, setLoadAmount] = useState(5);
 
