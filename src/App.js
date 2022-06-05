@@ -4,9 +4,6 @@ import { useState } from "react";
 
 import List from "./components/common/list/list";
 import UploadPage from "./components/common/uploadPage/uploadPage";
-// import UploadPage from "./components/common/testPage/testPage";
-
-// import placeholderImg from "./yt-placeholder-img.png";
 
 /*
 
