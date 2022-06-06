@@ -1,6 +1,38 @@
 import React, { useState } from "react";
-import data from "../../../youtube-data/watch-history.json";
+import videoList from "../../../youtube-data/testdata.json";
 import Overlay from "../../layout/overlay";
+import ChannelListElement from "./channelListElement";
+import VideoListElement from "./videoListElement";
+
+/*
+
+[{
+  "title": "Grapefruit Bush",
+  "titleUrl": "https://www.youtube.com/channel/UCbzUrRdSM5s-bHjesDaeOJA"
+}]
+
+*/
+
+const convertToChannelList = (videoList) => {
+  let channelList = [];
+  videoList.forEach((element) => {
+    if (element.subtitles === undefined) {
+      console.warn(
+        "The element with the title: '",
+        element.title,
+        "' is missing subtitles property"
+      );
+      return;
+    }
+    const newElement = {
+      title: element.subtitles[0].name,
+      titleUrl: element.subtitles[0].url,
+      time: element.time
+    };
+    channelList.push(newElement);
+  });
+  return channelList;
+};
 
 const findAllYears = (data) => {
   let years = [];
@@ -43,31 +75,35 @@ const calculateWatchAmount = (data) => {
 };
 
 const removeUnvantedInfo = (data) => {
-  const dataWithCleanTitle = data.map((e) => ({
+  const elementWithCleanTitle = data.map((e) => ({
     ...e,
     title: e.title.substring(8), // fjerner "watched" fra title
   }));
-  return dataWithCleanTitle.filter(
+  return elementWithCleanTitle.filter(
     (e) => !e.title.includes("a video that has been removed")
   );
-};
-
-const getThumbnailUrl = (url) => {
-  const videoId = url && url.substring(url.indexOf("\u003d") + 1);
-  return `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`;
 };
 
 const List = () => {
   const [chosenYear, setChosenYear] = useState(2021);
   const [loadAmount, setLoadAmount] = useState(5);
-  const [chosenType, setChosenType] = useState(null);
+  const [chosenType, setChosenType] = useState("channel");
 
-  const years = findAllYears(data);
-  const thisYearData = filterByYear(data, chosenYear);
-  const watchAmountData = calculateWatchAmount(thisYearData);
-  const finishedData = removeUnvantedInfo(watchAmountData);
+  let years, thisYearList;
+  let watchAmountList, finishedList;
+  years = findAllYears(videoList);
+  thisYearList = filterByYear(videoList, chosenYear);
 
-  const loadedData = getFirstEntries(finishedData, loadAmount);
+  if (chosenType === "video") {
+    watchAmountList = calculateWatchAmount(thisYearList);
+    finishedList = removeUnvantedInfo(watchAmountList);
+  } else if (chosenType === "channel") {
+    const channelList = convertToChannelList(videoList);
+    watchAmountList = calculateWatchAmount(channelList);
+    finishedList = watchAmountList;
+  }
+
+  const loadedData = getFirstEntries(finishedList, loadAmount);
 
   const loadMoreHandler = () => {
     setLoadAmount(loadedData.length + 10);
@@ -121,36 +157,12 @@ const List = () => {
 
       <Overlay>
         <ol>
-          {loadedData.map((e) => {
-            const thubnailUrl = getThumbnailUrl(e.titleUrl);
-            return (
-              <li key={e.time} className="videoitem">
-                <div className="frame">
-                  <img src={thubnailUrl} alt="video" loading="lazy" />
-                </div>
-                <div className="text">
-                  <h3>
-                    {e.titleUrl ? (
-                      <a href={e.titleUrl} className="videolink">
-                        {e.title}
-                      </a>
-                    ) : (
-                      e.title
-                    )}
-                  </h3>
-                  {e.subtitles?.map((s) => (
-                    <p key={s.url}>
-                      <a href={s.url}>{s.name}</a>
-                    </p>
-                  ))}
-                  <p>
-                    Watched {e.watchAmount}{" "}
-                    {e.watchAmount === 1 ? "time" : "times"}
-                  </p>
-                </div>
-              </li>
-            );
-          })}
+          {chosenType === "video" &&
+            loadedData.map((e) => <VideoListElement key={e.time} e={e} />)}
+          {chosenType === "channel" &&
+            loadedData.map((e) => {
+              return <ChannelListElement key={e.time} e={e} />;
+            })}
         </ol>
       </Overlay>
       <div className="buttons">

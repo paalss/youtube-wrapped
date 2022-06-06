@@ -10,13 +10,12 @@ npm start
 ```
 
 ## TODO
-- Ordne Filopplasting
+- bring tilbake guide
+- lag en versjon med mest sette youtubere
 - expand minify images guide
 - evt. støtte for HTML filer. Konverter det til JSON
-- evt. lag en versjon med mest sette youtubere
 - evt. DEMO / playground som viser hvordan appen funker?
 - prøv vscode debugging
-- sjekk om det er best å lagre med tmp_name eller bare name
 
 * * * * * * * *
 ---------------
