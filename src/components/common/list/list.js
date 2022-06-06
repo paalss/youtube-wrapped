@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-// import data from "./youtube-data/watch-history.json";
-// import data from "../../../youtube-data/watch-history.json";
+import data from "../../../youtube-data/watch-history.json";
 import Overlay from "../../layout/overlay";
 
 const findAllYears = (data) => {
@@ -58,9 +57,10 @@ const getThumbnailUrl = (url) => {
   return `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`;
 };
 
-const List = ({ data }) => {
+const List = () => {
   const [chosenYear, setChosenYear] = useState(2021);
   const [loadAmount, setLoadAmount] = useState(5);
+  const [chosenType, setChosenType] = useState(null);
 
   const years = findAllYears(data);
   const thisYearData = filterByYear(data, chosenYear);
@@ -79,11 +79,28 @@ const List = ({ data }) => {
     setChosenYear(value);
   };
 
+  const setTypeHandler = () => {
+    const selected = document.getElementById("typeSelect");
+    const value = selected.options[selected.selectedIndex].value;
+    setChosenType(value);
+  };
+
   return (
     <div className="App">
       <header>
         <div className="overlaySpacing">
-          <h1>Your most watched videos</h1>
+          <h1>
+            Your most watched{" "}
+            <select
+              name="type"
+              id="typeSelect"
+              onChange={setTypeHandler}
+              value={chosenType}
+            >
+              <option value="video">video</option>
+              <option value="channel">channel</option>
+            </select>
+          </h1>
           <h2>
             Year{" "}
             <select

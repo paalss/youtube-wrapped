@@ -23,13 +23,16 @@ import UploadPage from "./components/common/uploadPage/uploadPage";
 */
 
 function App() {
-  const [uploadedJson, setUploadedJson] = useState(null);
+  const [uploadedJson, setUploadedJson] = useState("test");
 
   const uploadHandler = (json) => {
     setUploadedJson(json);
   };
 
-  if (uploadedJson) {
+  if (uploadedJson==="test") {
+    return <List />
+  }
+  else if (uploadedJson) {
     return <List data={uploadedJson} />;
   } else {
     return <UploadPage onUpload={uploadHandler} />;
