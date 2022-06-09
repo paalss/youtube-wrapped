@@ -156,7 +156,7 @@ const List = ({ data: videoList }) => {
       </header>
 
       <Overlay>
-        <ol>
+        <ol className="videoList">
           {chosenType === "video" &&
             loadedData.map((e) => <VideoListElement key={e.time} e={e} />)}
           {chosenType === "channel" &&

@@ -2,11 +2,11 @@ import React from "react";
 
 const ChannelListElement = ({ e }) => {
   return (
-    <li className="videoitem">
+    <li className="rankedItem">
       <div className="text">
         <h3>
           {e.titleUrl ? (
-            <a href={e.titleUrl} className="videolink">
+            <a href={e.titleUrl} className="itemlink">
               {e.title}
             </a>
           ) : (
