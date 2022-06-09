@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import videoList from "../../../youtube-data/testdata.json";
+// import videoList from "../../../youtube-data/testdata.json";
 import Overlay from "../../layout/overlay";
 import ChannelListElement from "./channelListElement";
 import VideoListElement from "./videoListElement";
@@ -27,7 +27,7 @@ const convertToChannelList = (videoList) => {
     const newElement = {
       title: element.subtitles[0].name,
       titleUrl: element.subtitles[0].url,
-      time: element.time
+      time: element.time,
     };
     channelList.push(newElement);
   });
@@ -84,7 +84,7 @@ const removeUnvantedInfo = (data) => {
   );
 };
 
-const List = () => {
+const List = ({ data: videoList }) => {
   const [chosenYear, setChosenYear] = useState(2021);
   const [loadAmount, setLoadAmount] = useState(5);
   const [chosenType, setChosenType] = useState("channel");

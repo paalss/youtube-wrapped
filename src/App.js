@@ -23,7 +23,7 @@ import UploadPage from "./components/common/uploadPage/uploadPage";
 */
 
 function App() {
-  const [uploadedJson, setUploadedJson] = useState("test");
+  const [uploadedJson, setUploadedJson] = useState();
 
   const uploadHandler = (json) => {
     setUploadedJson(json);
