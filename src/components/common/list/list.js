@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 // import videoList from "../../../youtube-data/testdata.json";
 import Overlay from "../../layout/overlay";
+import UploadBtn from "../uploadPage/uploadBtn";
 import ChannelListElement from "./channelListElement";
 import VideoListElement from "./videoListElement";
 
@@ -84,7 +85,7 @@ const removeUnvantedInfo = (data) => {
   );
 };
 
-const List = ({ data: videoList }) => {
+const List = ({ data: videoList, onUpload }) => {
   const [chosenYear, setChosenYear] = useState(2021);
   const [loadAmount, setLoadAmount] = useState(5);
   const [chosenType, setChosenType] = useState("channel");
@@ -156,7 +157,7 @@ const List = ({ data: videoList }) => {
       </header>
 
       <Overlay>
-        <ol className="videoList">
+        <ol className="rankedList">
           {chosenType === "video" &&
             loadedData.map((e) => <VideoListElement key={e.time} e={e} />)}
           {chosenType === "channel" &&
@@ -168,6 +169,7 @@ const List = ({ data: videoList }) => {
       <div className="buttons">
         <button onClick={loadMoreHandler}>Load more</button>
       </div>
+      <UploadBtn onClick={onUpload}>Upload another watch-history.json</UploadBtn>
     </div>
   );
 };

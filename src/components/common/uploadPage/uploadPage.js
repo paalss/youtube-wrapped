@@ -1,15 +1,7 @@
 import Overlay from "../../layout/overlay";
+import UploadBtn from "./uploadBtn";
 
 const UploadPage = ({ onUpload }) => {
-  const showFile = (e) => {
-    const reader = new FileReader();
-    reader.onload = async (e) => {
-      const text = e.target.result;
-      const json = JSON.parse(text);
-      onUpload(json);
-    };
-    reader.readAsText(e.target.files[0]);
-  };
   return (
     <div className="App center">
       <header>
@@ -28,15 +20,7 @@ const UploadPage = ({ onUpload }) => {
       </header>
       <Overlay>
         <h2>Upload</h2>
-        <div className="buttons">
-          <label htmlFor="uploadFile">Upload watch-history.json</label>
-          <input
-            id="uploadFile"
-            type="file"
-            onChange={(e) => showFile(e)}
-            hidden
-          />
-        </div>
+        <UploadBtn onClick={onUpload}>Upload watch-history.json</UploadBtn>
       </Overlay>
     </div>
   );
