@@ -101,7 +101,7 @@ const List = ({ data: videoList, onUpload }) => {
     watchAmountList = calculateWatchAmount(thisYearList);
     finishedList = removeUnvantedInfo(watchAmountList);
   } else if (chosenType === "channel") {
-    const channelList = convertToChannelList(videoList);
+    const channelList = convertToChannelList(thisYearList);
     watchAmountList = calculateWatchAmount(channelList);
     finishedList = watchAmountList;
   }
