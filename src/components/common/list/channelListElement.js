@@ -1,12 +1,13 @@
 import React from "react";
+import classes from "./listItem.module.css"
 
 const ChannelListElement = ({ e }) => {
   return (
-    <li className="rankedItem">
-      <div className="text">
+    <li className={classes.rankedItem}>
+      <div className={classes.text}>
         <h3>
           {e.titleUrl ? (
-            <a href={e.titleUrl} className="itemlink">
+            <a href={e.titleUrl} className={classes.itemLink}>
               {e.title}
             </a>
           ) : (

@@ -1,4 +1,5 @@
 import React from "react";
+import classes from "./listItem.module.css"
 
 const getThumbnailUrl = (url) => {
   const videoId = url && url.substring(url.indexOf("\u003d") + 1);
@@ -6,16 +7,16 @@ const getThumbnailUrl = (url) => {
 };
 
 const VideoListElement = ({ e }) => {
-  const thubnailUrl = getThumbnailUrl(e.titleUrl);
+  const thumbnailUrl = getThumbnailUrl(e.titleUrl);
   return (
-    <li className="rankedItem">
-      <div className="frame">
-        <img src={thubnailUrl} alt="video" loading="lazy" />
+    <li className={classes.rankedItem}>
+      <div className={classes.frame}>
+        <img src={thumbnailUrl} alt="video" loading="lazy" />
       </div>
-      <div className="text">
+      <div className={classes.text}>
         <h3>
           {e.titleUrl ? (
-            <a href={e.titleUrl} className="itemlink">
+            <a href={e.titleUrl} className={classes.itemLink}>
               {e.title}
             </a>
           ) : (

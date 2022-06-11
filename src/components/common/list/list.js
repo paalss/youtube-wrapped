@@ -5,6 +5,8 @@ import UploadBtn from "../uploadPage/uploadBtn";
 import ChannelListElement from "./channelListElement";
 import VideoListElement from "./videoListElement";
 
+import classes from "./list.module.css"
+
 /*
 
 [{
@@ -157,7 +159,7 @@ const List = ({ data: videoList, onUpload }) => {
       </header>
 
       <Overlay>
-        <ol className="rankedList">
+        <ol className={classes.rankedList}>
           {chosenType === "video" &&
             loadedData.map((e) => <VideoListElement key={e.time} e={e} />)}
           {chosenType === "channel" &&

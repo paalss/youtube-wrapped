@@ -1,0 +1,36 @@
+a.itemLink {
+  color: #000;
+  text-decoration: none;
+}
+
+a.itemLink:hover {
+  text-decoration: underline;
+}
+
+p {
+  margin: 15px 0;
+}
+
+li.rankedItem {
+  display: flex;
+}
+
+li.rankedItem:not(:last-of-type) {
+  box-shadow: rgba(0, 0, 0, 0.281) 0px 1px 4px;
+}
+
+li.rankedItem .frame {
+  width: 210px;
+  overflow: hidden;
+}
+
+li.rankedItem .frame img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+li.rankedItem .text {
+  flex-basis: 85%;
+  padding: 0.8rem 1.5rem;
+}
