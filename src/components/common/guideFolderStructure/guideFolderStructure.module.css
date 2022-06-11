@@ -1,0 +1,24 @@
+.root {
+  text-align: start;
+  display: flex;
+  justify-content: center;
+}
+
+.root img {
+  width: 15px;
+  margin-bottom: 5px;
+  margin-right: 2px;
+}
+
+.root ul {
+  list-style-type: none;
+}
+
+.root li {
+  display: flex;
+  align-items: center;
+}
+
+.between {
+  height: 10px;
+}
