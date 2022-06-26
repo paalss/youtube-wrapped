@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/youtube-wrapped/static/css/main.a80a5699.css",
+    "main.js": "/youtube-wrapped/static/js/main.f2684544.js",
+    "static/js/787.b0a09168.chunk.js": "/youtube-wrapped/static/js/787.b0a09168.chunk.js",
+    "static/media/fileformat-default2.png": "/youtube-wrapped/static/media/fileformat-default2.0ab46e434142373f50db.png",
+    "static/media/content.png": "/youtube-wrapped/static/media/content.c4b0b50815788b12328d.png",
+    "static/media/takeout.png": "/youtube-wrapped/static/media/takeout.8e4b31bbc52a76ef198c.png",
+    "static/media/mail.png": "/youtube-wrapped/static/media/mail.f3e90f3be741d51d83f5.png",
+    "index.html": "/youtube-wrapped/index.html",
+    "static/media/file.svg": "/youtube-wrapped/static/media/file.57e885a5946e533ebd772668f05b8844.svg",
+    "static/media/folder.svg": "/youtube-wrapped/static/media/folder.131f06eb968394918a3f4b04151f5a03.svg",
+    "main.a80a5699.css.map": "/youtube-wrapped/static/css/main.a80a5699.css.map",
+    "main.f2684544.js.map": "/youtube-wrapped/static/js/main.f2684544.js.map",
+    "787.b0a09168.chunk.js.map": "/youtube-wrapped/static/js/787.b0a09168.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a80a5699.css",
+    "static/js/main.f2684544.js"
+  ]
+}
