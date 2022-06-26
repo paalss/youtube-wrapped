@@ -54,6 +54,11 @@ label {
   cursor: pointer;
 }
 
+button.gray {
+  color: #000;
+  background-color: #cfcfcf;
+}
+
 label {
   display: block;
 }

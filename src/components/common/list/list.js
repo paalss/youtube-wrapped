@@ -89,7 +89,7 @@ const removeUnvantedInfo = (data) => {
 
 const List = ({ data: videoList, onUpload }) => {
   const [chosenYear, setChosenYear] = useState(2021);
-  const [loadAmount, setLoadAmount] = useState(5);
+  const [loadAmount, setLoadAmount] = useState(10);
   const [chosenType, setChosenType] = useState("channel");
 
   let years, thisYearList;
@@ -136,12 +136,12 @@ const List = ({ data: videoList, onUpload }) => {
               onChange={setTypeHandler}
               value={chosenType}
             >
-              <option value="video">video</option>
-              <option value="channel">channel</option>
+              <option value="video">videos</option>
+              <option value="channel">channels</option>
             </select>
           </h1>
           <h2>
-            Year{" "}
+            of year{" "}
             <select
               name="year"
               id="yearSelect"

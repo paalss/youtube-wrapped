@@ -10,12 +10,9 @@ npm start
 ```
 
 ## TODO
-- bring tilbake guide
-- lag en versjon med mest sette youtubere
 - expand minify images guide
 - evt. støtte for HTML filer. Konverter det til JSON
 - evt. DEMO / playground som viser hvordan appen funker?
-- prøv vscode debugging
 
 * * * * * * * *
 ---------------
