@@ -1,5 +1,4 @@
-# work in progress!
-
+# YT-wrapped
 
 ## open site locally
 
@@ -7,6 +6,11 @@ In repo root folder:
 ```bash
 npm i
 npm start
+```
+
+deploy
+```
+npm run deploy
 ```
 
 ## TODO
