@@ -7,7 +7,7 @@ a.itemLink:hover {
   text-decoration: underline;
 }
 
-p {
+li.rankedItem p {
   margin: 15px 0;
 }
 

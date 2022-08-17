@@ -18,16 +18,10 @@ const UploadPage = ({ onUpload }) => {
   return (
     <div className="App center">
       <header>
-        <h1>Find out what videos you watched the most</h1>
-        <p>
-          This site will render a ranked view of what videos you watched the
-          most, based off a <code>watch-history.json</code>-file that you can
-          upload to this site.
-        </p>
-        <p>
-          <b>
-            Here's how you can get your <code>watch-history.json</code>
-          </b>
+        <h1>Youtube-wrapped</h1>
+        <p className="tagline">Find out what caught your attention you the most</p>
+        <p className="intro">
+          To show you your most watched videos, you need to upload your <code>watch-history.json</code>-file to this site.
         </p>
       </header>
       <Overlay>
@@ -36,7 +30,8 @@ const UploadPage = ({ onUpload }) => {
         </button>
         {showGuide && (
           <div>
-            <h2>1. Request watch history</h2>
+            <h2>Here's how</h2>
+            <h3>1. Request watch history</h3>
             <div className={classes.box}>
               <p>
                 Go to{" "}
@@ -79,7 +74,7 @@ const UploadPage = ({ onUpload }) => {
                 you can download your files
               </p>
             </div>
-            <h2>2. Download files</h2>
+            <h3>2. Download files</h3>
             <div className={classes.box}>
               <p>
                 Once you've got the mail from <b>Google Takeout</b>, you can
@@ -97,7 +92,7 @@ const UploadPage = ({ onUpload }) => {
               </p>
               <GuideFolderStructure />
             </div>
-            <h2>3. Upload file to this site</h2>
+            <h3>3. Upload file to this site</h3>
           </div>
         )}
         <div className={classes.box}>
