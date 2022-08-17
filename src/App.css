@@ -78,13 +78,27 @@ label {
   cursor: pointer;
 }
 
-button.gray {
+button.expand {
+  display: flex;
+  align-items: center;
   color: #000;
-  background-color: #cfcfcf;
+  background: none;
+  margin: 2rem auto;
 }
 
 label {
   display: block;
+}
+
+.chevron {
+  transition-duration: 200ms;
+}
+
+.chevron.right {
+  transform: rotate(0);
+}
+.chevron.down {
+  transform: rotate(90deg);
 }
 
 button:hover,
@@ -101,4 +115,19 @@ select {
   padding: 10px;
   font-size: 1rem;
   border-radius: 15px;
+}
+
+.guide {
+  transition: visibility 0s, opacity 0.5s linear;
+}
+
+.guide.visible {
+  visibility: visible;
+  opacity: 1;
+}
+
+.guide.hidden {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
 }

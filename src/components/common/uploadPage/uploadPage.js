@@ -6,6 +6,8 @@ import mailImg from "../../../img/guide/mail.png";
 import fileformatDefaultImg from "../../../img/guide/fileformat-default2.png";
 import contentImg from "../../../img/guide/content.png";
 
+import chevronRight from "../../../img/chevron-right.svg";
+
 // import appImg from "../../../img/commits/8.png";
 
 import classes from "./uploadPage.module.css";
@@ -15,6 +17,10 @@ import { useState } from "react";
 
 const UploadPage = ({ onUpload }) => {
   const [showGuide, setShowGuide] = useState(true);
+
+  const chevronClass = showGuide ? "down" : "right";
+  const guideClass = showGuide ? "visible" : "hidden";
+
   return (
     <div className="App center">
       <header>
@@ -25,11 +31,10 @@ const UploadPage = ({ onUpload }) => {
         </p>
       </header>
       <Overlay>
-        <button className="gray" onClick={() => setShowGuide((current) => !current)}>
-          {showGuide ? "hide" : "show"} detailed guide
+        <button className="expand" onClick={() => setShowGuide((current) => !current)}>
+          detailed guide <img className={"chevron " + chevronClass} src={chevronRight} alt="" />
         </button>
-        {showGuide && (
-          <div>
+          <div className={"guide " + guideClass}>
             <h2>Here's how</h2>
             <h3>1. Request watch history</h3>
             <div className={classes.box}>
@@ -94,7 +99,7 @@ const UploadPage = ({ onUpload }) => {
             </div>
             <h3>3. Upload file to this site</h3>
           </div>
-        )}
+
         <div className={classes.box}>
           <h2>Upload</h2>
           <UploadBtn onClick={onUpload}>Upload watch-history.json</UploadBtn>
