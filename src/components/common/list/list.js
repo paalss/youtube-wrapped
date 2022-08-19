@@ -5,7 +5,7 @@ import UploadBtn from "../uploadPage/uploadBtn";
 import ChannelListElement from "./channelListElement";
 import VideoListElement from "./videoListElement";
 
-import classes from "./list.module.css"
+import classes from "./list.module.css";
 
 /*
 
@@ -163,15 +163,19 @@ const List = ({ data: videoList, onUpload }) => {
           {chosenType === "video" &&
             loadedData.map((e) => <VideoListElement key={e.time} e={e} />)}
           {chosenType === "channel" &&
-            loadedData.map((e) => {
-              return <ChannelListElement key={e.time} e={e} />;
-            })}
+            loadedData.map((e) => <ChannelListElement key={e.time} e={e} />)}
         </ol>
       </Overlay>
       <div className="buttons">
-        <button onClick={loadMoreHandler}>Load more</button>
+        {loadAmount <= loadedData.length ? (
+          <button onClick={loadMoreHandler}>Load more</button>
+        ) : (
+          <>You've reached the bottom</>
+        )}
       </div>
-      <UploadBtn onClick={onUpload}>Upload another watch-history.json</UploadBtn>
+      <UploadBtn onClick={onUpload}>
+        Upload another watch-history.json
+      </UploadBtn>
     </div>
   );
 };
