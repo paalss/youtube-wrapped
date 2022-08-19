@@ -128,7 +128,7 @@ const List = ({ data: videoList, onUpload }) => {
     <div className="App">
       <header>
         <div className="overlaySpacing">
-          <h1>
+          <h1 className={classes.smallHeading}>
             Your most watched{" "}
             <select
               name="type"
@@ -140,7 +140,7 @@ const List = ({ data: videoList, onUpload }) => {
               <option value="channel">channels</option>
             </select>
           </h1>
-          <h2>
+          <h2 className={classes.smallHeading}>
             of year{" "}
             <select
               name="year"

@@ -286,127 +286,763 @@
   },
   {
     "header": "YouTube",
-    "title": "Watched iron-ajax… wat?! -- Polycasts #26",
-    "titleUrl": "https://www.youtube.com/watch?v\u003dk1eR_3KqJms",
-    "subtitles": [
-      {
-        "name": "Google Chrome Developers",
-        "url": "https://www.youtube.com/channel/UCnUYZLuoy1rq1aVMwx4aTzw"
-      }
-    ],
-    "time": "2021-04-15T14:03:58.061Z",
+    "title": "Watched Star Wars Ep. I to Ep. 6 at the same time.",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dBzzJWGSv1-A",
+    "subtitles": [{
+      "name": "JediMasterRual",
+      "url": "https://www.youtube.com/channel/UCqoyAAp2deIyir_6C2TxENw"
+    }],
+    "time": "2019-02-23T17:44:56.304Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched The Making of Star Wars - 1977 Documentary",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dFSuDjjlIPak",
+    "subtitles": [{
+      "name": "Sanchez del Campo",
+      "url": "https://www.youtube.com/channel/UCuNANKq3NusnYTb9uhKWdgQ"
+    }],
+    "time": "2019-02-23T17:40:36.165Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Secrets Of The Force Awakens: A Cinematic Journey Documentary",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dI_Cj_9BfEiM",
+    "subtitles": [{
+      "name": "mranderson00001",
+      "url": "https://www.youtube.com/channel/UCPFrmUZQCx8Sv1B6PF8Vw9g"
+    }],
+    "time": "2019-02-23T17:39:50.970Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched The void at the center of Star Wars  (Let\u0027s Talk Some Star Wars)",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dIaW1dYte6BQ",
+    "subtitles": [{
+      "name": "Thor Skywalker",
+      "url": "https://www.youtube.com/channel/UCo1bmdhnhLKvLAQWXSn92Wg"
+    }],
+    "time": "2019-02-23T17:31:08.395Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Star Wars Within A Minute: The Making Of Episode III Documentary",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dVgS3pt0yMvs",
+    "subtitles": [{
+      "name": "mranderson00001",
+      "url": "https://www.youtube.com/channel/UCPFrmUZQCx8Sv1B6PF8Vw9g"
+    }],
+    "time": "2019-02-23T16:29:42.685Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched The Adventures of Luke Skywalker, Jedi Knight: An Interview with Tony DiTerlizzi",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dGJEWNLQS5IY",
+    "subtitles": [{
+      "name": "Star Wars",
+      "url": "https://www.youtube.com/channel/UCZGYJFUizSax-yElQaFDp5Q"
+    }],
+    "time": "2019-02-23T16:25:09.770Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Last Christmas (metal cover by Leo Moracchioli)",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dVmzz516cAnw",
+    "subtitles": [{
+      "name": "Frog Leap Studios",
+      "url": "https://www.youtube.com/channel/UC98tcedR6gULv8_b70WJKyw"
+    }],
+    "time": "2017-12-20T18:57:21.209Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Toto - Africa (metal cover by Leo Moracchioli feat. Rabea \u0026 Hannah)",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dMH9FyLsfDzw",
+    "subtitles": [{
+      "name": "Frog Leap Studios",
+      "url": "https://www.youtube.com/channel/UC98tcedR6gULv8_b70WJKyw"
+    }],
+    "time": "2017-12-20T18:56:21.213Z",
     "products": ["YouTube"],
     "activityControls": ["YouTube watch history"]
   },
   {
     "header": "YouTube",
-    "title": "Watched iron-ajax… wat?! -- Polycasts #26",
-    "titleUrl": "https://www.youtube.com/watch?v\u003dk1eR_3KqJms",
-    "subtitles": [
-      {
-        "name": "Google Chrome Developers",
-        "url": "https://www.youtube.com/channel/UCnUYZLuoy1rq1aVMwx4aTzw"
-      }
-    ],
-    "time": "2021-04-15T14:03:58.061Z",
+    "title": "Watched Toto - Africa (metal cover by Leo Moracchioli feat. Rabea \u0026 Hannah)",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dMH9FyLsfDzw",
+    "subtitles": [{
+      "name": "Frog Leap Studios",
+      "url": "https://www.youtube.com/channel/UC98tcedR6gULv8_b70WJKyw"
+    }],
+    "time": "2017-12-20T18:56:21.213Z",
     "products": ["YouTube"],
     "activityControls": ["YouTube watch history"]
   },
   {
     "header": "YouTube",
-    "title": "Watched iron-ajax… wat?! -- Polycasts #26",
-    "titleUrl": "https://www.youtube.com/watch?v\u003dk1eR_3KqJms",
-    "subtitles": [
-      {
-        "name": "Google Chrome Developers",
-        "url": "https://www.youtube.com/channel/UCnUYZLuoy1rq1aVMwx4aTzw"
-      }
-    ],
-    "time": "2021-04-15T14:03:58.061Z",
+    "title": "Watched Toto - Africa (metal cover by Leo Moracchioli feat. Rabea \u0026 Hannah)",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dMH9FyLsfDzw",
+    "subtitles": [{
+      "name": "Frog Leap Studios",
+      "url": "https://www.youtube.com/channel/UC98tcedR6gULv8_b70WJKyw"
+    }],
+    "time": "2017-12-20T18:56:21.213Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Slik renser du sluket på badet",
+    "titleUrl": "https://www.youtube.com/watch?v\u003drMtFJvEoSqo",
+    "subtitles": [{
+      "name": "Boligbygg Oslo KF",
+      "url": "https://www.youtube.com/channel/UCKsvDTfUFxd2lZuwFWeWW0g"
+    }],
+    "time": "2017-12-20T11:42:49.233Z",
     "products": ["YouTube"],
     "activityControls": ["YouTube watch history"]
   },
   {
     "header": "YouTube",
-    "title": "Watched iron-ajax… wat?! -- Polycasts #26",
-    "titleUrl": "https://www.youtube.com/watch?v\u003dk1eR_3KqJms",
-    "subtitles": [
-      {
-        "name": "Google Chrome Developers",
-        "url": "https://www.youtube.com/channel/UCnUYZLuoy1rq1aVMwx4aTzw"
-      }
-    ],
-    "time": "2021-04-15T14:03:58.061Z",
+    "title": "Watched I’m Sorry About Your Face, But Not Anything Else  // Ghost Chasers - Case #1",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dDtE4AeipLJk",
+    "subtitles": [{
+      "name": "Corridor",
+      "url": "https://www.youtube.com/channel/UCsn6cjffsvyOZCZxvGoJxGg"
+    }],
+    "time": "2020-07-22T09:39:09.823Z",
     "products": ["YouTube"],
     "activityControls": ["YouTube watch history"]
   },
   {
     "header": "YouTube",
-    "title": "Watched iron-ajax… wat?! -- Polycasts #26",
-    "titleUrl": "https://www.youtube.com/watch?v\u003dk1eR_3KqJms",
-    "subtitles": [
-      {
-        "name": "Google Chrome Developers",
-        "url": "https://www.youtube.com/channel/UCnUYZLuoy1rq1aVMwx4aTzw"
-      }
-    ],
-    "time": "2021-04-15T14:03:58.061Z",
+    "title": "Watched Games where the world stops during dialogue.",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dGfFQTt_nkJM",
+    "subtitles": [{
+      "name": "CalebCity",
+      "url": "https://www.youtube.com/channel/UCI1XS_GkLGDOgf8YLaaXNRA"
+    }],
+    "time": "2020-07-21T12:33:37.926Z",
     "products": ["YouTube"],
     "activityControls": ["YouTube watch history"]
   },
   {
     "header": "YouTube",
-    "title": "Watched iron-ajax… wat?! -- Polycasts #26",
-    "titleUrl": "https://www.youtube.com/watch?v\u003dk1eR_3KqJms",
-    "subtitles": [
-      {
-        "name": "Google Chrome Developers",
-        "url": "https://www.youtube.com/channel/UCnUYZLuoy1rq1aVMwx4aTzw"
-      }
-    ],
-    "time": "2021-04-15T14:03:58.061Z",
+    "title": "Watched Games where the world stops during dialogue.",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dGfFQTt_nkJM",
+    "subtitles": [{
+      "name": "CalebCity",
+      "url": "https://www.youtube.com/channel/UCI1XS_GkLGDOgf8YLaaXNRA"
+    }],
+    "time": "2020-07-21T12:33:37.926Z",
     "products": ["YouTube"],
     "activityControls": ["YouTube watch history"]
   },
   {
     "header": "YouTube",
-    "title": "Watched iron-ajax… wat?! -- Polycasts #26",
-    "titleUrl": "https://www.youtube.com/watch?v\u003dk1eR_3KqJms",
-    "subtitles": [
-      {
-        "name": "Google Chrome Developers",
-        "url": "https://www.youtube.com/channel/UCnUYZLuoy1rq1aVMwx4aTzw"
-      }
-    ],
-    "time": "2021-04-15T14:03:58.061Z",
+    "title": "Watched YouTube Demonetization in a Nutshell",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dMq3KDyZa2W4",
+    "subtitles": [{
+      "name": "CircleToonsHD",
+      "url": "https://www.youtube.com/channel/UCV6g95OBbVtFmN9uiJzkFqQ"
+    }],
+    "time": "2020-07-21T12:22:42.829Z",
     "products": ["YouTube"],
     "activityControls": ["YouTube watch history"]
   },
   {
     "header": "YouTube",
-    "title": "Watched iron-ajax… wat?! -- Polycasts #26",
-    "titleUrl": "https://www.youtube.com/watch?v\u003dk1eR_3KqJms",
-    "subtitles": [
-      {
-        "name": "Google Chrome Developers",
-        "url": "https://www.youtube.com/channel/UCnUYZLuoy1rq1aVMwx4aTzw"
-      }
-    ],
-    "time": "2021-04-15T14:03:58.061Z",
+    "title": "Watched YouTube Demonetization in a Nutshell",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dMq3KDyZa2W4",
+    "subtitles": [{
+      "name": "CircleToonsHD",
+      "url": "https://www.youtube.com/channel/UCV6g95OBbVtFmN9uiJzkFqQ"
+    }],
+    "time": "2020-07-21T12:22:42.829Z",
     "products": ["YouTube"],
     "activityControls": ["YouTube watch history"]
   },
   {
     "header": "YouTube",
-    "title": "Watched iron-ajax… wat?! -- Polycasts #26",
-    "titleUrl": "https://www.youtube.com/watch?v\u003dk1eR_3KqJms",
-    "subtitles": [
-      {
-        "name": "Google Chrome Developers",
-        "url": "https://www.youtube.com/channel/UCnUYZLuoy1rq1aVMwx4aTzw"
-      }
-    ],
-    "time": "2021-04-15T14:03:58.061Z",
+    "title": "Watched YouTube Demonetization in a Nutshell",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dMq3KDyZa2W4",
+    "subtitles": [{
+      "name": "CircleToonsHD",
+      "url": "https://www.youtube.com/channel/UCV6g95OBbVtFmN9uiJzkFqQ"
+    }],
+    "time": "2020-07-21T12:22:42.829Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },
+  {
+    "header": "YouTube",
+    "title": "Watched Can Twitch Chat FLY AN AIRPLANE across GTA 5?",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dQIacthT6c84",
+    "subtitles": [{
+      "name": "DougDoug",
+      "url": "https://www.youtube.com/channel/UClyGlKOhDUooPJFy4v_mqPg"
+    }],
+    "time": "2020-07-20T20:33:35.333Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },
+  {
+    "header": "YouTube",
+    "title": "Watched Can Twitch Chat FLY AN AIRPLANE across GTA 5?",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dQIacthT6c84",
+    "subtitles": [{
+      "name": "DougDoug",
+      "url": "https://www.youtube.com/channel/UClyGlKOhDUooPJFy4v_mqPg"
+    }],
+    "time": "2020-07-20T20:33:35.333Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },
+  {
+    "header": "YouTube",
+    "title": "Watched Can Twitch Chat FLY AN AIRPLANE across GTA 5?",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dQIacthT6c84",
+    "subtitles": [{
+      "name": "DougDoug",
+      "url": "https://www.youtube.com/channel/UClyGlKOhDUooPJFy4v_mqPg"
+    }],
+    "time": "2020-07-20T20:33:35.333Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },
+  {
+    "header": "YouTube",
+    "title": "Watched Can Twitch Chat FLY AN AIRPLANE across GTA 5?",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dQIacthT6c84",
+    "subtitles": [{
+      "name": "DougDoug",
+      "url": "https://www.youtube.com/channel/UClyGlKOhDUooPJFy4v_mqPg"
+    }],
+    "time": "2020-07-20T20:33:35.333Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },
+  {
+    "header": "YouTube",
+    "title": "Watched Can Twitch Chat FLY AN AIRPLANE across GTA 5?",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dQIacthT6c84",
+    "subtitles": [{
+      "name": "DougDoug",
+      "url": "https://www.youtube.com/channel/UClyGlKOhDUooPJFy4v_mqPg"
+    }],
+    "time": "2020-07-20T20:33:35.333Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },
+  {
+    "header": "YouTube",
+    "title": "Watched Can Twitch Chat FLY AN AIRPLANE across GTA 5?",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dQIacthT6c84",
+    "subtitles": [{
+      "name": "DougDoug",
+      "url": "https://www.youtube.com/channel/UClyGlKOhDUooPJFy4v_mqPg"
+    }],
+    "time": "2020-07-20T20:33:35.333Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },
+  {
+    "header": "YouTube",
+    "title": "Watched The Floor is Lava",
+    "titleUrl": "https://www.youtube.com/watch?v\u003d7gcl6t7P3qw",
+    "subtitles": [{
+      "name": "RocketJump",
+      "url": "https://www.youtube.com/channel/UCDsO-0Yo5zpJk575nKXgMVA"
+    }],
+    "time": "2020-05-04T20:12:02.050Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },
+  {
+    "header": "YouTube",
+    "title": "Watched The Floor is Lava",
+    "titleUrl": "https://www.youtube.com/watch?v\u003d7gcl6t7P3qw",
+    "subtitles": [{
+      "name": "RocketJump",
+      "url": "https://www.youtube.com/channel/UCDsO-0Yo5zpJk575nKXgMVA"
+    }],
+    "time": "2020-05-04T20:12:02.050Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },
+  {
+    "header": "YouTube",
+    "title": "Watched The Floor is Lava",
+    "titleUrl": "https://www.youtube.com/watch?v\u003d7gcl6t7P3qw",
+    "subtitles": [{
+      "name": "RocketJump",
+      "url": "https://www.youtube.com/channel/UCDsO-0Yo5zpJk575nKXgMVA"
+    }],
+    "time": "2020-05-04T20:12:02.050Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },
+  {
+    "header": "YouTube",
+    "title": "Watched Min skumle fætter 1",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dGmRW7THE4V0",
+    "subtitles": [{
+      "name": "Niki Topgaard",
+      "url": "https://www.youtube.com/channel/UCVNSyYuNQUwJiD0TVst9Szg"
+    }],
+    "time": "2020-09-16T10:25:23.883Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },
+  {
+    "header": "YouTube",
+    "title": "Watched Min skumle fætter 1",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dGmRW7THE4V0",
+    "subtitles": [{
+      "name": "Niki Topgaard",
+      "url": "https://www.youtube.com/channel/UCVNSyYuNQUwJiD0TVst9Szg"
+    }],
+    "time": "2020-09-16T10:25:23.883Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },
+  {
+    "header": "YouTube",
+    "title": "Watched Min skumle fætter 1",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dGmRW7THE4V0",
+    "subtitles": [{
+      "name": "Niki Topgaard",
+      "url": "https://www.youtube.com/channel/UCVNSyYuNQUwJiD0TVst9Szg"
+    }],
+    "time": "2020-09-16T10:25:23.883Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },
+  {
+    "header": "YouTube",
+    "title": "Watched Min skumle fætter 1",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dGmRW7THE4V0",
+    "subtitles": [{
+      "name": "Niki Topgaard",
+      "url": "https://www.youtube.com/channel/UCVNSyYuNQUwJiD0TVst9Szg"
+    }],
+    "time": "2020-09-16T10:25:23.883Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },
+  {
+    "header": "YouTube",
+    "title": "Watched Min skumle fætter 1",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dGmRW7THE4V0",
+    "subtitles": [{
+      "name": "Niki Topgaard",
+      "url": "https://www.youtube.com/channel/UCVNSyYuNQUwJiD0TVst9Szg"
+    }],
+    "time": "2020-09-16T10:25:23.883Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },
+  {
+    "header": "YouTube",
+    "title": "Watched Movie Locations - Star Wars",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dRY-IZGZymwo",
+    "subtitles": [{
+      "name": "Niki Topgaard Movietalk",
+      "url": "https://www.youtube.com/channel/UCrtdlAPnasSEX-oRdANUjqQ"
+    }],
+    "time": "2019-06-11T21:33:54.078Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },
+  {
+    "header": "YouTube",
+    "title": "Watched Movie Locations - Star Wars",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dRY-IZGZymwo",
+    "subtitles": [{
+      "name": "Niki Topgaard Movietalk",
+      "url": "https://www.youtube.com/channel/UCrtdlAPnasSEX-oRdANUjqQ"
+    }],
+    "time": "2019-06-11T21:33:54.078Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },
+  {
+    "header": "YouTube",
+    "title": "Watched Min skumle fætter 1",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dGmRW7THE4V0",
+    "subtitles": [{
+      "name": "Niki Topgaard",
+      "url": "https://www.youtube.com/channel/UCVNSyYuNQUwJiD0TVst9Szg"
+    }],
+    "time": "2020-09-16T10:25:23.883Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },
+  {
+    "header": "YouTube",
+    "title": "Watched Min skumle fætter 1",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dGmRW7THE4V0",
+    "subtitles": [{
+      "name": "Niki Topgaard",
+      "url": "https://www.youtube.com/channel/UCVNSyYuNQUwJiD0TVst9Szg"
+    }],
+    "time": "2020-09-16T10:25:23.883Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },
+  {
+    "header": "YouTube",
+    "title": "Watched The Floor is Lava",
+    "titleUrl": "https://www.youtube.com/watch?v\u003d7gcl6t7P3qw",
+    "subtitles": [{
+      "name": "RocketJump",
+      "url": "https://www.youtube.com/channel/UCDsO-0Yo5zpJk575nKXgMVA"
+    }],
+    "time": "2020-05-04T20:12:02.050Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },
+  {
+    "header": "YouTube",
+    "title": "Watched The Floor is Lava",
+    "titleUrl": "https://www.youtube.com/watch?v\u003d7gcl6t7P3qw",
+    "subtitles": [{
+      "name": "RocketJump",
+      "url": "https://www.youtube.com/channel/UCDsO-0Yo5zpJk575nKXgMVA"
+    }],
+    "time": "2020-05-04T20:12:02.050Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },
+  {
+    "header": "YouTube",
+    "title": "Watched Can Twitch Chat FLY AN AIRPLANE across GTA 5?",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dQIacthT6c84",
+    "subtitles": [{
+      "name": "DougDoug",
+      "url": "https://www.youtube.com/channel/UClyGlKOhDUooPJFy4v_mqPg"
+    }],
+    "time": "2020-07-20T20:33:35.333Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },
+  {
+    "header": "YouTube",
+    "title": "Watched Can Twitch Chat FLY AN AIRPLANE across GTA 5?",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dQIacthT6c84",
+    "subtitles": [{
+      "name": "DougDoug",
+      "url": "https://www.youtube.com/channel/UClyGlKOhDUooPJFy4v_mqPg"
+    }],
+    "time": "2020-07-20T20:33:35.333Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },
+  {
+    "header": "YouTube",
+    "title": "Watched YouTube Demonetization in a Nutshell",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dMq3KDyZa2W4",
+    "subtitles": [{
+      "name": "CircleToonsHD",
+      "url": "https://www.youtube.com/channel/UCV6g95OBbVtFmN9uiJzkFqQ"
+    }],
+    "time": "2020-07-21T12:22:42.829Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched YouTube Demonetization in a Nutshell",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dMq3KDyZa2W4",
+    "subtitles": [{
+      "name": "CircleToonsHD",
+      "url": "https://www.youtube.com/channel/UCV6g95OBbVtFmN9uiJzkFqQ"
+    }],
+    "time": "2020-07-21T12:22:42.829Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },
+  {
+    "header": "YouTube",
+    "title": "Watched Games where the world stops during dialogue.",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dGfFQTt_nkJM",
+    "subtitles": [{
+      "name": "CalebCity",
+      "url": "https://www.youtube.com/channel/UCI1XS_GkLGDOgf8YLaaXNRA"
+    }],
+    "time": "2020-07-21T12:33:37.926Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },
+  {
+    "header": "YouTube",
+    "title": "Watched Games where the world stops during dialogue.",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dGfFQTt_nkJM",
+    "subtitles": [{
+      "name": "CalebCity",
+      "url": "https://www.youtube.com/channel/UCI1XS_GkLGDOgf8YLaaXNRA"
+    }],
+    "time": "2020-07-21T12:33:37.926Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },
+  {
+    "header": "YouTube",
+    "title": "Watched I’m Sorry About Your Face, But Not Anything Else  // Ghost Chasers - Case #1",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dDtE4AeipLJk",
+    "subtitles": [{
+      "name": "Corridor",
+      "url": "https://www.youtube.com/channel/UCsn6cjffsvyOZCZxvGoJxGg"
+    }],
+    "time": "2020-07-22T09:39:09.823Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },
+  {
+    "header": "YouTube",
+    "title": "Watched I’m Sorry About Your Face, But Not Anything Else  // Ghost Chasers - Case #1",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dDtE4AeipLJk",
+    "subtitles": [{
+      "name": "Corridor",
+      "url": "https://www.youtube.com/channel/UCsn6cjffsvyOZCZxvGoJxGg"
+    }],
+    "time": "2020-07-22T09:39:09.823Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },
+  {
+    "header": "YouTube",
+    "title": "Watched Powered Up: Behind the Scenes",
+    "titleUrl": "https://www.youtube.com/watch?v\u003d9xmdUp3dsQk",
+    "subtitles": [{
+      "name": "Corridor Crew",
+      "url": "https://www.youtube.com/channel/UCSpFnDQr88xCZ80N-X7t0nQ"
+    }],
+    "time": "2020-05-14T10:13:44.298Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Art of the Instakill",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dQwNVQvygCNQ",
+    "subtitles": [{
+      "name": "Corridor",
+      "url": "https://www.youtube.com/channel/UCsn6cjffsvyOZCZxvGoJxGg"
+    }],
+    "time": "2020-05-14T10:06:40.765Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },
+  {
+    "header": "YouTube",
+    "title": "Watched Where\u0027s The Baby?",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dEKRUwVmkS8U",
+    "subtitles": [{
+      "name": "TomSka",
+      "url": "https://www.youtube.com/channel/UCOYWgypDktXdb-HfZnSMK6A"
+    }],
+    "time": "2020-08-03T11:52:00.410Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },
+  {
+    "header": "YouTube",
+    "title": "Watched Where\u0027s The Baby?",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dEKRUwVmkS8U",
+    "subtitles": [{
+      "name": "TomSka",
+      "url": "https://www.youtube.com/channel/UCOYWgypDktXdb-HfZnSMK6A"
+    }],
+    "time": "2020-08-03T11:52:00.410Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },
+  {
+    "header": "YouTube",
+    "title": "Watched Where\u0027s The Baby?",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dEKRUwVmkS8U",
+    "subtitles": [{
+      "name": "TomSka",
+      "url": "https://www.youtube.com/channel/UCOYWgypDktXdb-HfZnSMK6A"
+    }],
+    "time": "2020-08-03T11:52:00.410Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },
+  {
+    "header": "YouTube",
+    "title": "Watched Where\u0027s The Baby?",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dEKRUwVmkS8U",
+    "subtitles": [{
+      "name": "TomSka",
+      "url": "https://www.youtube.com/channel/UCOYWgypDktXdb-HfZnSMK6A"
+    }],
+    "time": "2020-08-03T11:52:00.410Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },
+  {
+    "header": "YouTube",
+    "title": "Watched Where\u0027s The Baby?",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dEKRUwVmkS8U",
+    "subtitles": [{
+      "name": "TomSka",
+      "url": "https://www.youtube.com/channel/UCOYWgypDktXdb-HfZnSMK6A"
+    }],
+    "time": "2020-08-03T11:52:00.410Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },
+  {
+    "header": "YouTube",
+    "title": "Watched Where\u0027s The Baby?",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dEKRUwVmkS8U",
+    "subtitles": [{
+      "name": "TomSka",
+      "url": "https://www.youtube.com/channel/UCOYWgypDktXdb-HfZnSMK6A"
+    }],
+    "time": "2020-08-03T11:52:00.410Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },
+  {
+    "header": "YouTube",
+    "title": "Watched Where\u0027s The Baby?",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dEKRUwVmkS8U",
+    "subtitles": [{
+      "name": "TomSka",
+      "url": "https://www.youtube.com/channel/UCOYWgypDktXdb-HfZnSMK6A"
+    }],
+    "time": "2020-08-03T11:52:00.410Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched VR Data Visualization Learnings from the Place Viewer",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dbkPAJ8aP89U",
+    "subtitles": [{
+      "name": "Greg Bahm",
+      "url": "https://www.youtube.com/channel/UCkqD1LxPbbPLVYBDLFgKh0A"
+    }],
+    "time": "2020-08-03T11:18:50.404Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Reddit Place (/r/place) - FULL 72h (90fps) TIMELAPSE",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dXnRCZK3KjUY",
+    "subtitles": [{
+      "name": "Gurkengewuerz",
+      "url": "https://www.youtube.com/channel/UCRAxkrLjQ20ZiKPUsUahtFw"
+    }],
+    "time": "2020-08-03T11:18:41.334Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched How Civil War Destroyed This 2b2t Base",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dicVqvRXOhZA",
+    "subtitles": [{
+      "name": "FitMC",
+      "url": "https://www.youtube.com/channel/UCHZ986wm_sJT6wntdDTIIcw"
+    }],
+    "time": "2020-08-02T21:49:02.323Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },
+  {
+    "header": "YouTube",
+    "title": "Watched Powered Up: Behind the Scenes",
+    "titleUrl": "https://www.youtube.com/watch?v\u003d9xmdUp3dsQk",
+    "subtitles": [{
+      "name": "Corridor Crew",
+      "url": "https://www.youtube.com/channel/UCSpFnDQr88xCZ80N-X7t0nQ"
+    }],
+    "time": "2020-05-14T10:13:44.298Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Art of the Instakill",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dQwNVQvygCNQ",
+    "subtitles": [{
+      "name": "Corridor",
+      "url": "https://www.youtube.com/channel/UCsn6cjffsvyOZCZxvGoJxGg"
+    }],
+    "time": "2020-05-14T10:06:40.765Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },
+  {
+    "header": "YouTube",
+    "title": "Watched The Wombats - Mosquito On The Wall (Official Audio)",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dQN2c37ykat4",
+    "subtitles": [{
+      "name": "The Wombats",
+      "url": "https://www.youtube.com/channel/UCkFQXXAd61-_jRLSkCLa81w"
+    }],
+    "time": "2020-05-22T09:51:03.223Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Superfamily - Warszawa",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dZ1HVjuYodyk",
+    "subtitles": [{
+      "name": "ruunis",
+      "url": "https://www.youtube.com/channel/UCJQVq7K2Tgik1dSup1xBu9g"
+    }],
+    "time": "2020-05-22T09:47:39.353Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched BEAST IN BLACK - Beast In Black (OFFICIAL LYRIC VIDEO)",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dpdlAZj5iDc8",
+    "subtitles": [{
+      "name": "Nuclear Blast Records",
+      "url": "https://www.youtube.com/channel/UCoxg3Kml41wE3IPq-PC-LQw"
+    }],
+    "time": "2017-12-20T09:31:00.294Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Toto - Africa (metal cover by Leo Moracchioli feat. Rabea \u0026 Hannah)",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dMH9FyLsfDzw",
+    "subtitles": [{
+      "name": "Frog Leap Studios",
+      "url": "https://www.youtube.com/channel/UC98tcedR6gULv8_b70WJKyw"
+    }],
+    "time": "2017-12-19T14:07:50.986Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched DELAIN - Stardust (Official Video) | Napalm Records",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dUbi1m5pR3hM",
+    "subtitles": [{
+      "name": "Napalm Records",
+      "url": "https://www.youtube.com/channel/UCG7AaCh_CiG6pq_rRDNw72A"
+    }],
+    "time": "2017-12-19T14:07:25.329Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },
+  {
+    "header": "YouTube",
+    "title": "Watched From Star Wars to Jedi: The Making of a Saga (Part 1 of 9)",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dF6Xa6CcShAI",
+    "subtitles": [{
+      "name": "Star Wars",
+      "url": "https://www.youtube.com/channel/UCZGYJFUizSax-yElQaFDp5Q"
+    }],
+    "time": "2019-02-23T16:23:56.089Z",
     "products": ["YouTube"],
     "activityControls": ["YouTube watch history"]
   },
@@ -462,7 +1098,7 @@
         "url": "https://www.youtube.com/channel/UCcM-EIxza5g1S0dpnoO_ePA"
       }
     ],
-    "time": "2018-04-15T11:24:30.150Z",
+    "time": "2019-04-15T11:24:30.150Z",
     "products": ["YouTube"],
     "activityControls": ["YouTube watch history"]
   },
@@ -476,7 +1112,7 @@
         "url": "https://www.youtube.com/channel/UCcM-EIxza5g1S0dpnoO_ePA"
       }
     ],
-    "time": "2018-04-15T11:24:30.150Z",
+    "time": "2019-04-15T11:24:30.150Z",
     "products": ["YouTube"],
     "activityControls": ["YouTube watch history"]
   },
@@ -490,7 +1126,7 @@
         "url": "https://www.youtube.com/channel/UCkVWMqoEE4vhWzvyrbLez2g"
       }
     ],
-    "time": "2018-12-31T16:28:42.242Z",
+    "time": "2019-12-31T16:28:42.242Z",
     "products": ["YouTube"],
     "activityControls": ["YouTube watch history"]
   },
@@ -504,7 +1140,7 @@
         "url": "https://www.youtube.com/channel/UCcM-EIxza5g1S0dpnoO_ePA"
       }
     ],
-    "time": "2018-04-15T11:24:30.150Z",
+    "time": "2019-04-15T11:24:30.150Z",
     "products": ["YouTube"],
     "activityControls": ["YouTube watch history"]
   },
@@ -518,7 +1154,7 @@
         "url": "https://www.youtube.com/channel/UCYzPXprvl5Y-Sf0g4vX-m6g"
       }
     ],
-    "time": "2017-06-03T22:40:17.685Z",
+    "time": "2019-06-03T22:40:17.685Z",
     "products": ["YouTube"],
     "activityControls": ["YouTube watch history"]
   },
@@ -532,7 +1168,7 @@
         "url": "https://www.youtube.com/channel/UCYzPXprvl5Y-Sf0g4vX-m6g"
       }
     ],
-    "time": "2017-06-03T22:38:50.708Z",
+    "time": "2019-06-03T22:38:50.708Z",
     "products": ["YouTube"],
     "activityControls": ["YouTube watch history"]
   },
@@ -546,7 +1182,7 @@
         "url": "https://www.youtube.com/channel/UCYzPXprvl5Y-Sf0g4vX-m6g"
       }
     ],
-    "time": "2017-06-03T22:25:08.953Z",
+    "time": "2019-06-03T22:25:08.953Z",
     "products": ["YouTube"],
     "activityControls": ["YouTube watch history"]
   },
@@ -560,7 +1196,7 @@
         "url": "https://www.youtube.com/channel/UCYzPXprvl5Y-Sf0g4vX-m6g"
       }
     ],
-    "time": "2017-06-03T22:06:23.748Z",
+    "time": "2019-06-03T22:06:23.748Z",
     "products": ["YouTube"],
     "activityControls": ["YouTube watch history"]
   },
@@ -574,7 +1210,7 @@
         "url": "https://www.youtube.com/channel/UCNrVp0-EQvUbYPzRB-ydNXg"
       }
     ],
-    "time": "2017-06-03T22:05:59.328Z",
+    "time": "2019-06-03T22:05:59.328Z",
     "products": ["YouTube"],
     "activityControls": ["YouTube watch history"]
   },
@@ -588,7 +1224,7 @@
         "url": "https://www.youtube.com/channel/UC98tcedR6gULv8_b70WJKyw"
       }
     ],
-    "time": "2017-12-31T16:34:57.636Z",
+    "time": "2019-12-31T16:34:57.636Z",
     "products": ["YouTube"],
     "activityControls": ["YouTube watch history"]
   },
@@ -602,7 +1238,7 @@
         "url": "https://www.youtube.com/channel/UC98tcedR6gULv8_b70WJKyw"
       }
     ],
-    "time": "2017-12-31T16:33:03.992Z",
+    "time": "2019-12-31T16:33:03.992Z",
     "products": ["YouTube"],
     "activityControls": ["YouTube watch history"]
   },
@@ -616,7 +1252,7 @@
         "url": "https://www.youtube.com/channel/UC98tcedR6gULv8_b70WJKyw"
       }
     ],
-    "time": "2017-12-31T16:31:33.376Z",
+    "time": "2019-12-31T16:31:33.376Z",
     "products": ["YouTube"],
     "activityControls": ["YouTube watch history"]
   },
@@ -630,7 +1266,7 @@
         "url": "https://www.youtube.com/channel/UC98tcedR6gULv8_b70WJKyw"
       }
     ],
-    "time": "2017-12-31T16:24:10.046Z",
+    "time": "2020-12-31T16:24:10.046Z",
     "products": ["YouTube"],
     "activityControls": ["YouTube watch history"]
   },
@@ -644,7 +1280,7 @@
         "url": "https://www.youtube.com/channel/UCYzPXprvl5Y-Sf0g4vX-m6g"
       }
     ],
-    "time": "2017-10-22T12:17:18.401Z",
+    "time": "2020-10-22T12:17:18.401Z",
     "products": ["YouTube"],
     "activityControls": ["YouTube watch history"]
   },
@@ -658,7 +1294,7 @@
         "url": "https://www.youtube.com/channel/UCSqSV3RRN0EFWM7Lxcjs6mA"
       }
     ],
-    "time": "2017-10-18T18:42:22.750Z",
+    "time": "2020-10-18T18:42:22.750Z",
     "products": ["YouTube"],
     "activityControls": ["YouTube watch history"]
   },
@@ -672,7 +1308,7 @@
         "url": "https://www.youtube.com/channel/UCSqSV3RRN0EFWM7Lxcjs6mA"
       }
     ],
-    "time": "2017-10-18T18:42:03.172Z",
+    "time": "2020-10-18T18:42:03.172Z",
     "products": ["YouTube"],
     "activityControls": ["YouTube watch history"]
   },
@@ -686,7 +1322,7 @@
         "url": "https://www.youtube.com/channel/UCG7AaCh_CiG6pq_rRDNw72A"
       }
     ],
-    "time": "2017-10-18T18:29:08.792Z",
+    "time": "2020-10-18T18:29:08.792Z",
     "products": ["YouTube"],
     "activityControls": ["YouTube watch history"]
   },
@@ -700,7 +1336,7 @@
         "url": "https://www.youtube.com/channel/UCG7AaCh_CiG6pq_rRDNw72A"
       }
     ],
-    "time": "2017-10-18T18:22:44.776Z",
+    "time": "2020-10-18T18:22:44.776Z",
     "products": ["YouTube"],
     "activityControls": ["YouTube watch history"]
   },
@@ -714,146 +1350,39 @@
         "url": "https://www.youtube.com/channel/UCG7AaCh_CiG6pq_rRDNw72A"
       }
     ],
-    "time": "2017-10-18T18:14:03.080Z",
+    "time": "2019-10-18T18:14:03.080Z",
     "products": ["YouTube"],
     "activityControls": ["YouTube watch history"]
   },
   {
     "header": "YouTube",
-    "title": "Watched Van Canto - Last Night of the Kings (Official)",
-    "titleUrl": "https://www.youtube.com/watch?v\u003drt4CQc1MSso",
-    "subtitles": [
-      {
-        "name": "vancanto",
-        "url": "https://www.youtube.com/channel/UC7U9RmPJJzArC2Yeksp44FQ"
-      }
-    ],
-    "time": "2017-10-18T18:08:25.942Z",
-    "products": ["YouTube"],
-    "activityControls": ["YouTube watch history"]
-  },
-  {
-    "header": "YouTube",
-    "title": "Watched Van Canto - Rebellion Cover (Official)",
-    "titleUrl": "https://www.youtube.com/watch?v\u003dUPUNdwRhuMA",
-    "subtitles": [
-      {
-        "name": "vancanto",
-        "url": "https://www.youtube.com/channel/UC7U9RmPJJzArC2Yeksp44FQ"
-      }
-    ],
-    "time": "2017-10-18T18:04:02.681Z",
-    "products": ["YouTube"],
-    "activityControls": ["YouTube watch history"]
-  },
-  {
-    "header": "YouTube",
-    "title": "Watched Van Canto - Rebellion Cover (Official)",
-    "titleUrl": "https://www.youtube.com/watch?v\u003dUPUNdwRhuMA",
-    "subtitles": [
-      {
-        "name": "vancanto",
-        "url": "https://www.youtube.com/channel/UC7U9RmPJJzArC2Yeksp44FQ"
-      }
-    ],
-    "time": "2017-10-18T18:04:02.681Z",
-    "products": ["YouTube"],
-    "activityControls": ["YouTube watch history"]
-  },
-  {
-    "header": "YouTube",
-    "title": "Watched Van Canto - Wishmaster (Official)",
-    "titleUrl": "https://www.youtube.com/watch?v\u003dXCGQiGEYl4Y",
-    "subtitles": [
-      {
-        "name": "vancanto",
-        "url": "https://www.youtube.com/channel/UC7U9RmPJJzArC2Yeksp44FQ"
-      }
-    ],
-    "time": "2017-10-18T17:59:34.020Z",
-    "products": ["YouTube"],
-    "activityControls": ["YouTube watch history"]
-  },
-  {
-    "header": "YouTube",
-    "title": "Watched BECOME A REAL SUPERHERO | Powers VR (HTC Vive Virtual Reality)",
-    "titleUrl": "https://www.youtube.com/watch?v\u003dgX5sHeX8xnY",
+    "title": "Watched The Rumjacks - Recording the album Sleepin\u0027 Rough - Part 2 - Patron Saint O\u0027 Thieves",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dlhgdPgAJRO8",
     "subtitles": [{
-      "name": "jacksepticeye",
-      "url": "https://www.youtube.com/channel/UCYzPXprvl5Y-Sf0g4vX-m6g"
+      "name": "The Rumjacks",
+      "url": "https://www.youtube.com/channel/UCSqSV3RRN0EFWM7Lxcjs6mA"
     }],
-    "time": "2017-06-03T22:25:08.953Z",
+    "time": "2017-10-18T18:42:03.172Z",
     "products": ["YouTube"],
     "activityControls": ["YouTube watch history"]
   },{
     "header": "YouTube",
-    "title": "Watched I FEEL LIKE SPIDERMAN | To The Top #1 (HTC Vive Virtual Reality)",
-    "titleUrl": "https://www.youtube.com/watch?v\u003d73p05dLgYM0",
-    "subtitles": [{
-      "name": "jacksepticeye",
-      "url": "https://www.youtube.com/channel/UCYzPXprvl5Y-Sf0g4vX-m6g"
-    }],
-    "time": "2017-06-03T22:06:23.748Z",
+    "title": "Watched a video that has been removed",
+    "time": "2017-10-18T18:29:08.792Z",
     "products": ["YouTube"],
     "activityControls": ["YouTube watch history"]
   },{
     "header": "YouTube",
-    "title": "Watched Flight of the Conchords- Issues (Think About It)",
-    "titleUrl": "https://www.youtube.com/watch?v\u003dEmLHOGT0v4c",
+    "title": "Watched VAN CANTO - Badaboom (Official) | Napalm Records",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dAeaz4s7q0Ag",
     "subtitles": [{
-      "name": "ella elise",
-      "url": "https://www.youtube.com/channel/UCNrVp0-EQvUbYPzRB-ydNXg"
+      "name": "Napalm Records",
+      "url": "https://www.youtube.com/channel/UCG7AaCh_CiG6pq_rRDNw72A"
     }],
-    "time": "2017-06-03T22:05:59.328Z",
-    "products": ["YouTube"],
-    "activityControls": ["YouTube watch history"]
-  },
-  {
-    "header": "YouTube",
-    "title": "Watched Poker Face (metal cover by Leo Moracchioli)",
-    "titleUrl": "https://www.youtube.com/watch?v\u003dwCVukDiRsNs",
-    "subtitles": [{
-      "name": "Frog Leap Studios",
-      "url": "https://www.youtube.com/channel/UC98tcedR6gULv8_b70WJKyw"
-    }],
-    "time": "2017-12-31T16:34:57.636Z",
+    "time": "2017-10-18T18:22:44.776Z",
     "products": ["YouTube"],
     "activityControls": ["YouTube watch history"]
   },{
-    "header": "YouTube",
-    "title": "Watched Waka Waka (metal cover by Leo Moracchioli)",
-    "titleUrl": "https://www.youtube.com/watch?v\u003dH9HofYb_-kY",
-    "subtitles": [{
-      "name": "Frog Leap Studios",
-      "url": "https://www.youtube.com/channel/UC98tcedR6gULv8_b70WJKyw"
-    }],
-    "time": "2017-12-31T16:33:03.992Z",
-    "products": ["YouTube"],
-    "activityControls": ["YouTube watch history"]
-  },{
-    "header": "YouTube",
-    "title": "Watched Adele - Hello (metal cover by Leo Moracchioli)",
-    "titleUrl": "https://www.youtube.com/watch?v\u003dLtQUJMBH8uE",
-    "subtitles": [{
-      "name": "Frog Leap Studios",
-      "url": "https://www.youtube.com/channel/UC98tcedR6gULv8_b70WJKyw"
-    }],
-    "time": "2017-12-31T16:31:33.376Z",
-    "products": ["YouTube"],
-    "activityControls": ["YouTube watch history"]
-  },{
-    "header": "YouTube",
-    "title": "Watched Don´t Speak (metal cover by Leo Moracchioli)",
-    "titleUrl": "https://www.youtube.com/watch?v\u003d3kSLyiARrRc",
-    "subtitles": [{
-      "name": "Frog Leap Studios",
-      "url": "https://www.youtube.com/channel/UC98tcedR6gULv8_b70WJKyw"
-    }],
-    "time": "2017-12-31T16:24:10.046Z",
-    "products": ["YouTube"],
-    "activityControls": ["YouTube watch history"]
-  },
-  {
     "header": "YouTube",
     "title": "Watched VAN CANTO - Fear Of The Dark (Live at Wacken Open Air 2014) | Napalm Records",
     "titleUrl": "https://www.youtube.com/watch?v\u003dUrxfZv6KEL0",
@@ -886,6 +1415,979 @@
     "time": "2017-10-18T18:04:02.681Z",
     "products": ["YouTube"],
     "activityControls": ["YouTube watch history"]
+  },
+  {
+    "header": "YouTube",
+    "title": "Watched Palpatine | Behind The Scenes History",
+    "titleUrl": "https://www.youtube.com/watch?v\u003d6Q-VpUQn1ao",
+    "subtitles": [{
+      "name": "Behind Star Wars",
+      "url": "https://www.youtube.com/channel/UCj_BB5EKQaVqNxkS72aLe7Q"
+    }],
+    "time": "2019-02-02T15:23:08.140Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Star Wars: Bounty Hunter All Cutscenes (Game Movie) HD",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dOyyyBBjaKdU",
+    "subtitles": [{
+      "name": "Gamer\u0027s Little Playground",
+      "url": "https://www.youtube.com/channel/UCiZVMOinTQGb8HQu53VbV4Q"
+    }],
+    "time": "2019-02-02T15:20:15.735Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched What if The Jedi Council Found Out Anakin Was Married in Revenge of the Sith? Star Wars Theory",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dteAJjE2vFww",
+    "subtitles": [{
+      "name": "Star Wars Theory",
+      "url": "https://www.youtube.com/channel/UC8CbFnDTYkiVweaz8y9wd_Q"
+    }],
+    "time": "2019-02-02T15:18:54.838Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Why Didn\u0027t Count Dooku Expose Palpatine in Revenge of the Sith? Star Wars Explained",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dir5dK05VgN0",
+    "subtitles": [{
+      "name": "Star Wars Theory",
+      "url": "https://www.youtube.com/channel/UC8CbFnDTYkiVweaz8y9wd_Q"
+    }],
+    "time": "2019-02-02T15:11:51.859Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched What if Anakin Skywalker Never Killed Count Dooku in Revenge of the Sith? - Star Wars Theory",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dWr0RN_TgCOE",
+    "subtitles": [{
+      "name": "Star Wars Theory",
+      "url": "https://www.youtube.com/channel/UC8CbFnDTYkiVweaz8y9wd_Q"
+    }],
+    "time": "2019-02-02T14:59:36.649Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },
+  {
+    "header": "YouTube",
+    "title": "Watched updated autopsy report but dubbed poorly",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dcjHB9D-kLhI",
+    "subtitles": [{
+      "name": "winterVA",
+      "url": "https://www.youtube.com/channel/UC_FwbhRwIOZVZcu2VXkNIVw"
+    }],
+    "time": "2020-11-14T12:14:29.642Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },
+  {
+    "header": "YouTube",
+    "title": "Watched updated autopsy report but dubbed poorly",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dcjHB9D-kLhI",
+    "subtitles": [{
+      "name": "winterVA",
+      "url": "https://www.youtube.com/channel/UC_FwbhRwIOZVZcu2VXkNIVw"
+    }],
+    "time": "2020-11-14T12:14:29.642Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },
+  {
+    "header": "YouTube",
+    "title": "Watched updated autopsy report but dubbed poorly",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dcjHB9D-kLhI",
+    "subtitles": [{
+      "name": "winterVA",
+      "url": "https://www.youtube.com/channel/UC_FwbhRwIOZVZcu2VXkNIVw"
+    }],
+    "time": "2020-11-14T12:14:29.642Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },
+  {
+    "header": "YouTube",
+    "title": "Watched updated autopsy report but dubbed poorly",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dcjHB9D-kLhI",
+    "subtitles": [{
+      "name": "winterVA",
+      "url": "https://www.youtube.com/channel/UC_FwbhRwIOZVZcu2VXkNIVw"
+    }],
+    "time": "2020-11-14T12:14:29.642Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },
+  {
+    "header": "YouTube",
+    "title": "Watched updated autopsy report but dubbed poorly",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dcjHB9D-kLhI",
+    "subtitles": [{
+      "name": "winterVA",
+      "url": "https://www.youtube.com/channel/UC_FwbhRwIOZVZcu2VXkNIVw"
+    }],
+    "time": "2020-11-14T12:14:29.642Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },
+  {
+    "header": "YouTube",
+    "title": "Watched updated autopsy report but dubbed poorly",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dcjHB9D-kLhI",
+    "subtitles": [{
+      "name": "winterVA",
+      "url": "https://www.youtube.com/channel/UC_FwbhRwIOZVZcu2VXkNIVw"
+    }],
+    "time": "2020-11-14T12:14:29.642Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },
+  {
+    "header": "YouTube",
+    "title": "Watched updated autopsy report but dubbed poorly",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dcjHB9D-kLhI",
+    "subtitles": [{
+      "name": "winterVA",
+      "url": "https://www.youtube.com/channel/UC_FwbhRwIOZVZcu2VXkNIVw"
+    }],
+    "time": "2020-11-14T12:14:29.642Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched ascended pure vessel vs. grimmchild (no nail)",
+    "titleUrl": "https://www.youtube.com/watch?v\u003deZa53tRFmTU",
+    "subtitles": [{
+      "name": "salty final boss",
+      "url": "https://www.youtube.com/channel/UCLA_PewApo-Nb7bWKXE1gag"
+    }],
+    "time": "2020-11-14T12:03:08.850Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Google Translate Explains How to Vote (do not do this)",
+    "titleUrl": "https://www.youtube.com/watch?v\u003d70bthJ94cEU",
+    "subtitles": [{
+      "name": "Twisted Translations",
+      "url": "https://www.youtube.com/channel/UCP2-S6-M9ZvlY8t7cRn4O6A"
+    }],
+    "time": "2020-11-14T11:58:19.202Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Supergrass - Alright (Official HD Video)",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dqUE4oDunYkc",
+    "subtitles": [{
+      "name": "Supergrass",
+      "url": "https://www.youtube.com/channel/UCvEVRo07OAojKg8ekpk1Lyw"
+    }],
+    "time": "2020-11-13T20:40:13.089Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Vamp - Månemannen",
+    "titleUrl": "https://www.youtube.com/watch?v\u003de3PbMZx4OJg",
+    "subtitles": [{
+      "name": "annnaly",
+      "url": "https://www.youtube.com/channel/UCtAi_hVJo-KtZgfce_BdNmw"
+    }],
+    "time": "2020-11-13T20:36:21.934Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched I wrote a song from the comment section of Rick Astley Never Gonna Give You Up",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dzRi9X7gPjWk",
+    "subtitles": [{
+      "name": "Eric Castiglia",
+      "url": "https://www.youtube.com/channel/UCYG5IeOWfHhYcndxFHy6OJA"
+    }],
+    "time": "2020-11-13T20:32:22.746Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Muumimusiikkia 85",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dMwS-4f5I40g",
+    "subtitles": [{
+      "name": "MoominMusic",
+      "url": "https://www.youtube.com/channel/UCK6kfGjkIfVKPm2dknzrcLg"
+    }],
+    "time": "2020-11-13T16:54:28.678Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Muumimusiikkia 84",
+    "titleUrl": "https://www.youtube.com/watch?v\u003d-_9I2OM4Y-s",
+    "subtitles": [{
+      "name": "MoominMusic",
+      "url": "https://www.youtube.com/channel/UCK6kfGjkIfVKPm2dknzrcLg"
+    }],
+    "time": "2020-11-13T16:52:21.589Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Muumimusiikkia 83",
+    "titleUrl": "https://www.youtube.com/watch?v\u003d3Xp4p3PT508",
+    "subtitles": [{
+      "name": "MoominMusic",
+      "url": "https://www.youtube.com/channel/UCK6kfGjkIfVKPm2dknzrcLg"
+    }],
+    "time": "2020-11-13T16:51:27.267Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Muumimusiikkia 82",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dBhSOHP2gQV4",
+    "subtitles": [{
+      "name": "MoominMusic",
+      "url": "https://www.youtube.com/channel/UCK6kfGjkIfVKPm2dknzrcLg"
+    }],
+    "time": "2020-11-13T16:50:46.700Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Muumimusiikkia 81",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dlcUp5KMthng",
+    "subtitles": [{
+      "name": "MoominMusic",
+      "url": "https://www.youtube.com/channel/UCK6kfGjkIfVKPm2dknzrcLg"
+    }],
+    "time": "2020-11-13T16:49:49.386Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Muumimusiikkia 80",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dwkltVmnn_No",
+    "subtitles": [{
+      "name": "MoominMusic",
+      "url": "https://www.youtube.com/channel/UCK6kfGjkIfVKPm2dknzrcLg"
+    }],
+    "time": "2020-11-13T16:49:01.102Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Muumimusiikkia 79",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dOQB34-E9E4Q",
+    "subtitles": [{
+      "name": "MoominMusic",
+      "url": "https://www.youtube.com/channel/UCK6kfGjkIfVKPm2dknzrcLg"
+    }],
+    "time": "2020-11-13T16:48:03.205Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Muumimusiikkia 78",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dmzZXi2VuTH8",
+    "subtitles": [{
+      "name": "MoominMusic",
+      "url": "https://www.youtube.com/channel/UCK6kfGjkIfVKPm2dknzrcLg"
+    }],
+    "time": "2020-11-13T16:46:26.669Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Muumimusiikkia 77",
+    "titleUrl": "https://www.youtube.com/watch?v\u003d7nj1TFy0iqA",
+    "subtitles": [{
+      "name": "MoominMusic",
+      "url": "https://www.youtube.com/channel/UCK6kfGjkIfVKPm2dknzrcLg"
+    }],
+    "time": "2020-11-13T16:44:18.335Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Muumimusiikkia 76",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dBYiqK2V9c_4",
+    "subtitles": [{
+      "name": "MoominMusic",
+      "url": "https://www.youtube.com/channel/UCK6kfGjkIfVKPm2dknzrcLg"
+    }],
+    "time": "2020-11-13T16:43:23.278Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Muumimusiikkia 74",
+    "titleUrl": "https://www.youtube.com/watch?v\u003d_QwWRYMl3Lc",
+    "subtitles": [{
+      "name": "MoominMusic",
+      "url": "https://www.youtube.com/channel/UCK6kfGjkIfVKPm2dknzrcLg"
+    }],
+    "time": "2020-11-13T16:41:35.615Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Muumimusiikkia 73",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dV-ptD-QSNqQ",
+    "subtitles": [{
+      "name": "MoominMusic",
+      "url": "https://www.youtube.com/channel/UCK6kfGjkIfVKPm2dknzrcLg"
+    }],
+    "time": "2020-11-13T16:40:23.894Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Muumimusiikkia 72",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dz1Mm99O9SEU",
+    "subtitles": [{
+      "name": "MoominMusic",
+      "url": "https://www.youtube.com/channel/UCK6kfGjkIfVKPm2dknzrcLg"
+    }],
+    "time": "2020-11-13T16:39:17.392Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },
+  {
+    "header": "YouTube",
+    "title": "Watched updated autopsy report but dubbed poorly",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dcjHB9D-kLhI",
+    "subtitles": [{
+      "name": "winterVA",
+      "url": "https://www.youtube.com/channel/UC_FwbhRwIOZVZcu2VXkNIVw"
+    }],
+    "time": "2020-11-14T12:14:29.642Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched ascended pure vessel vs. grimmchild (no nail)",
+    "titleUrl": "https://www.youtube.com/watch?v\u003deZa53tRFmTU",
+    "subtitles": [{
+      "name": "salty final boss",
+      "url": "https://www.youtube.com/channel/UCLA_PewApo-Nb7bWKXE1gag"
+    }],
+    "time": "2020-11-14T12:03:08.850Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Google Translate Explains How to Vote (do not do this)",
+    "titleUrl": "https://www.youtube.com/watch?v\u003d70bthJ94cEU",
+    "subtitles": [{
+      "name": "Twisted Translations",
+      "url": "https://www.youtube.com/channel/UCP2-S6-M9ZvlY8t7cRn4O6A"
+    }],
+    "time": "2020-11-14T11:58:19.202Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Supergrass - Alright (Official HD Video)",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dqUE4oDunYkc",
+    "subtitles": [{
+      "name": "Supergrass",
+      "url": "https://www.youtube.com/channel/UCvEVRo07OAojKg8ekpk1Lyw"
+    }],
+    "time": "2020-11-13T20:40:13.089Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Vamp - Månemannen",
+    "titleUrl": "https://www.youtube.com/watch?v\u003de3PbMZx4OJg",
+    "subtitles": [{
+      "name": "annnaly",
+      "url": "https://www.youtube.com/channel/UCtAi_hVJo-KtZgfce_BdNmw"
+    }],
+    "time": "2020-11-13T20:36:21.934Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched I wrote a song from the comment section of Rick Astley Never Gonna Give You Up",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dzRi9X7gPjWk",
+    "subtitles": [{
+      "name": "Eric Castiglia",
+      "url": "https://www.youtube.com/channel/UCYG5IeOWfHhYcndxFHy6OJA"
+    }],
+    "time": "2020-11-13T20:32:22.746Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Muumimusiikkia 85",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dMwS-4f5I40g",
+    "subtitles": [{
+      "name": "MoominMusic",
+      "url": "https://www.youtube.com/channel/UCK6kfGjkIfVKPm2dknzrcLg"
+    }],
+    "time": "2020-11-13T16:54:28.678Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Muumimusiikkia 84",
+    "titleUrl": "https://www.youtube.com/watch?v\u003d-_9I2OM4Y-s",
+    "subtitles": [{
+      "name": "MoominMusic",
+      "url": "https://www.youtube.com/channel/UCK6kfGjkIfVKPm2dknzrcLg"
+    }],
+    "time": "2020-11-13T16:52:21.589Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Muumimusiikkia 83",
+    "titleUrl": "https://www.youtube.com/watch?v\u003d3Xp4p3PT508",
+    "subtitles": [{
+      "name": "MoominMusic",
+      "url": "https://www.youtube.com/channel/UCK6kfGjkIfVKPm2dknzrcLg"
+    }],
+    "time": "2020-11-13T16:51:27.267Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Muumimusiikkia 82",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dBhSOHP2gQV4",
+    "subtitles": [{
+      "name": "MoominMusic",
+      "url": "https://www.youtube.com/channel/UCK6kfGjkIfVKPm2dknzrcLg"
+    }],
+    "time": "2020-11-13T16:50:46.700Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Muumimusiikkia 81",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dlcUp5KMthng",
+    "subtitles": [{
+      "name": "MoominMusic",
+      "url": "https://www.youtube.com/channel/UCK6kfGjkIfVKPm2dknzrcLg"
+    }],
+    "time": "2020-11-13T16:49:49.386Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Muumimusiikkia 80",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dwkltVmnn_No",
+    "subtitles": [{
+      "name": "MoominMusic",
+      "url": "https://www.youtube.com/channel/UCK6kfGjkIfVKPm2dknzrcLg"
+    }],
+    "time": "2020-11-13T16:49:01.102Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Muumimusiikkia 79",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dOQB34-E9E4Q",
+    "subtitles": [{
+      "name": "MoominMusic",
+      "url": "https://www.youtube.com/channel/UCK6kfGjkIfVKPm2dknzrcLg"
+    }],
+    "time": "2020-11-13T16:48:03.205Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },
+  {
+    "header": "YouTube",
+    "title": "Watched Skiguttas favoritter!",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dqNQq2O6BJ_s",
+    "time": "2020-11-01T20:36:37.582Z",
+    "products": ["YouTube"],
+    "details": [{
+      "name": "From Google Ads"
+    }],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Alain Johannes \"If Morning Comes\" (Official Video)",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dDGoTklW3w20",
+    "subtitles": [{
+      "name": "Ipecac Recordings",
+      "url": "https://www.youtube.com/channel/UCc642qPt-Rgsek6xJlyaGrQ"
+    }],
+    "time": "2020-11-01T20:32:02.424Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Steve-O Shocks Gordon Ramsay While Making A Southwestern Omelette | Scrambled",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dheCqC40yYsg",
+    "subtitles": [{
+      "name": "Gordon Ramsay",
+      "url": "https://www.youtube.com/channel/UCIEv3lZ_tNXHzL3ox-_uUGQ"
+    }],
+    "time": "2020-11-01T20:27:35.337Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Minecraft - BEST ELYTRA LAUNCHER EVER [Sky Limit\u003d0 seconds] Tutorial",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dq2D_VmIKyZs",
+    "subtitles": [{
+      "name": "Skippy 6 Gaming",
+      "url": "https://www.youtube.com/channel/UChaD7v_qp1qHfhv3-sQFG9g"
+    }],
+    "time": "2020-11-01T20:22:59.672Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Minecraft: Slime Block Launch Pad",
+    "titleUrl": "https://www.youtube.com/watch?v\u003doDzmzojNpO8",
+    "subtitles": [{
+      "name": "Fed X Gaming",
+      "url": "https://www.youtube.com/channel/UCv_hGnLMl_l4YfDEpwCaOGQ"
+    }],
+    "time": "2020-11-01T20:22:52.885Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Frank Zappa on Fads",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dn5WEU30Iods",
+    "subtitles": [{
+      "name": "Blank on Blank",
+      "url": "https://www.youtube.com/channel/UC9pO2YNforRbdwKOh09djKA"
+    }],
+    "time": "2020-11-01T20:19:05.493Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Imagine Dragons - Evolve Album Art Fan Surprise (Pt. 1)",
+    "titleUrl": "https://www.youtube.com/watch?v\u003d-B_B31LLrSk",
+    "subtitles": [{
+      "name": "ImagineDragonsVEVO",
+      "url": "https://www.youtube.com/channel/UCpx_k19S2vUutWUUM9qmXEg"
+    }],
+    "time": "2020-11-01T20:07:23.967Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Mariah Carey - Anytime You Need a Friend (Live at Tokyo Dome)",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dHiugO8dYOxk",
+    "subtitles": [{
+      "name": "MariahCareyVEVO",
+      "url": "https://www.youtube.com/channel/UClS0wn3LPs9jdX_yt2g1k8w"
+    }],
+    "time": "2020-11-01T20:03:45.258Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched $10,000 Gold Apple Watch Edition Crushed By  Magnets",
+    "titleUrl": "https://www.youtube.com/watch?v\u003duiTlQuJbzWw",
+    "subtitles": [{
+      "name": "TechRax",
+      "url": "https://www.youtube.com/channel/UCmlsu3V3SzIm2Jmo0S0qiMg"
+    }],
+    "time": "2020-11-01T19:59:58.849Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },
+  {
+    "header": "YouTube",
+    "title": "Watched Tall Pale Stranger - Let it go",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dtnNAr4TyENU",
+    "subtitles": [{
+      "name": "TallPaleStranger",
+      "url": "https://www.youtube.com/channel/UClj3vXVFFJE8x4gZTsXf0xw"
+    }],
+    "time": "2019-06-06T22:44:23.065Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Tall Pale Stranger Experiences VR",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dpKF1YAW_0kM",
+    "subtitles": [{
+      "name": "TallPaleStranger",
+      "url": "https://www.youtube.com/channel/UClj3vXVFFJE8x4gZTsXf0xw"
+    }],
+    "time": "2019-06-06T22:42:52.006Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Tall Pall Stranger - Celebrates the century ov the self",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dST91z87J0js",
+    "subtitles": [{
+      "name": "TallPaleStranger",
+      "url": "https://www.youtube.com/channel/UClj3vXVFFJE8x4gZTsXf0xw"
+    }],
+    "time": "2019-06-06T22:41:43.972Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Tall Pale Stranger - Burning my old possessions",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dR6Ps1WlNmwc",
+    "subtitles": [{
+      "name": "TallPaleStranger",
+      "url": "https://www.youtube.com/channel/UClj3vXVFFJE8x4gZTsXf0xw"
+    }],
+    "time": "2019-06-06T22:40:35.426Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Tall Pale Stranger - Sits 1 hour on street lamp",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dU756T7yH-xA",
+    "subtitles": [{
+      "name": "TallPaleStranger",
+      "url": "https://www.youtube.com/channel/UClj3vXVFFJE8x4gZTsXf0xw"
+    }],
+    "time": "2019-06-06T22:37:03.922Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Tall Pale Stanger - Quality Time With Family Member",
+    "titleUrl": "https://www.youtube.com/watch?v\u003d3wQAL0YrSCs",
+    "subtitles": [{
+      "name": "TallPaleStranger",
+      "url": "https://www.youtube.com/channel/UClj3vXVFFJE8x4gZTsXf0xw"
+    }],
+    "time": "2019-06-06T22:35:47.911Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Tall Pale Stranger  - Chaos Magick Ritual",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dZ3MaCDafAdc",
+    "subtitles": [{
+      "name": "TallPaleStranger",
+      "url": "https://www.youtube.com/channel/UClj3vXVFFJE8x4gZTsXf0xw"
+    }],
+    "time": "2019-06-06T22:31:17.669Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Tall Pale Stranger Channel trailer",
+    "titleUrl": "https://www.youtube.com/watch?v\u003d0neXXGvJznA",
+    "subtitles": [{
+      "name": "TallPaleStranger",
+      "url": "https://www.youtube.com/channel/UClj3vXVFFJE8x4gZTsXf0xw"
+    }],
+    "time": "2019-06-06T22:30:45.704Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched DE TRE X-MEN",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dmRdkmM4nVMI",
+    "subtitles": [{
+      "name": "Niki Topgaard",
+      "url": "https://www.youtube.com/channel/UCVNSyYuNQUwJiD0TVst9Szg"
+    }],
+    "time": "2019-06-06T22:13:22.737Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Ultimativ Roommate Prankwar // Nytårs Special Del 1",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dk5orBBoTn4I",
+    "subtitles": [{
+      "name": "Alexander Husum",
+      "url": "https://www.youtube.com/channel/UCy_FdfBF-YReHm5NYnZ7zcA"
+    }],
+    "time": "2019-06-06T22:07:55.141Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched SÅDAN HYGGER VI BAG KAMERAET - Afsnit 5 - URPW",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dWu9sCHfjqbI",
+    "subtitles": [{
+      "name": "Alexander Husum",
+      "url": "https://www.youtube.com/channel/UCy_FdfBF-YReHm5NYnZ7zcA"
+    }],
+    "time": "2019-06-06T22:07:20.492Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched ULTIMATIV ROOMMATE PRANKWAR - Mursten og Landminer // Afsnit 4",
+    "titleUrl": "https://www.youtube.com/watch?v\u003daIyMuGBOc24",
+    "subtitles": [{
+      "name": "Niki Topgaard",
+      "url": "https://www.youtube.com/channel/UCVNSyYuNQUwJiD0TVst9Szg"
+    }],
+    "time": "2019-06-06T22:00:19.311Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched ULTIMATIV ROOMMATE PRANKWAR - \"DE BØRN?!\"  // Afsnit 3",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dGHY9b15Yl68",
+    "subtitles": [{
+      "name": "Alexander Husum",
+      "url": "https://www.youtube.com/channel/UCy_FdfBF-YReHm5NYnZ7zcA"
+    }],
+    "time": "2019-06-06T21:54:47.510Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Exsecratus (spillefilm)",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dPhir2_gdKKI",
+    "subtitles": [{
+      "name": "Niki Topgaard",
+      "url": "https://www.youtube.com/channel/UCVNSyYuNQUwJiD0TVst9Szg"
+    }],
+    "time": "2019-06-06T21:52:34.722Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },
+  {
+    "header": "YouTube",
+    "title": "Watched Gulaabo | Alia Bhatt | Shahid Kapoor | Vishal Dadlani | Amit Trivedi | Shaandaar",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dufGLdU2xyE4",
+    "subtitles": [{
+      "name": "Zee Music Company",
+      "url": "https://www.youtube.com/channel/UCFFbwnve3yF62-tVXkTyHqg"
+    }],
+    "time": "2020-11-01T19:55:40.758Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  }
+  ,{
+    "header": "YouTube",
+    "title": "Watched Muumimusiikkia 78",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dmzZXi2VuTH8",
+    "subtitles": [{
+      "name": "MoominMusic",
+      "url": "https://www.youtube.com/channel/UCK6kfGjkIfVKPm2dknzrcLg"
+    }],
+    "time": "2020-11-13T16:46:26.669Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Muumimusiikkia 77",
+    "titleUrl": "https://www.youtube.com/watch?v\u003d7nj1TFy0iqA",
+    "subtitles": [{
+      "name": "MoominMusic",
+      "url": "https://www.youtube.com/channel/UCK6kfGjkIfVKPm2dknzrcLg"
+    }],
+    "time": "2020-11-13T16:44:18.335Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Muumimusiikkia 76",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dBYiqK2V9c_4",
+    "subtitles": [{
+      "name": "MoominMusic",
+      "url": "https://www.youtube.com/channel/UCK6kfGjkIfVKPm2dknzrcLg"
+    }],
+    "time": "2020-11-13T16:43:23.278Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Muumimusiikkia 74",
+    "titleUrl": "https://www.youtube.com/watch?v\u003d_QwWRYMl3Lc",
+    "subtitles": [{
+      "name": "MoominMusic",
+      "url": "https://www.youtube.com/channel/UCK6kfGjkIfVKPm2dknzrcLg"
+    }],
+    "time": "2020-11-13T16:41:35.615Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Muumimusiikkia 73",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dV-ptD-QSNqQ",
+    "subtitles": [{
+      "name": "MoominMusic",
+      "url": "https://www.youtube.com/channel/UCK6kfGjkIfVKPm2dknzrcLg"
+    }],
+    "time": "2020-11-13T16:40:23.894Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Muumimusiikkia 72",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dz1Mm99O9SEU",
+    "subtitles": [{
+      "name": "MoominMusic",
+      "url": "https://www.youtube.com/channel/UCK6kfGjkIfVKPm2dknzrcLg"
+    }],
+    "time": "2020-11-13T16:39:17.392Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },
+  {
+    "header": "YouTube",
+    "title": "Watched Van Canto - Last Night of the Kings (Official)",
+    "titleUrl": "https://www.youtube.com/watch?v\u003drt4CQc1MSso",
+    "subtitles": [
+      {
+        "name": "vancanto",
+        "url": "https://www.youtube.com/channel/UC7U9RmPJJzArC2Yeksp44FQ"
+      }
+    ],
+    "time": "2019-10-18T18:08:25.942Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },
+  {
+    "header": "YouTube",
+    "title": "Watched Van Canto - Rebellion Cover (Official)",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dUPUNdwRhuMA",
+    "subtitles": [
+      {
+        "name": "vancanto",
+        "url": "https://www.youtube.com/channel/UC7U9RmPJJzArC2Yeksp44FQ"
+      }
+    ],
+    "time": "2019-10-18T18:04:02.681Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },
+  {
+    "header": "YouTube",
+    "title": "Watched Van Canto - Rebellion Cover (Official)",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dUPUNdwRhuMA",
+    "subtitles": [
+      {
+        "name": "vancanto",
+        "url": "https://www.youtube.com/channel/UC7U9RmPJJzArC2Yeksp44FQ"
+      }
+    ],
+    "time": "2019-10-18T18:04:02.681Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },
+  {
+    "header": "YouTube",
+    "title": "Watched Van Canto - Wishmaster (Official)",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dXCGQiGEYl4Y",
+    "subtitles": [
+      {
+        "name": "vancanto",
+        "url": "https://www.youtube.com/channel/UC7U9RmPJJzArC2Yeksp44FQ"
+      }
+    ],
+    "time": "2019-10-18T17:59:34.020Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },
+  {
+    "header": "YouTube",
+    "title": "Watched BECOME A REAL SUPERHERO | Powers VR (HTC Vive Virtual Reality)",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dgX5sHeX8xnY",
+    "subtitles": [{
+      "name": "jacksepticeye",
+      "url": "https://www.youtube.com/channel/UCYzPXprvl5Y-Sf0g4vX-m6g"
+    }],
+    "time": "2019-06-03T22:25:08.953Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched I FEEL LIKE SPIDERMAN | To The Top #1 (HTC Vive Virtual Reality)",
+    "titleUrl": "https://www.youtube.com/watch?v\u003d73p05dLgYM0",
+    "subtitles": [{
+      "name": "jacksepticeye",
+      "url": "https://www.youtube.com/channel/UCYzPXprvl5Y-Sf0g4vX-m6g"
+    }],
+    "time": "2019-06-03T22:06:23.748Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Flight of the Conchords- Issues (Think About It)",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dEmLHOGT0v4c",
+    "subtitles": [{
+      "name": "ella elise",
+      "url": "https://www.youtube.com/channel/UCNrVp0-EQvUbYPzRB-ydNXg"
+    }],
+    "time": "2019-06-03T22:05:59.328Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },
+  {
+    "header": "YouTube",
+    "title": "Watched Poker Face (metal cover by Leo Moracchioli)",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dwCVukDiRsNs",
+    "subtitles": [{
+      "name": "Frog Leap Studios",
+      "url": "https://www.youtube.com/channel/UC98tcedR6gULv8_b70WJKyw"
+    }],
+    "time": "2019-12-31T16:34:57.636Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Waka Waka (metal cover by Leo Moracchioli)",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dH9HofYb_-kY",
+    "subtitles": [{
+      "name": "Frog Leap Studios",
+      "url": "https://www.youtube.com/channel/UC98tcedR6gULv8_b70WJKyw"
+    }],
+    "time": "2019-12-31T16:33:03.992Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Adele - Hello (metal cover by Leo Moracchioli)",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dLtQUJMBH8uE",
+    "subtitles": [{
+      "name": "Frog Leap Studios",
+      "url": "https://www.youtube.com/channel/UC98tcedR6gULv8_b70WJKyw"
+    }],
+    "time": "2019-12-31T16:31:33.376Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Don´t Speak (metal cover by Leo Moracchioli)",
+    "titleUrl": "https://www.youtube.com/watch?v\u003d3kSLyiARrRc",
+    "subtitles": [{
+      "name": "Frog Leap Studios",
+      "url": "https://www.youtube.com/channel/UC98tcedR6gULv8_b70WJKyw"
+    }],
+    "time": "2019-12-31T16:24:10.046Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },
+  {
+    "header": "YouTube",
+    "title": "Watched VAN CANTO - Fear Of The Dark (Live at Wacken Open Air 2014) | Napalm Records",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dUrxfZv6KEL0",
+    "subtitles": [{
+      "name": "Napalm Records",
+      "url": "https://www.youtube.com/channel/UCG7AaCh_CiG6pq_rRDNw72A"
+    }],
+    "time": "2019-10-18T18:14:03.080Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Van Canto - Last Night of the Kings (Official)",
+    "titleUrl": "https://www.youtube.com/watch?v\u003drt4CQc1MSso",
+    "subtitles": [{
+      "name": "vancanto",
+      "url": "https://www.youtube.com/channel/UC7U9RmPJJzArC2Yeksp44FQ"
+    }],
+    "time": "2019-10-18T18:08:25.942Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
   },{
     "header": "YouTube",
     "title": "Watched Van Canto - Rebellion Cover (Official)",
@@ -894,7 +2396,18 @@
       "name": "vancanto",
       "url": "https://www.youtube.com/channel/UC7U9RmPJJzArC2Yeksp44FQ"
     }],
-    "time": "2017-10-18T18:04:02.681Z",
+    "time": "2019-10-18T18:04:02.681Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Van Canto - Rebellion Cover (Official)",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dUPUNdwRhuMA",
+    "subtitles": [{
+      "name": "vancanto",
+      "url": "https://www.youtube.com/channel/UC7U9RmPJJzArC2Yeksp44FQ"
+    }],
+    "time": "2019-10-18T18:04:02.681Z",
     "products": ["YouTube"],
     "activityControls": ["YouTube watch history"]
   },{
@@ -905,7 +2418,111 @@
       "name": "vancanto",
       "url": "https://www.youtube.com/channel/UC7U9RmPJJzArC2Yeksp44FQ"
     }],
-    "time": "2017-10-18T17:59:34.020Z",
+    "time": "2019-10-18T17:59:34.020Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Seelenschmerz",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dXy0s-N66u_4",
+    "subtitles": [{
+      "name": "Blutengel - Topic",
+      "url": "https://www.youtube.com/channel/UCY4OUtdz8mDYTgK9Klr6zOw"
+    }],
+    "time": "2019-05-27T08:48:04.680Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Resurrection of the Light",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dzdAMZMvmdSg",
+    "subtitles": [{
+      "name": "Blutengel - Topic",
+      "url": "https://www.youtube.com/channel/UCY4OUtdz8mDYTgK9Klr6zOw"
+    }],
+    "time": "2019-05-27T08:47:12.102Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched https://www.youtube.com/watch?v\u003d_1sM2YLW_cg",
+    "titleUrl": "https://www.youtube.com/watch?v\u003d_1sM2YLW_cg",
+    "time": "2019-05-26T22:08:06.459Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched a video that has been removed",
+    "time": "2019-05-26T22:05:45.126Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },
+  {
+    "header": "YouTube",
+    "title": "Watched Van Canto - Rebellion Cover (Official)",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dUPUNdwRhuMA",
+    "subtitles": [{
+      "name": "vancanto",
+      "url": "https://www.youtube.com/channel/UC7U9RmPJJzArC2Yeksp44FQ"
+    }],
+    "time": "2019-10-18T18:04:02.681Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Van Canto - Rebellion Cover (Official)",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dUPUNdwRhuMA",
+    "subtitles": [{
+      "name": "vancanto",
+      "url": "https://www.youtube.com/channel/UC7U9RmPJJzArC2Yeksp44FQ"
+    }],
+    "time": "2019-10-18T18:04:02.681Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Van Canto - Wishmaster (Official)",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dXCGQiGEYl4Y",
+    "subtitles": [{
+      "name": "vancanto",
+      "url": "https://www.youtube.com/channel/UC7U9RmPJJzArC2Yeksp44FQ"
+    }],
+    "time": "2019-10-18T17:59:34.020Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Seelenschmerz",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dXy0s-N66u_4",
+    "subtitles": [{
+      "name": "Blutengel - Topic",
+      "url": "https://www.youtube.com/channel/UCY4OUtdz8mDYTgK9Klr6zOw"
+    }],
+    "time": "2019-05-27T08:48:04.680Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched Resurrection of the Light",
+    "titleUrl": "https://www.youtube.com/watch?v\u003dzdAMZMvmdSg",
+    "subtitles": [{
+      "name": "Blutengel - Topic",
+      "url": "https://www.youtube.com/channel/UCY4OUtdz8mDYTgK9Klr6zOw"
+    }],
+    "time": "2019-05-27T08:47:12.102Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched https://www.youtube.com/watch?v\u003d_1sM2YLW_cg",
+    "titleUrl": "https://www.youtube.com/watch?v\u003d_1sM2YLW_cg",
+    "time": "2019-05-26T22:08:06.459Z",
+    "products": ["YouTube"],
+    "activityControls": ["YouTube watch history"]
+  },{
+    "header": "YouTube",
+    "title": "Watched a video that has been removed",
+    "time": "2019-05-26T22:05:45.126Z",
     "products": ["YouTube"],
     "activityControls": ["YouTube watch history"]
   }

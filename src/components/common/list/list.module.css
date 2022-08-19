@@ -3,3 +3,7 @@ ol.rankedList {
   margin: 0;
   padding: 0;
 }
+
+.smallHeading {
+  font-size: 2rem;
+}
