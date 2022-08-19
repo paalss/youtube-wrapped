@@ -97,7 +97,6 @@ const UploadPage = ({ onUpload }) => {
               </p>
               <GuideFolderStructure />
             </div>
-            <h3>3. Upload file to this site</h3>
           </div>
 
         <div className={classes.box}>
