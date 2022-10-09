@@ -115,6 +115,10 @@ const UploadPage = ({ onUpload }) => {
           <UploadBtn onClick={onUpload}>Upload watch-history.json</UploadBtn>
         </div>
       </Overlay>
+
+      <p>
+        Created by <a href="https://paalss.vercel.app/">Pål Stakvik</a>
+      </p>
     </div>
   );
 };

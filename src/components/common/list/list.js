@@ -90,7 +90,7 @@ const removeUnvantedInfo = (data) => {
 const List = ({ data: videoList, onUpload }) => {
   const [chosenYear, setChosenYear] = useState(2021);
   const [loadAmount, setLoadAmount] = useState(10);
-  const [chosenType, setChosenType] = useState("channel");
+  const [chosenType, setChosenType] = useState("video");
 
   let years, thisYearList;
   let watchAmountList, finishedList;
